@@ -104,9 +104,9 @@ public class MainActivity extends BaseActivity {
                             setIndicator(getTabIndicator(mResources.getString(R.string.home), R.drawable.tab_indicator_home)),
                     HomeFragment.class, null);
 
-            mTabHost.addTab(mTabHost.newTabSpec(TAB_KNOWFORTUNE).
-                            setIndicator(getTabIndicator(mResources.getString(R.string.know_fortune), R.drawable.tab_indicator_know_fortune)),
-                    KnowFortuneFragment.class, null);
+//            mTabHost.addTab(mTabHost.newTabSpec(TAB_KNOWFORTUNE).
+//                            setIndicator(getTabIndicator(mResources.getString(R.string.know_fortune), R.drawable.tab_indicator_know_fortune)),
+//                    KnowFortuneFragment.class, null);
 
             mTabHost.addTab(mTabHost.newTabSpec(TAB_INFERRING).
                             setIndicator(getTabIndicator(mResources.getString(R.string.custom_fortune), R.drawable.tab_indicator_inferring)),

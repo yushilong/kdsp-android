@@ -166,11 +166,11 @@ android {
             minifyEnabled false
 //            applicationIdSuffix   '.debug'
             buildConfigField "boolean", "LOG_DEBUG", "true"
-            buildConfigField "String", "API_BASE", '"http://54.223.89.49/"'
-            buildConfigField "String", "API_HTTPS_BASE", '"http://54.223.89.49/"'
+            buildConfigField "String", "API_BASE", '"http://api.ishenpo.com:8080/Fortune-Calendar/"'
+            buildConfigField "String", "API_HTTPS_BASE", '"https://api.ishenpo.com/Fortune-Calendar/"'
             buildConfigField "String", "API_IMG_URL", '"http://pt.qi-zhu.com/@"'
-            buildConfigField "String", "API_DATA_URL", '"http://54.223.89.49/DATA/"'
-            buildConfigField "String", "ENV", '"apitest"'
+            buildConfigField "String", "API_DATA_URL", '"http://api.ishenpo.com:8080/DATA/"'
+            buildConfigField "String", "ENV", '"release"'
         }
         releaseLog {
             signingConfig signingConfigs.qizhuDefault

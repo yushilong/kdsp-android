@@ -38,4 +38,7 @@ public class YSRLConstants {
     public static final String ALIPAY = "alipay";                                   //支付宝支付
     public static final String CANCEL_PAY = "cancel_pay";                           //取消支付
 
+    //
+    public static final String LOGIN_PHONE_NUMBER = "login_phone_number";           //登录手机号
+    public static final String LOGIN_PHONE_PASSWORD = "login_phone_password";       //登录密码
 }

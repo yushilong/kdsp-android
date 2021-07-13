@@ -61,6 +61,8 @@ public class MobileLoginActivity extends BaseActivity {
 
         mEditPhone = (EditText) findViewById(R.id.edit_phone);
         mEditPassword = (EditText) findViewById(R.id.edit_password);
+        mEditPhone.setText(SPUtils.getStringValue(YSRLConstants.LOGIN_PHONE_NUMBER));
+        mEditPassword.setText(SPUtils.getStringValue(YSRLConstants.LOGIN_PHONE_PASSWORD));
 
         findViewById(R.id.login_btn).setOnClickListener(new OnSingleClickListener() {
             @Override
@@ -70,6 +72,8 @@ public class MobileLoginActivity extends BaseActivity {
                 if (!TextUtils.isEmpty(username)) {
                     if (!TextUtils.isEmpty(password)) {
                         if (RegexUtil.isMobileNumber(username)) {
+                            SPUtils.putStringValue(YSRLConstants.LOGIN_PHONE_NUMBER,username);
+                            SPUtils.putStringValue(YSRLConstants.LOGIN_PHONE_PASSWORD,password);
                             showLoadingDialog();
                             KDSPApiController.getInstance().userLogin(username, password, new KDSPHttpCallBack() {
                                 @Override
