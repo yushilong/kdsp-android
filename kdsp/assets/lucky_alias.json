@@ -1,0 +1,245 @@
+{
+  "luckydays": [
+    {
+      "ldName": "约么",
+      "luckydayAlias": [
+        {
+          "name": "洞房花烛夜"
+        },
+        {
+          "name": "来一发"
+        },
+        {
+          "name": "拍爱情动作片"
+        },
+        {
+          "name": "把爱叫出来"
+        },
+        {
+          "name": "宠性五姑娘"
+        },
+        {
+          "name": "做爱做的事"
+        }
+      ]
+    },
+    {
+      "ldName": "和好",
+      "luckydayAlias": [
+        {
+          "name": "重新在一起"
+        },
+        {
+          "name": "破镜重圆"
+        },
+        {
+          "name": "修补撕破的脸"
+        },
+        {
+          "name": "修补感情"
+        }
+      ]
+    },
+    {
+      "ldName": "约会",
+      "luckydayAlias": [
+        {
+          "name": "请ta烛光晚餐"
+        },
+        {
+          "name": "牵手压马路"
+        },
+        {
+          "name": "拍拖"
+        }
+      ]
+    },
+    {
+      "ldName": "结婚",
+      "luckydayAlias": [
+        {
+          "name": "结婚"
+        },
+        {
+          "name": "合法秀恩爱"
+        },
+        {
+          "name": "举办喜宴"
+        }
+      ]
+    },
+    {
+      "ldName": "表白",
+      "luckydayAlias": [
+        {
+          "name": "送ta定情信物"
+        },
+        {
+          "name": "编辑表白短信"
+        },
+        {
+          "name": "大声说爱ta"
+        },
+        {
+          "name": "不要脸的表白"
+        }
+      ]
+    },
+    {
+      "ldName": "交易",
+      "luckydayAlias": [
+        {
+          "name": "换来换去"
+        },
+        {
+          "name": "承诺盖章"
+        },
+        {
+          "name": "买来卖去"
+        }
+      ]
+    },
+    {
+      "ldName": "博彩",
+      "luckydayAlias": [
+        {
+          "name": "麻友聚会"
+        },
+        {
+          "name": "彩头"
+        },
+        {
+          "name": "买彩票"
+        },
+        {
+          "name": "一定要打牌"
+        }
+      ]
+    },
+    {
+      "ldName": "购物",
+      "luckydayAlias": [
+        {
+          "name": "小金库开仓"
+        },
+        {
+          "name": "任性的败家"
+        },
+        {
+          "name": "买买买"
+        }
+      ]
+    },
+    {
+      "ldName": "理发",
+      "luckydayAlias": [
+        {
+          "name": "打理发型"
+        },
+        {
+          "name": "变身小公举"
+        },
+        {
+          "name": "凹造型"
+        }
+      ]
+    },
+    {
+      "ldName": "搬迁",
+      "luckydayAlias": [
+        {
+          "name": "搬家咯"
+        },
+        {
+          "name": "换新邻居"
+        },
+        {
+          "name": "换个家住"
+        }
+      ]
+    },
+    {
+      "ldName": "旅行",
+      "luckydayAlias": [
+        {
+          "name": "约驴友"
+        },
+        {
+          "name": "出国游"
+        },
+        {
+          "name": "出去转转"
+        }
+      ]
+    },
+    {
+      "ldName": "开张",
+      "luckydayAlias": [
+        {
+          "name": "开门大吉"
+        },
+        {
+          "name": "开张大吉"
+        }
+      ]
+    },
+    {
+      "ldName": "谈生意",
+      "luckydayAlias": [
+        {
+          "name": "谈项目"
+        },
+        {
+          "name": "约谈客户"
+        }
+      ]
+    },
+    {
+      "ldName": "面试",
+      "luckydayAlias": [
+        {
+          "name": "找事业上伯乐"
+        },
+        {
+          "name": "勾引面试官"
+        }
+      ]
+    },
+    {
+      "ldName": "签约",
+      "luckydayAlias": [
+        {
+          "name": "盖章签字"
+        }
+      ]
+    },
+    {
+      "ldName": "学习",
+      "luckydayAlias": [
+        {
+          "name": "给头脑充电"
+        },
+        {
+          "name": "埋在书堆里"
+        },
+        {
+          "name": "去图书馆"
+        }
+      ]
+    },
+    {
+      "ldName": "聚会",
+      "luckydayAlias": [
+        {
+          "name": "趴体嗨起来"
+        },
+        {
+          "name": "做麦霸"
+        },
+        {
+          "name": "举杯邀明月"
+        }
+      ]
+    }
+  ]
+}

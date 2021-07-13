@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/love_unselected_radio" android:state_checked="false" />
+
+    <item android:drawable="@drawable/love_selected_radio"  android:state_checked="true" />
+</selector>

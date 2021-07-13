@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><!--列表基布局-->
+<com.qizhu.rili.widget.ResizeRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--顶部布局-->
+    <RelativeLayout
+        android:id="@+id/my_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/body_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/my_title">
+
+        <!--列表为空的布局提示-->
+        <RelativeLayout
+            android:id="@+id/empty_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/content_lay"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <!--底部布局-->
+                <RelativeLayout
+                    android:id="@+id/my_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true" />
+
+                <in.srain.cube.views.ptr.PtrClassicFrameLayout
+                    android:id="@+id/ptr_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/my_bottom"
+                    cube_ptr:ptr_duration_to_close="300"
+                    cube_ptr:ptr_duration_to_close_header="1000"
+                    cube_ptr:ptr_keep_header_when_refresh="true"
+                    cube_ptr:ptr_pull_to_fresh="false"
+                    cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+                    cube_ptr:ptr_resistance="1.7">
+
+                    <!--列表-->
+                    <ListView
+                        android:id="@+id/list"
+                        style="@style/DefaultListViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:divider="@null" />
+
+                </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+                <!-- 键盘弹出时的遮罩层 -->
+                <View
+                    android:id="@+id/mask"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/my_bottom"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <!--底部表情或键盘布局-->
+            <RelativeLayout
+                android:id="@+id/chat_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--下拉刷新的提示布局-->
+        <include
+            android:id="@+id/pull_update_lay"
+            layout="@layout/pull_update_count_lay"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/round_green"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <!--请求失败界面-->
+        <include
+            android:id="@+id/request_bad"
+            layout="@layout/request_bad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <include
+            android:id="@+id/progress_lay"
+            layout="@layout/loading_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</com.qizhu.rili.widget.ResizeRelativeLayout>

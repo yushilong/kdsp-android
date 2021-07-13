@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="horizontal"
+    android:paddingTop="15dp">
+
+    <com.qizhu.rili.widget.YSRLDraweeView
+        android:id="@+id/child_image"
+        android:layout_width="125dp"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:id="@+id/child_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/child_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/child_image"
+        android:background="@drawable/round_red3"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/child_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/child_type" />
+</RelativeLayout>

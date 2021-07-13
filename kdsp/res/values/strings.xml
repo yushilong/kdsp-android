@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_key">23345386</string>
+    <string name="umeng_appkey">54dc533ffd98c51e210001de</string>
+
+    <string name="app_name">口袋神婆</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <string name="yesterday">昨天</string>
+    <string name="tomorrow">明天</string>
+    <string name="tools">小工具</string>
+    <string name="home">主页</string>
+    <string name="pocket">口袋</string>
+    <string name="friends">吉友</string>
+    <string name="inferring">占卜</string>
+    <string name="good_day">吉日</string>
+    <string name="search">搜索</string>
+    <string name="search_result">搜索结果</string>
+    <string name="mine">我的</string>
+    <string name="start_experience">开启口袋神婆</string>
+    <string name="skin">皮肤</string>
+    <string name="sticker">贴纸</string>
+    <string name="today_notice">今日详细</string>
+    <string name="uncertain_time">※不确定出生时辰可以选择00：00(阳历)</string>
+    <string name="setting_user_info_tip">正确的填写性别和生日，才是你的个性运势~</string>
+    <string name="app_des">藏在你口袋里的专属神婆</string>
+    <string name="operator_tip">操作手册</string>
+    <string name="re_photo">重新拍照</string>
+    <string name="use_photo">使用照片</string>
+    <string name="next_week">下周解锁事业线</string>
+    <string name="hand_tip">正确描出你的掌纹长度和弧度</string>
+    <string name="re_draw">重画</string>
+    <string name="life_report">命格报告</string>
+    <string name="element_report">五行报告</string>
+    <string name="reach_the_bottom">碰到伦家底线了!</string>
+    <string name="month_fortune">月运</string>
+
+    <string name="master_augur">大师亲算</string>
+    <string name="good_luck">开运物品</string>
+    <string name="good_items">开运饰品</string>
+    <string name="master_ask">大师问答</string>
+    <string name="hot_ask">热门问题</string>
+    <string name="click_to_see_all">查看全部</string>
+    <string name="enter_address">填写收货地址</string>
+    <string name="add_address">添加新地址</string>
+    <string name="manage_address">管理收货地址</string>
+    <string name="select_address">选择收货地址</string>
+    <string name="select_default_address">设置默认</string>
+    <string name="add">添加</string>
+    <string name="goods_detail">商品详情</string>
+    <string name="buyer_message">买家留言</string>
+    <string name="buy_now">立即购买</string>
+    <string name="add_to_shopping_cart">加入购物车</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="my_address">我的收货地址</string>
+    <string name="postage">邮费</string>
+    <string name="reply_paid_tip">我们会尽快安排发货!</string>
+    <string name="submit_order">确认订单</string>
+    <string name="no_orders">还没有相关订单哦</string>
+    <string name="logistics_detail">物流详情</string>
+    <string name="request_service">申请服务</string>
+    <string name="refund_return">退货退款</string>
+    <string name="select_reason">选择原因</string>
+    <string name="return_reason">退货原因</string>
+    <string name="refund_amount">退款金额</string>
+    <string name="refund_detail">退款详情</string>
+    <string name="submit_request">提交申请</string>
+    <string name="completed_order">已完成订单</string>
+    <string name="bind_phone">绑定手机号</string>
+    <string name="have_bind_phone">已绑定手机</string>
+    <string name="change_phone">修改手机号</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="delete_order">删除订单</string>
+    <string name="refund">退款</string>
+    <string name="refunding">退款中</string>
+    <string name="refund_success">退款成功</string>
+    <string name="refund_failed">退款失败</string>
+    <string name="pay">付款</string>
+    <string name="has_paid">买家已付款</string>
+    <string name="view_logistics">查看物流</string>
+    <string name="confirm_receive">确认收货</string>
+    <string name="deal_success">交易成功</string>
+    <string name="deal_close">交易关闭</string>
+    <string name="cancel_request">取消申请</string>
+    <string name="request_again">重新申请</string>
+    <string name="notice">提醒</string>
+    <string name="message">客服留言</string>
+    <string name="send_goods_link">发送宝贝链接</string>
+    <string name="message_tip">口袋神婆官方算命群:462619602</string>
+    <string name="answer">答案</string>
+    <string name="reply_comment">回复留言</string>
+    <string name="guess_you_like">猜你喜欢</string>
+    <string name="ten_years_fortune">十年大运</string>
+    <string name="ten_years_fortune_chart">十年大运趋势图</string>
+    <string name="see_me_ten_years">查看我的十年大运</string>
+    <string name="ten_years_tip">人的一生的运程是在不断变化的，十年一大运五年一小运，交运即是指十年大运的转换或五年小运的转换。\n掌握十年流年大运，从运势整体上给自己的来一个规划，趋吉避凶。</string>
+    <string name="clear_invalid_goods">清空失效宝贝</string>
+    <string name="invalid_goods">对不起宝贝已经卖完了</string>
+    <string name="sold_out">已下架</string>
+
+    <string name="know_fortune">知运</string>
+    <string name="custom_fortune">好运铺</string>
+    <string name="my_order">我的订单</string>
+    <string name="my_divination">我的占卜</string>
+    <string name="wait_reply">待回复</string>
+    <string name="has_reply">已回复</string>
+    <string name="rewarded">已打赏</string>
+    <string name="un_use">可使用</string>
+    <string name="wait_pay">待付款</string>
+    <string name="has_pay">待发货</string>
+    <string name="wait_receive">待收货</string>
+    <string name="my_card">我的卡券</string>
+    <string name="get_my_card">兑换券</string>
+    <string name="card">卡券</string>
+    <string name="has_inferred"><xliff:g id="number">%d</xliff:g>人已算</string>
+    <string name="inferring_search_hint">输入要测的事情</string>
+    <string name="inferring_detail">测算详情</string>
+    <string name="inferring_tip">#时辰很重要，要填对哦！</string>
+    <string name="total_price">价格合计</string>
+    <string name="price">价格</string>
+    <string name="confirm_order">确认下单</string>
+    <string name="pay_detail">付款详情</string>
+    <string name="pay_amount">支付金额</string>
+    <string name="confirm_pay">确认付款</string>
+    <string name="confirm_recharge">确认充值</string>
+    <string name="has_payed">金主已付款</string>
+    <string name="reply_tip">大师已起卦，五分钟即刻答复!</string>
+    <string name="reply_hand_tip">大师已起卦，2小时内解密你的手相!</string>
+    <string name="reply_face_tip">大师已起卦，2小时内解密你的面相!</string>
+    <string name="reply_name_tip">在(我的)待回复页面跟踪订单</string>
+    <string name="reply_ask_tip">大师会在两小时内回复您！</string>
+    <string name="see_order">在我的——待回复页面跟踪订单</string>
+    <string name="answer_tip">大师回复时间7点到22点</string>
+    <string name="augury_answer_tip">大师五分钟内回复你!</string>
+    <string name="augury_answer_for_name_tip">大师一分钟内回复你!</string>
+    <string name="view_orders">查看订单</string>
+    <string name="pay_success">支付成功</string>
+    <string name="order_detail">订单详情</string>
+    <string name="reply_orders">已回订单</string>
+    <string name="wait_orders">待回订单</string>
+    <string name="no_augury">您还没有订单哦</string>
+    <string name="to_inferring">算一个</string>
+    <string name="click_to_detail">点击查看详情</string>
+    <string name="add_problem">添加问题</string>
+    <string name="problem_des">简述你要提的问题</string>
+    <string name="problem_tip">官方QQ交流群462619602</string>
+    <string name="submit">提交</string>
+    <string name="maybe_need">您可能需要</string>
+    <string name="master_inferring">大师亲算，8:00~22:00在线，2小时内回复</string>
+    <string name="point_tip">可使用<xliff:g id="number">%1d</xliff:g>福豆，可抵扣<xliff:g>%2s</xliff:g>元</string>
+    <string name="point_convert"><xliff:g id="number">%1d</xliff:g>个福豆抵扣<xliff:g>%2s</xliff:g>元</string>
+    <string name="add_point">已领取<xliff:g id="number">%d</xliff:g>福豆了哟！</string>
+    <string name="confirm_convert">确认兑换</string>
+    <string name="convert_point">福豆兑换</string>
+    <string name="hands_answer">手的粗细及纹路每2-4周变化一次，左手掌纹代表你的先天，右手掌纹代表你的后天。手相的主要作用更全面细致的了解现在的自己，看清现在。</string>
+    <string name="face_answer">人的命运和长相、气色息息相关，既有定数又有变数。从人的长相、气质、音容笑貌来判断和预知一个人的过去和未来。</string>
+
+    <string name="inferring_hand">测手相</string>
+    <string name="shake">神婆摇一摇</string>
+    <string name="two_th_marriage">两世因果缘分</string>
+    <string name="this_life">今生</string>
+    <string name="previous_life">前世</string>
+    <string name="this_previous_life">前世今生</string>
+    <string name="friend">朋友</string>
+    <string name="lover">恋人</string>
+    <string name="colleague">同事</string>
+    <string name="you_star">你的星宿</string>
+    <string name="relation">关系</string>
+    <string name="no_empty_your_birth">你的生辰不能为空</string>
+    <string name="no_empty_her_birth">TA的生辰不能为空</string>
+    <string name="no_empty_your_relationship">请选择你们之间的关系</string>
+    <string name="select_your_relationship">请选择你们之间的关系</string>
+    <string name="blood_to_life">血型看命运</string>
+    <string name="blood_tip">*填写父母血型揭秘更多哦</string>
+    <string name="your_blood">你的血型</string>
+    <string name="father_blood">爸爸血型</string>
+    <string name="mother_blood">妈妈血型</string>
+    <string name="hint_select">选填</string>
+    <string name="your_blood_tip">你的血型:</string>
+    <string name="type">型</string>
+    <string name="hands">手相</string>
+    <string name="face">面相</string>
+    <string name="upload_left">上传左手</string>
+    <string name="upload_right">上传右手</string>
+    <string name="upload_front">上传正面</string>
+    <string name="upload_side">上传侧面</string>
+    <string name="star_sign">星座</string>
+    <string name="blood_type">血型</string>
+    <string name="app_score">五星好评</string>
+    <string name="score_reward">送50个福豆</string>
+    <string name="score_convert">福豆兑换</string>
+    <string name="membership_card">会员卡</string>
+    <string name="to_be_member">成为会员</string>
+    <string name="normal">普通用户</string>
+    <string name="member">会员用户</string>
+    <string name="membership_rights">会员尊享</string>
+    <string name="member_rights">会员权益</string>
+    <string name="membership">会员福利</string>
+    <string name="join_member">加入会员 送免费手相</string>
+    <string name="my_score">我的福豆</string>
+    <string name="renewals">去续费</string>
+    <string name="to_receive">去领取</string>
+    <string name="about_text">关于我们</string>
+    <string name="qq_group">胖子乐算命馆群号:472643922</string>
+    <string name="weixin_official_account">微信公众号:口袋神婆</string>
+    <string name="company">上海奇竺网络科技有限公司</string>
+    <string name="company_web">官方网站:www.ishenpo.com</string>
+    <string name="feedback">意见反馈</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="version_update">版本更新</string>
+    <string name="qr_card">二维码名片</string>
+    <string name="download_from_qr_card">让小伙伴扫描二维码即可快速下载~</string>
+    <string name="back">返回</string>
+    <string name="calendar">日历</string>
+    <string name="hot_search">热搜词</string>
+    <string name="guess_you_what">猜猜你还需要:</string>
+    <string name="feedback_tip">口袋神婆免费算命群:462619602</string>
+
+    <string name="first_name">名</string>
+    <string name="last_name">姓</string>
+    <string name="hint_iput_name">填写汉字</string>
+    <string name="child_last_name">宝宝的姓</string>
+    <string name="child_sex">宝宝性别</string>
+    <string name="birth_day">出生日期</string>
+    <string name="change_name">改名字</string>
+    <string name="test_name_free">免费测名</string>
+    <string name="test_name">测名</string>
+    <string name="test_name_confirm">改旺运好名</string>
+    <string name="change_name_result_confirm">不满意，换一批</string>
+    <string name="change_name_tip">改的名字可作为网名.昵称等均可有益运势</string>
+    <string name="master_ask_hit">输入要测的具体事情，不超过100字。\n大师会在两小时内回复你</string>
+    <string name="master_ask_toast">输入超100字了哦</string>
+    <string name="comment_word_count_toast">输入超500字了哦</string>
+    <string name="fortun_color_title">幸运色： </string>
+    <string name="fortun_location_title">幸运位： </string>
+    <string name="home_title1">今日说</string>
+    <string name="home_title2">明日说</string>
+    <string name="home_title3">今日宜</string>
+    <string name="area">所在地区</string>
+    <string name="remark">备注:</string>
+
+
+    <string name="all_show">全部显示</string>
+    <string name="bracelet">手串</string>
+    <string name="bag">开运锦囊</string>
+    <string name="hint_birthday">请符必填</string>
+    <string name="see_all">查看完整运势</string>
+    <string name="wake_up">起床</string>
+    <string name="travel">出行</string>
+    <string name="study">学习</string>
+    <string name="woking">工作</string>
+    <string name="diet">饮食</string>
+    <string name="lucky_day">吉日</string>
+
+
+    <string name="coupons">优惠券</string>
+    <string name="god_voice">神婆播报</string>
+    <string name="life_number">生命数</string>
+    <string name="life_of_line">生命线</string>
+    <string name="click_to_see">点击查看</string>
+    <string name="life_line">生命灵数</string>
+    <string name="see_life_line">解析灵线</string>
+    <string name="have_life_line">您拥有的生命灵线</string>
+    <string name="symbol_sign">象征符号</string>
+    <string name="symbol_color">象征颜色</string>
+    <string name="get_coupons">领券</string>
+    <string name="hint_get_coupons">输入兑换券码</string>
+    <string name="tip_life_number">命盘一清二白\n也是没sui了</string>
+    <string name="time_1">公元历：&#8194;</string>
+    <string name="time_2">农&#8194;&#8194;历：&#8194;</string>
+
+
+    <!--下拉刷新-->
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_from_bottom_release_label">释放刷新...</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">数据加载中..</string>
+    <string name="pull_to_refresh_more_label">加载更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在奋力加载，请稍等~</string>
+    <string name="pull_to_refresh_tap_label">触摸下拉刷新...</string>
+
+    <string name="recommend_app">推荐应用</string>
+    <string name="daily_tean_title">兴趣小组</string>
+    <string name="input_not_null">输入不能为空~</string>
+    <string name="net_fail">操作失败</string>
+    <string name="dream">周公解梦</string>
+    <string name="wuxing">五行知识</string>
+    <string name="my_wuxing">我的五行</string>
+    <string name="info_wuxing">五行</string>
+
+    <string name="hint_dream">请在此处输入与梦境关键词</string>
+
+    <string name="take_photo">拍照</string>
+    <string name="choose_photo">从相册中选择</string>
+    <string name="sd_card_not_mounted">无法保存上传的图像，请检查SD卡是否挂载</string>
+    <string name="img_dir_not_exist">图片文件夹不存在，请检查SD卡状态！</string>
+    <string name="http_request_failure">你的网络不太给力~</string>
+    <string name="install_fail_tips">下载的安装包出现问题,请重新下载!</string>
+
+    <!-- 搜索 -->
+    <string name="search_top">吉\t\t\t日</string>
+    <string name="search_hint">对的时间  做对的事情</string>
+    <string name="alarm_setting">闹钟设置</string>
+    <string name="complete">完成</string>
+    <string name="clock_event"> 事件:</string>
+    <string name="clock_time"> 时间:</string>
+    <string name="clock_remind"> 提醒: 提前一天</string>
+    <string name="clock_remarks"> 备注</string>
+    <string name="clock_hint">请输入备注</string>
+    <string name="clock_dialog_top">请输入时间</string>
+    <string name="must_after_now">亲，必须大于当前时间☺</string>
+    <string name="notice_tip">点击红色圈中的日期，添加到当天的主页提醒</string>
+    <string name="right_time_and_place">我的好日子</string>
+    <string name="choose_event">选择事件</string>
+    <string name="choose_place">选择场地</string>
+    <string name="click_date_to_choose_place">点击日期配合吉位会更准</string>
+    <string name="fit_your_good_days">最适合你<xliff:g>%s</xliff:g>的日子有</string>
+
+    <string name="my_analy">我的分析</string>
+    <string name="analysis_friend">分析小伙伴</string>
+    <string name="start_analysis">开始分析</string>
+    <string name="your_wu_xing">你的五行：<xliff:g>%s</xliff:g></string>
+    <string name="your_star">你的星宿：<xliff:g>%s</xliff:g></string>
+    <string name="your_xi_god">你的喜用神：<xliff:g>%s</xliff:g></string>
+    <string name="star_analysis">星宿分析</string>
+    <string name="setting">设置</string>
+    <string name="system_setting">系统设置</string>
+    <string name="wechat_invaild">"您没有安装微信或微信版本过低~"</string>
+    <string name="weibo_invaild">"您没有安装微博或微博版本过低~"</string>
+    <string name="share">分享</string>
+    <string name="share_url">分享地址：</string>
+    <string name="shared_succeed">分享成功</string>
+    <string name="shared_cancel">分享取消</string>
+    <string name="shared_failed">抱歉，分享失败，请稍后重试~</string>
+    <string name="download_app_no_url">暂无下载链接</string>
+    <string name="auth_success">授权成功</string>
+    <string name="auth_failed">授权失败</string>
+    <string name="auth_cancel">授权取消</string>
+
+    <string name="share_text_weixin">微信</string>
+    <string name="share_text_weixin_mini">小程序</string>
+    <string name="share_text_timeline">朋友圈</string>
+    <string name="share_text_sina">微博</string>
+    <string name="share_text_qzone">QQ空间</string>
+    <string name="share_text_qq">QQ好友</string>
+
+    <string name="personal_data">个人资料</string>
+    <string name="detail_info">详细资料</string>
+    <string name="no_login">未登录</string>
+    <string name="save">保存</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="enter_nickname">填写昵称</string>
+    <string name="sex">性别</string>
+    <string name="birthday">生日</string>
+    <string name="birthday_solar">生日  (阳历)</string>
+    <string name="birthday_lunar">生日  (农历)</string>
+    <string name="solar">阳历</string>
+    <string name="lunar">农历</string>
+    <string name="please_select">请选择</string>
+    <string name="signature">个性签名</string>
+    <string name="free">免费</string>
+    <string name="write">填写</string>
+
+    <string name="app_abstract">简介：超准的个人运势预测</string>
+    <string name="bazi_life">生日密码</string>
+    <string name="my_life">我的命格</string>
+    <string name="my_star">我的星宿</string>
+    <string name="my_shadow">我的影子</string>
+    <string name="my_feelings">我的天赋</string>
+    <string name="his_life">TA的\n命格</string>
+    <string name="his_star">TA的\n星宿</string>
+    <string name="his_shadow">TA的\n影子</string>
+    <string name="his_lifetime">TA的\n一生</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="collect">加入我的收藏</string>
+    <string name="un_collect">取消收藏</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="collect_failed">收藏失败</string>
+    <string name="un_collect_success">取消收藏成功</string>
+    <string name="un_collect_failed">取消收藏失败</string>
+    <string name="test">测试题</string>
+    <string name="test_your_name">测试吉名</string>
+    <string name="good_name">吉名</string>
+    <string name="my_theme">我的话题</string>
+    <string name="god_daily">神婆日报</string>
+    <string name="little_tools">小工具</string>
+    <string name="theme">话题</string>
+    <string name="life">命格</string>
+    <string name="star">星宿</string>
+    <string name="shadow">影子</string>
+    <string name="feelings">天赋</string>
+    <string name="lifetime">一生</string>
+    <string name="disposition">性格</string>
+    <string name="love_view">爱情观</string>
+    <string name="temper">脾气</string>
+    <string name="week">罩门</string>
+    <string name="style">格调</string>
+    <string name="stellar_meaning">总言</string>
+    <string name="stellar_life">本命</string>
+    <string name="stellar_fate">命运</string>
+    <string name="stellar_character">性格</string>
+    <string name="stellar_health">健康</string>
+    <string name="stellar_career">事业</string>
+    <string name="stellar_fortune">财运</string>
+    <string name="stellar_love">感情</string>
+    <string name="shadow_tip">找回自己上一世的影子，那些你放不下的人、错过的感情都会找到最初的心</string>
+    <string name="feelings_word">感情世界</string>
+    <string name="tips_for_you">送你的锦囊</string>
+    <string name="feelings_expression">感情表达能力</string>
+    <string name="feelings_intuition">直觉度</string>
+    <string name="feelings_thinking">思维能力和想象力</string>
+    <string name="feelings_activity">行动力</string>
+    <string name="feelings_firmness">意志坚定度</string>
+    <string name="feelings_self_value">自我价值</string>
+    <string name="feelings_love_lorn_treat">失恋治疗能力</string>
+    <string name="feelings_intelligence">智力和逻辑性</string>
+    <string name="feelings_considerate">体贴度</string>
+
+    <string name="hint_text">提示</string>
+    <string name="user_comment_need_login">用户评论等操作需要登陆~</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="post">帖子</string>
+    <string name="my_post">我的帖子</string>
+    <string name="has_tested">已参加的测试</string>
+    <string name="other_test">更多好玩的测试，快来测一测~</string>
+    <string name="add_notice_success">添加提醒成功</string>
+    <string name="can_not_notice_success">只有当天以后的时间可以添加提醒~</string>
+    <string name="empty_wish">没有更多记录~</string>
+    <string name="go_to_wish">赶快去许愿~</string>
+
+    <string name="no_description">这个人很懒，什么都没有留下~</string>
+    <string name="tourists">神婆</string>
+    <string name="edit_user_info">编辑资料</string>
+    <string name="update_success">设置成功!</string>
+    <string name="girl">女</string>
+    <string name="boy">男</string>
+    <string name="select_sex">请选择TA的性别</string>
+    <string name="edit_info">填写信息</string>
+    <string name="please_set_info">请选择TA的生日和性别</string>
+    <string name="please_set_your_info">请输入你的信息</string>
+    <string name="please_enter_name">请输入昵称</string>
+    <string name="please_select_sex">请选择性别</string>
+    <string name="please_enter_character">请输入你的个性签名</string>
+    <string name="please_enter_birthday">请设置你的生日</string>
+    <string name="not_set_birthday">还未设置生日</string>
+    <string name="current_birthday">正确的设置生日更能得到准确的信息~</string>
+    <string name="not_know_time">不清楚时辰，选00时00分</string>
+    <string name="no_enter">未填写</string>
+    <string name="has_enter">已填写</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="register">注册</string>
+    <string name="auth_login">第三方登录方式</string>
+    <string name="phone_number">手机号</string>
+    <string name="six_password">六位数密码</string>
+    <string name="new_six_password">输入新的六位数密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="verification_code">验证码</string>
+    <string name="find_password">忘记密码</string>
+    <string name="password">密码</string>
+    <string name="password_tip">长时间没有收到短信，请重新获取验证码</string>
+    <string name="enter_verification_code">输入收到的验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="enter_direct">直接进入</string>
+    <string name="my_test">我的测试题</string>
+    <string name="send">发送</string>
+    <string name="inferring_word">测字</string>
+    <string name="inferring_word_result">测字结果</string>
+    <string name="inferring_word_count">测字累积</string>
+    <string name="no_more_inferring_count">没有多余的测字机会！</string>
+    <string name="inferring_now">即日就测</string>
+    <string name="comment">评论</string>
+
+    <!--掌纹功能-->
+    <string name="count">支线</string>
+    <string name="desc">一线</string>
+    <string name="line_one">感情线</string>
+    <string name="line_two">智慧线</string>
+    <string name="line_three">生命线</string>
+    <string name="line_four">健康线</string>
+    <string name="line_five">事业线</string>
+    <string name="line_branch">支线</string>
+    <string name="choose">选择最接近你的支线</string>
+    <string name="no_line_four">不是每个人都有健康线!</string>
+    <string name="no_line_five">不是每个人都有事业线!</string>
+    <string name="exist_line_four">有健康线</string>
+    <string name="without_line_four">无健康线</string>
+    <string name="exist_line_five">有事业线</string>
+    <string name="without_line_five">无事业线</string>
+    <string name="has_reward">谢谢小主打赏！</string>
+    <string name="reward_amount">打赏金额</string>
+    <string name="other_amount">打赏金额</string>
+    <string name="enter_amount">输入金额</string>
+    <string name="financier">金主</string>
+    <string name="weixin_pay">微信支付</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="member_pay">会员卡支付</string>
+    <string name="reward_tip">你是金主你说了算</string>
+    <string name="amount_unit">金额(元)</string>
+    <string name="amount_tip">输入0.99-200</string>
+    <string name="member_price">会员价</string>
+    <string name="cart_pay">支付</string>
+
+    <string name="Usable">未使用</string>
+    <string name="un_Usable">已使用</string>
+    <string name="un_date">已过期</string>
+    <string name="please_enter_coupons">请输入兑换券码</string>
+    <string name="name">姓名</string>
+    <string name="day_main_attr">日元</string>
+    <string name="pattern">格局</string>
+    <string name="total_words">总&#8194;&#8194;言：&#8194;</string>
+    <string name="bazi_word">八字十神论命， 总比100%</string>
+    <string name="animals">生肖</string>
+    <string name="animals_luck">生肖大运</string>
+    <string name="key_word">关键词</string>
+    <string name="too_old_location">太岁方位</string>
+    <string name="luck_stars">吉星</string>
+    <string name="bad_stars">凶星</string>
+    <string name="color_luck">幸运色</string>
+    <string name="marrige_title">感情分析</string>
+    <string name="marrige_content">我适合早婚还是晚婚?\n我什么年份结婚最好?\n婚后跟另一半感情怎么样?</string>
+    <string name="animals_luck_tip">在我的 - 已回复查看</string>
+    <string name="animals_title">2018生肖大运</string>
+    <string name="animals_content">犯太岁，破太岁怎么办?\n明年哪方便最需要注意?</string>
+    <string name="marraige_share_tip">扫 描 看 一 生 姻 缘</string>
+    <string name="save_pic">保存图片</string>
+    <string name="my_eight_word">我的八字</string>
+    <string name="it_eight_word">Ta的八字</string>
+    <string name="my_gender">我的性别</string>
+    <string name="it_gender">Ta的性别</string>
+    <string name="it_eight_word_tip">已婚必填</string>
+    <string name="no_marriage_no_lover">未婚无对象</string>
+    <string name="no_marriage_have_lover">未婚有对象</string>
+    <string name="marriaged">已婚</string>
+    <string name="marriage_tip">tip:信息填写越完整测算越详细</string>
+    <string name="marriage_hit">已婚必填</string>
+
+    <string name="master_augur_vip">大师微信一对一服务</string>
+    <string name="master_augur_vip_title">套餐五折优惠</string>
+    <string name="master_augur_vip_content1">看运势、看风水、除小人</string>
+    <string name="master_augur_vip_content2">看桃花、算工作、解年运</string>
+    <string name="master_augur_vip_content3">求复合、解梦境、断姻缘</string>
+    <string name="master_augur_banner">任选3个或者3个以上商品总价可享受五折优惠，在我的——可使用查看订单</string>
+    <string name="area_price">*100元/平</string>
+    <string name="hint_area_price">输入房屋面积</string>
+    <string name="hint_area">请输入整数</string>
+    <string name="rule">规则</string>
+    <string name="use_rule">使用规则</string>
+    <string name="rule_content">加入qq群，入群之后私聊胖子乐留下你的微信号，胖子乐会添加你的微信好友，一对一测算,开始测算之前报具体商品券号。</string>
+    <string name="click_price">点击计算价格</string>
+    <string name="see_fengshui">查看家中的八门八位</string>
+    <string name="fengshui">风水报告</string>
+    <string name="fengshui_details">风水实际就是我们中国人的一种活法。也就是说是我们中国人的生存之道。是我们
+    老祖宗与天地万物和谐共生的，一种生存理念。\n\n 家中大到房间布局，小到一个小摆设，都会对风水产生
+    影响，想知道你家中的八门八位是怎么的？都会对你产生怎样的影响？</string>
+
+    <string name="copy">复制</string>
+    <string name="get_coupons_success">领取成功</string>
+    <string name="get">领取</string>
+    <string name="coupons_title">送你一张%1$d元优惠券</string>
+    <string name="coupons_title_tip">不满%1$d元产品,不退优惠券</string>
+
+
+
+    <!-- 五行 -->
+    <string name="wuxing_analysis">   周易的五行命格</string>
+    <string name="wuxing_arrangement">   五行排列的方法</string>
+    <string name="wuxing_xi">   喜用神对应的行业／食物／颜色</string>
+    <string name="tv01">\t\t\t\t周易将八字的命盘归类为10种，也就是人类逃不出这10种命：强金、弱金、强木、弱木、强水、弱水、强火、弱火、强土、弱土。其他类似大海水之类的形容都不属于五行强弱的种类！！！五行弱的就要补，强的就要避。每个人都有自己专属的五行，有自己最旺的喜神以及其他辅助，均逃不开五行范围。了解自己应该从事的五行行业则会顺利，反之只会越来越累，包括食物也是。为什么有些人吃海鲜会拉，有些人不会？都是有讲究的。有了五行就能知道后面年份发生的事情，甚至是每天每月。我来举一个例，大家就明白了。比如：五行属于弱火，喜神就是火和木，所以红色绿色都会很旺，不利于自己的就是水、土。金则是自己的财。2014年是甲午年，属火。那么相对弱火的人来说，特别是2014年下半年，会各方面都十分顺利，顺风顺水，如果多穿属于金的白色金色，则会在工作上更加出色。所以知道五行所属，了解五行专属的食物／行业／颜色，就能帮助自己改变运势，规避不好的运势</string>
+    <string name="tv11">\t\t\t\t以日主对应自己的月支，不建议通过网络排列，因为排列方式有误，而一旦发生错误，将会导致所有的命格全部改变！这部分不懂的话可以直接登录我的淘宝店铺了解：胖子乐看相馆。知道自己的五行属性后，所对应的缺失：喜用神就是你缺的。强金：喜用神：木，水，火。弱金：喜用神：土，金。强木：喜用神：火，金，土。弱木：喜用神：木，水。强水：喜用神：木，火，土。弱水：喜用神：金，水。强火：喜用神：土，水，金。弱火：喜用神：火，木。强土：喜用神：金，木，水。弱土：喜用神：土，火</string>
+    <string name="tv21">喜用神金：
+                \n\t\t属于金的行业：金融，股票，会计，机械，球类，运动系列，首饰，贸易，按摩，体育，法官等。\n\t\t属于金的食物：金锌，白萝卜，葱姜蒜，芹类，芥菜，蚕豆。\n\t\t属于金的颜色：金色系列，白色系列
+                \n喜用神木：
+                \n\t\t属于木的行业：园林，插花，卖花，家居，纺织，服装业，造纸业，印刷，茶叶，补习班，名品店，药品，食物，健康产品，蔬菜，农夫，设计师等。\n\t\t属于木的食物：维他命c，所有蔬果，小黄瓜，菌类，韩国料理。\n\t\t属于木的颜色：绿色系列
+                \n喜用神水：
+                \n\t\t属于水的行业：水利，航海，旅游，交通运输，跳水，洗衣业，音响，饭店管理，广告业，记者，小孩玩具业，澡堂，卡拉ok,饮料，宣传，公车司机，咖啡，速食店（麦当劳）等。\n\t\t属于水的食物：鱼肝油，深海鱼油，渔业，日本料理，海产，小龙虾，海带，啤酒，海藻等。\n\t\t属于水的颜色：黑色系列，蓝色系列。五行缺水的人，适合早上洗澡
+				\n喜用神火：
+				\n\t\t属于火的行业：油类，麻油，油漆，美容业销售，百货公司，照明，灯光，咨询，玻璃，化学，化工，女人，餐厅，酒吧，酒业，照相，摄影，计程车司机，橡胶，心理学，算命等。\n\t\t属于火的食物：维他命b，红枣，枸杞，辣椒，火锅，红葡萄酒，白酒。\n\t\t属于火的颜色：红色系列
+				\n喜用神土：
+				\n\t\t属于土的行业：所有的宝石，钻石，水晶，房地产箭镞，所有的卖空买空行业（皮包公司），代理商，培训业，会务展览，佣人，经纪人，管理人员（大厦），瓷器，房，车，律师，空姐，机场，五谷杂粮业，航空业，期货，豆类，当铺，死亡相关产业等。\n\t\t属于土的食物：维他命d，钙，茎根类，面包，米饭，所有甜食，所有蛋类，骨头汤，燕窝，所有的干过，甘蔗，蜂蜜。\n\t\t属于土的颜色：黄色，咖啡色，灰色，以及其他说不清楚是什么颜色的颜色
+</string>
+
+    <!-- 家装 -->
+    <string name="tv_fm_000"> 家装风水常识(一)</string>
+    <string name="tv_fm_001"> 家装风水常识(二)</string>
+    <string name="tv_fm_00">客厅风水</string>
+    <string name="tv_fm_10">厨房风水</string>
+    <string name="tv_fm_20">书房风水</string>
+    <string name="tv_fm_30">卫生间风水</string>
+    <string name="tv_fm_40">玄关风水</string>
+    <string name="tv_fm_50">办公室</string>
+    <string name="tv_fm_60">卜居</string>
+    <string name="tv_fm_120">注意事项 </string>
+    <string name="tv_fm_130">玄关注意事项 </string>
+    <string name="tv_fm_140">客厅的布置注意事项</string>
+    <string name="tv_fm_150">安排神位注意事项</string>
+    <string name="tv_fm_160">餐厅布局的注意事项 </string>
+    <string name="tv_fm_170">厨房应注意事项</string>
+    <string name="tv_fm_180">一、住所附近见烟囱有何化解方法</string>
+    <string name="tv_fm_61">\t\t1.家中大门不宜直通到底 ：
+        					\n\t\t\t\t\t有人认为，一切听似与“风水”相关的说法都是“迷信”，也有人偏偏爱听这样那样的说法，尤其是住宅方面的种种讲究。记者从几位建筑师那里了解到，有些“说法”恰好与普遍的规划或设计常识相符合，从设计的角度和人们使用时心理感受的角度去理解，还颇有道理，权可当做是对某些设计规范的通俗解释。有很多问题，是因住宅户型设计时考虑不周而产生的，比如有些居室，进大门之后，数个房间门沿走廊两侧分列，这是不好的做法。
+　　从使用角度考虑，各房间分列没有主次分别，各房间进出时容易互相干扰，谈不上私密，也无所谓开敞。从居室空间上考虑，走廊将大门之外的空间直接接纳到室内，毫无过度，是草率的处理办法，没有家的向心感觉。 
+　　说法：如果屋中有好几个房间连在一起，不可设置直通到底的数扇门，也忌像宾馆那样一条长廊连着一排房间，否则易发生意外、难得平安。   圆环屏风 
+　　如果大马路直冲大门及主体建物，在大门入口处，设计一圆环，种一些丛木花草，便可化解马路直冲的煞气，吸收转化掉了。 这种设计，一来有风水化煞之功，二来可美化环境。一举两得。如果使用水泥墙当屏风，则又显得太冷硬严肃的感觉。如能用树丛花木最宜。 
+        					\t\t2.袪霉改运法 ：
+        					\n\t\t\t\t\t到河边找五颗圆滑，大小不拘的石头，洗净后，漆上白．黄、金、绿、澄等五种颜色，放在一个装满水的容器中（水必须淹过石头），然后放在床头，睡前用一盏小灯照着水面，隔天早上再关掉，每五天换一次水，如此连续做四次便可见效，此法可袪除霉气，开运进财！
+        					\t\t3.火烧旺屋 ：
+        					\n\t\t\t\t\t在一般人心目中，居住环境安定，做事才会起劲。自置物业是人生的大事，亦会有一种成功和满足感。但如何讲置新居，和希望新居能为户主带来安稳和富贵……这是非常考人的问题。能见定宅平安，人就自然无后顾之忧。 
+        					\t\t4.杨柳树的作用：
+        					\n\t\t\t\t\t杨柳树，随风飘逸，婀娜多姿，性近水池，有桃花色情的意味。如果庭院门前种植杨柳树则不宜。门前如设水池都需要特别丈量其位置，如果水池位置不对，再种植杨柳树，则宅内之人易犯桃花、破财、是非。 宅前一般而言，不宜种容易落叶有枯枝、枯叶的乔木，会影响家运，枯萎凋零象也。另外，在经验上，桑树、铁树、棕榈、香蕉，庭院尽量不要种，因为这些树不会带来吉相。 
+</string>
+    <string name="tv_fm_190">二、10项破除风水禁忌的设计</string>
+    <string name="tv_fm_191">风水也是居住环境中相当重要的一项，在某些程度上，它是可掌握的。想要有好运势，也有很多改变风水的装修技巧，信不信由你。  阳宅风水研究专家卢尚老师说："风水好，是让你居住的环境加分；而风水不好，只是减分而已。并不是光凭风水一项因素，就会全然改变我们的运势或居住环境。"尽管如此，还是有很多人在做室内装修时，会注重风水上的禁忌。虽然风水的改变不是一瞬间即可看 出成效，但是在居家摆设或格局选择上，即使不能加分也不至於减分，所以，居家风水的禁忌不可不知。  
+　 
+\n\t\t禁忌1  
+　　\n\t\t\t\t\t若是阳台正对大门或厨房，可将窗帘长时间拉上以作为阻绝。 出入大门的位置不要正对阳台，这形成了所谓的"穿心"，家中会不易聚财，迭有破财事。解决方法：作玄关柜阻隔大门和阳台之间、在大门入口处放置鱼缸(命中忌水者不可放鱼缸，可以屏风取代)。可作阳台窗将阳台阻隔或种植盆栽及爬藤植物，窗帘长时间拉上也是可行的方法。  
+\n\t\t禁忌2  
+　　\n\t\t\t\t\t阳台也不可正对厨房，这也是一种"穿心"，会使得家中的团聚功能减弱，丈夫易外遇、老婆会红杏出墙，小孩不受回家。解决方法：作花架种满爬藤植物或放置盆栽，使其内外隔绝；再则可以作阳台音，也是一个阻隔方法。阳台落地门的窗帘尽量拉上或是在阳台和厨房之间的动线上，以不影响居住者行动为原则，作柜子或屏风为遮掩，总之就是不要让阳台直通厨房即可。 
+\n\t\t禁忌3  
+　　\n\t\t\t\t\t若是长沙发摆放在横梁下，可以天花板的装饰阻断其冲煞的力量。 长沙发与床不可放在梁的下方，久之，长时间使用长沙发和床的人，身体易多病痛。解决方法：长沙发和床避免放在梁下方或以装潢手法把梁包起来，使其不显露於外即可。  
+\n\t\t禁忌4  
+　　\n\t\t\t\t\t命中忌水者，家中不可放鱼缸，并非如外界所认知，只要放鱼缸即可聚财。居住者五行喜忌须清楚，有特别忌讳者，家中都应避免。  解决方法：查看万年历中的居住者五行喜忌，家中有禁忌者应避免放置该属性物品。五行喜忌火忌水、水忌土、上忌木、木忌金、金忌火。  
+\n\t\t禁忌5  
+　　\n\t\t\t\t\t遮雨棚的垂檐要作成弧形、避免箭形。 阳台遮雨棚的垂檐，不可呈箭形，对常进出阳台者身体不利。  解决方法：不作垂檐，如一定要作垂檐，尽量作弧形而不要作成尖的形状。  
+\n\t\t禁忌6  
+    \n\t\t\t\t\t炉灶的摆放位署不可以对著後阳台的门或厨房门，这对常在家中用餐者的健康有损。  解决方法：可以在门上装布帘，作为阻隔。  
+\n\t\t禁忌7  
+　　\n\t\t\t\t\t家中不要任意安装明镜，以免破坏室内磁场。 有时室内为展现延伸效果，喜用明镜为装饰，但是卧房最好不要装大面的镜子，会使得存其中作自心者的磁场因反射而紊乱。  解决方法：若一定要装镜子，也以一面墙为宜，不要两面都装，造成反射。或者运用家饰布作成帘子，将其遮掩起来。 
+\n\t\t禁忌8  
+　　\n\t\t\t\t\t家中植栽宜选宽阔叶片的植物，忌选仙人掌类的尖细叶片，易生口舌纠纷。 家中的植栽也要慎选。不要种细长叶片的植物，这样主人易惹口舌纠纷。蕨类和葛藤类的植物最好也不要种，此类植物较阴，若长的茂盛，家中易招惹"不干净"的东西。  解决方法：要选宽阔叶面的、或是生命力强的花卉为宜。  
+\n\t\t禁忌9  
+　  \n\t\t\t\t\t厕所的位署在居家风水中，是十分重要的，若是将房屋的平面九等分，位於正中那一块为家中"中宫"，居家厕所的位置不能在"中宫"上，即所谓的"厕占中宫"，对家中的财运与家人身体都不好。解决方法：若建设公司已将马桶放在中宫位上，试著将洗脸盆和马桶对调，或是长期在浴缸中蓄水，可以改善。  
+\n\t\t禁忌10  
+    　\n\t\t\t\t\t除了建筑内部，建筑外观的修饰也是重要的。有人在屋表弄一些突出物如人头等大型物件，从外表看来好像房屋长瘤。这种意象不好的外装，也是在居家风水中应极力避免的。解决方法：建筑外观选择平实、方正的，若无特殊需求，不要任意改变房屋外观。</string>
+    <string name="tv_fm_200">三、不可不信，家居房间的风水设计</string>
+    <string name="tv_fm_201">风水学（Vastu）不单只提供屋内的房间位置规划，亦包括每个房间的摆放方法。 大小、数目和形状：在北方和东方的房间宜较小，在南方和西方的房间较广阔。房间避免不正规的图形，如五角形、梯形，还要留意数目，阳性的用奇数，阴性的用偶数。例如，梯级用奇数 ，而窗子则用双数。 时刻：值得重视的是建设施工的每一个特别的时刻，如完成日期、奠基日子、安装大门的日子和开幕日子等。最佳月份是十一月到六月，星期一、三、五，尤其是有新月的星期四。时间最好选黎明时分----一日新生活的开始时刻。  门、窗口和阳台：房门、窗口不宜正对大门，以避免正能量的大量流失。同样，为了防止不吉利的的能量，门口宜设有门槛和沉重物件。数目方面最好能有两个门口，出口和入口，以利能量的再循环。如果阳台在东面或北面，最宜露天和种植花木及摆放盛水的器具。相反，如果阳台在南面或西面，宜用棚和大的器皿阻止过大的能量通过。 家具：与重量有关，一般家具置于南面和西面的墙上。北面和东面只可放置较轻便的家具。  质料：最好不用回收的材料，因为能量已经用尽了。用木的话，宁可用柚木、栗木、金钟柏、落叶松。物质要坚硬的话，则建议用石灰石和大理石。但不要用花岗石，因为那样会阻止能量的运行。 </string>
+    <string name="tv_fm_210">四、新新人类选择现在居室也看风水选环境</string>
+    <string name="tv_fm_211">中国人很早以前就开始重视住宅环境，讲究择地建屋，甚至笃信风水堪舆。 古人对择地建屋的讲究亦不无道理。如古人选择地点后，为了审慎起见而用龟甲或兽骨来占卜，如卜到吉卦，在选择此地筑城建宅；反之就另寻好地定居。因卜而定居，故称为“卜居”，可从河南殷墟发掘出的甲骨文中发现有记载。 但选择现代居室并不适用简单的“卜卦”。有文献可考的风水学可以追朔到汉代。东汉王充所著的《论衡》一书中，就有论阳宅风水的论文，及至晋代，有《锦囊经》的郭璞及《捉胍赋》的陶侃。至到元、明、清三代，则术士更多。 今人选择居室也从古人之说。如环境宁静一直都是古今选择居室的大原则。如某花园楼盘，位于大路末段，周围环境非常宁静，交通亦很方便，风水学上称“该处风水绝佳”。从居住的角度看，花园对面有一个小山坡，两旁有高座的楼房，非常对称，周围环境清雅，种植了很多花草树木，更有多个运动场地，视野亦相当广阔，附近学校林立，交通很方便。因此，环境对人体健康是十分有益的。  </string>
+    <string name="tv_fm_220"> 五、家中大门不宜直通到底</string>
+    <string name="tv_fm_221"> 有人认为，一切听似与“风水”相关的说法都是“迷信”，也有人偏偏爱听这样那样的说法，尤其是住宅方面的种种讲究。记者从几位建筑师那里了解到，有些“说法”恰好与普遍的规划或设计常识相符合，从设计的角度和人们使用时心理感受的角度去理解，还颇有道理，权可当 做是对某些设计规范的通俗解释。 有很多问题，是因住宅户型设计时考虑不周而产生的，比如有些居室，进大门之后，数个房间门沿走廊两侧分列，这是不好的做法。 从使用角度考虑，各房间分列没有主次分别，各房间进出时容易互相干扰，谈不上私密，也无所谓开敞。从居室空间上考虑，走廊将大门之外的空间直接接纳到室内，毫无过度，是草率的处理办法，没有家的向心感觉。  说法：如果屋中有好几个房间连在一起，不可设置直通到底的数扇门，也忌像宾馆那样一条长廊连着一排房间，否则易发生意外、难得平安</string>
+    <string name="tv_fm_181">\t\t有人说住宅窗前见到几支工厂伸出来的烟囱，不知是心理影响还是真的受这种煞气的影响，自搬进这屋后，身体健康日渐衰退，而医疗费亦增加不少。  
+
+　　\n\t\t从风水的角度来研究，这属于犯冲煞，放提议—些化解方法给他：  
+　   \n\t\t一）在窗门位置挂一个凸镜；  
+　　\n\t\t二 ）  
+\n\t\t\t\t\t、在凸镜后方摆或粘上五帝古钱，那是五个清代的古钱。分别为“顺治”、“康熙”、“雍正”、“乾隆”、“嘉庆”。  
+　　\n\t\t\t\t\t凸镜有卸煞的功效，而五帝钱可将凸镜的功效提高，因为五帝钱得天、人、地三气(欲清楚有关五帝钱的资料，可参考拙作《旺宅化煞22法》一书)，故有此能耐。日后各位若果遇到这种情况，亦可依法化解。  
+　\n\t\t\t\t\t而五帝钱要用真的古钱才有效，仿制的古钱是没有效力的。  
+
+房屋风水的吉凶方位简介  
+
+
+　　\n\t\t\t\t\t生气吉方,是我们每一个人第一吉利的位向，是我们所说的精力旺盛、生气蓬勃和前途光明的象征．所以是我们每一个人最有利的方向，能提高工作效率，健康快乐长寿,不能将这作为浴室或厕所，会破坏风水。  
+
+　　\n\t\t\t\t\t天医吉方，是我们每一个人第二吉利的位向，特别关系健康方面的问题，如果这个位向好的活。房子的结构和外 型完整无缺，或稍稍的凸出，不作浴厕，就可以祛病除灾。即使是经常生病或体质衰弱的人，住进这方位的房子，时间久了，也可以借自然的力量改善体质，延年益寿，并能使治疗药物发挥更大的效力。  
+
+　　\n\t\t\t\t\t延年吉方，是我们每一个人第三吉利的位向，顾名思义，也是延年益寿、增强生命力及抗疾病能力的作用，并且促进感情的滋长、婚姻和谐，而使家庭美满。  
+
+　　\n\t\t\t\t\t伏位吉方,也就是的本从吉方，也是最起码的平顺吉方，我们可以利用这些吉方作为大门进口、卧室、书房、起居室及门向、桌向。床向、灶向，都是对自己有利，据说以伏位作为卧室及床向，在生育方面大多有利于男。  
+
+　　\n\t\t\t\t\t绝命凶方，是我们每一个人最不利的位向，以阴克阳，影响健康、不孕、破财及容易发生意外灾祸。  
+
+　　\n\t\t\t\t\t五鬼凶方，是我们每一个人第二凶祸的位向，以阳克阳、以阴克阴，容易遭窃、火灾、患病、诉讼及口舌是非。  
+
+　　\n\t\t\t\t\t六煞凶方，是我们每一个人第三凶祸的位向。  
+
+　　\n\t\t\t\t\t祸害凶方，是我们每一个人第第四凶祸的位向，五行相克。容易结仇、纠纷、破财、疾病。  </string>
+    <string name="tv_fm_171"> （1）厨房门勿对冲厕所门。 \n
+
+（2）厨房不可设在前面，宜设在宅之後半部。\n
+
+（3）厨房勿设於宅中央。 \n
+
+（4）炉灶不可设在厨房中央，而四周都是走道。 \n
+
+（5）炉灶不可对大门、卧室门。 \n
+
+（6）炉灶不可压梁。 \n
+
+（7）炉具不宜用黑色或大红色。 \n
+
+（8）炉灶与洗水槽勿紧临著。\n
+
+（9）炉灶口不可对著冰箱。 \n
+
+（10）炉灶灶向，宜向本命卦之吉方。\n 
+
+（11）厨房位置不宜压本命卦之吉位。12）厨房不宜设在宅之西北位及西南位。 \n
+
+（13）不用的旧灶，应拆除。 \n
+
+（14）炉灶不可对著墙角。 \n
+
+（15）炉灶不可设在後阳台加盖之延伸部分。 \n
+
+（16）炉灶的墙壁不可与厕所共用。 \n
+
+（17）炉灶不可对著神位。 \n
+
+（18）炉灶不可为了配合东西四命卦的人，而放斜斜的。此乃太迷信了。 \n
+
+（19）新瓦斯炉与旧式炉灶之灶口不可相对。 \n
+
+（20）在大门口处不宜见到炉灶。 \n
+
+（21）炉灶後面不宜是窗户、马路。 \n
+
+（22）厨房宜明亮、乾净、整齐。垃圾、残肴宜勤加清理。 \n
+
+（23）抽油烟机最好选用隐藏式、低噪音、勤换洗。 \n</string>
+    <string name="tv_fm_161">（1）餐厅不宜在厨房内，宜分开。 \n
+ （2）餐桌宜圆形、椭圆形，如用方形其桌边之角不宜直角。 \n 
+
+（3）餐桌不宜对厕所门。  \n
+
+（4）餐厅不宜在进门处。  \n
+
+（5）餐桌忌压梁。  \n
+
+（6）餐厅光线宜柔和。  \n
+
+（7）用完餐後，餐桌上不可堆放剩菜、杂物等等。  \n
+
+（8）餐桌大小宜配合人数，不宜太大或太小。  \n
+
+（9）餐桌椅破损，宜汰旧换新。 \n</string>
+    <string name="tv_fm_151">（1）神位不可向内。 \n   
+（2）神位不可与房子坐向相反。 \n
+（3）神桌高度宜合文公尺“财”、“本”的吉位。但神明高度不拘。  \n
+（4）神位不可对厕所、厨房、卧室。  \n
+（5）神位前不可放鱼缸、镜子。  \n
+（6）神位下方不可摆音响、电视。  \n
+
+（7）神位不可在梁下。  \n
+
+（8）设神位宜每天诚心烧香，并勤加擦拭桌子。  \n
+
+（9）神位後面不可是厕所、厨房。  \n
+
+（10）安神位的最佳人位以及择日等宜请风水明师为之。  \n
+
+（11）神位下方不可堆垃圾放垃圾桶。  \n
+
+（12）神像前不可有吊灯遮住视线。  \n
+
+（13）神位前不可晒衣服。  \n
+
+（14）神位前上方日光灯不可直冲神像。  \n
+
+（15）供奉的神叫金尊或佛像不可太多，有破损时宜速修补。  \n
+
+（16）神位不可冲对柱子、墙角、屋角、水塔、电线杆。 \n 
+
+（17）神位下方不可有坐椅。  \n
+
+（18）清理香炉时，不可任意移动。  \n
+
+（19）神桌上不宜摆药品，杂物。 \n</string>
+    <string name="tv_fm_141">（1）客厅宜在房子前面，忌在後面。 \n 
+
+（2）客厅宜亮，明厅暗房。  \n
+
+（3）客厅宜宽敞、典雅。  \n
+
+（4）客厅天花板勿太低。  \n
+
+（5）客厅勿摆麻将桌。  \n
+
+（6）客厅宜在财位摆盆栽、鱼缸。  \n
+
+（7）客厅勿太窄狭、拥挤。  \n
+
+（8）客厅勿兼卧室用。  \n
+
+（9）客厅墙壁挂画宜注意方向。如骏马往内，飞鹰往外。  \n
+
+（10）客厅不宜摆仙人掌。  \n
+
+（11）客厅前之阳台宜多摆矮形盆栽 \n</string>
+    <string name="tv_fm_131">“玄关”应注意事项：  \n
+
+（1）不宜太狭窄，应有五尺以上。  \n
+
+（2）不宜太阴暗，宜明亮。  \n
+
+（3）不宜杂乱、堆放旧物。  \n
+
+（4）镜子不可对大门，可放侧面。  \n
+
+（5）屋顶不可设计八卦形。  \n
+
+（6）玄关地毯宜放外面，秽气不宜带进室内。  \n
+
+（7）玄关门不宜是拱门。  \n
+（8）鞋子应收藏摆放整齐。  \n
+
+（9）太小的公寓式住宅，则不适合另隔玄关。 \n</string>
+    <string name="tv_fm_51">今天我正在做一项一万平米的5层楼面的办公大楼室内设计方案，设计时我运用了一些风水方面的知识，也想拿出来与大家及同行们共享。
+无论是政府高官或是基层领导，无论是小店老板或是大公司经理，领导者的办公室和办公台摆放都至关重要。因为吉祥的气场对人的胆略，智慧都有一定的帮助，进而影响到生意的兴衰，事业的成败。 
+ \n1——凡属高级领导.老板.董事长.总经理.决策人的办公室，一般以卦命吉向为依据，即吉向在何方，座位在何方。  \n
+2——凡属中层领导.经理.领班.副经理.分经理的办公室（桌），一般以命理四柱为依据，即缺木，座位应朝东........  \n
+3——还要考虑办公楼所在地的水文地质.环境景观.气象气候及办公楼内部结构和气场因素。  \n
+4——避免将写字台正对着门  \n
+5——写字台后要有墙一类的依靠，不能有多余的的空虚。  \n
+6——写字台前应用一个比较开阔的空间，选择有窗的房屋  \n
+办公台的忌讳  \n
+1．不要座背门 　 \n　2．不要侧对门 　 \n　3．不要走道近窗  \n　　4．不要座后有窗  \n
+风水用具  \n
+梅花钱...龙神座...龙龟...马......！ \n
+　　一：背后有靠，升官有靠  \n
+安置办公桌第一为后方要有靠。如果后方是走道，办公会比较不安稳，心神不宁。后可是墙壁，或配置桌子、矮柜都可以。 \n 
+　 　 二：前面开阔，前途无量  \n
+办公桌前方正面要开阔，不可逼窄。如果是面对墙壁，前途也会像被墙阻挡一般，运气无法展开 \n
+　　 三：正侧无走道，升迁无阻碍  \n
+办公桌的正、侧面不可为走道，有如路冲般冲来。就像在室外的路冲一样，这样的室内路冲也会有不好的影响。 \n 
+　 　 四：正面不对柱，做事不出错  \n
+坐位的正面有柱子，就好像受到当头棒喝，必然在事业上出大错，平常也容易有头痛的毛病　 \n
+　　 五：距门太近  \n
+坐位安置在门边办公效率较差，办公室内，职位越高要离大门越远。 
+职员也相同，依照职位高低，作一个相当的配置。  \n
+　　 六：冲门、冲路，宜置屏风、矮柜  \n
+办公桌冲到门或路，影响身体健康，容易有意外灾害。工作及升迁都有很大的阻碍。  \n
+　　 七：顶上压梁  \n
+办公桌若刚好在梁下则要特别注意。容易心神不宁，头昏出差错。若压头顶要将桌位往前挪，避过即可。 \n 
+　　 八：座位逢切角  \n
+坐位不可被不对称的走道及座位切到。如果坐在这个地方办公，会比较不顺利。同事之间的关系，会发生磨擦与误会。  \n
+　　 九：老板金库、座位宜隐密  \n
+每日有现金收入的场所，最好将金库安置在隐密之处较不易破财，而且最好收在靠近自己座位的后方。  \n
+　　 十：老板办公桌比员工大  \n
+一般老板的办公桌要比员工大，如此才为正确。  \n
+如果不够大的话，要在旁边安置几个柜子，来增加气势。如此一来才能够顺利地指挥员工。 \n</string>
+    <string name="tv_fm_41">玄关在佛教中被称为入道之门。佛经云：玄关大启，正眼流通。而在住宅结构中，玄关则特指居所的外门，是进出房屋的必经之地，是亚洲传统建筑的重要组成部分。
+    玄关是住宅内核最重要组成部分之一，可说是住宅的咽喉地带，它给予进入者的感觉相当与人与人之间的第一印象。据心理学分析，第一印象通常产生于前七秒，而这与进入住宅内部审视、玄关调整气息的时间基本相同。在西方，玄关就代表家庭的金钱运，对宅运吉凶具有决定性的影响。
+    玄关是从大门进入客厅的缓冲区域，让运动的进入者静气敛神，同时是引气入屋必经之道，因此它的布置好坏可直接影响住宅的风水。
+    中国的传统大宅院入门之处均设有大型玄关，而现代都市的住宅普遍面积狭窄，若再设置传统的大型玄关，则明显会感觉空间局促，难以滕挪。所以折衷的办法是用玻璃屏风来作间隔，这样既可防止外气从大门直冲入客厅，同时也可令狭窄的玄关不显得太逼仄。
+    玄关的化煞防泄作用，玄关最大的风水作用是可用来化解屋外直冲大门的煞气。 \n
+    风水学所说的煞，分形煞及气煞两种。并非是所谓怪力乱神的东西，其实就是恶型，与围棋里的恶型是同理的。往者无不希望居所双目企及是山清水秀、养眼舒适的一派美好景象。如果出现恶型，令人感觉压抑别扭，那就需要运用风水上的办法加以弥补，玄关就是住宅化解外煞的重要部位。
+    设立玄关可以缓冲形煞，风水学上，形煞是有形的凶相，主要有如下几种情形： \n
+    刀煞，也叫尖角冲射：即门口正对附近建筑物的转角或尖角，如同一个楔子，打进住宅中心，令住户犹如为利刃直指，觉得百般难以忍受，心情极为压抑。 \n
+    暗箭伤胸：住宅正对的大路或街巷呈一条直线，向房中冲来，则住宅向外发展的气势为其所阻断，形成路冲，也叫街巷直冲。 \n
+斜路直冲：住宅在低位，要承受大路从高为直扑而来的巨大压力，犹如滔滔洪水拾级而下，势大力沉，直冲入屋，令居者无法阻挡。 \n
+设立玄关还可以化解气煞，气煞是指煞星飞临的方位，因为它无形无象，不似形煞那样可用肉眼观察得到，只能根据风水数理推算。如果户主是东四命，而大门却开在正西、西北、西南或东北这西四方，大门与户主相冲，那么，对这家人来说，这便是宅带气煞。反过来说，倘若户主是西四命，而大门却开在正东、正南、正北及东南这东四方，大门与户主相冲；对这家人来说，这也是带有气煞的住宅。如果住宅遇到这样的情况,那么设置玄关就是当务之急。方法：
+美化玄关有以下四项基本原则： \n
+    \t\t1、透。玄关的间隔应以通透为主，因此通透的磨砂玻璃较厚重的木板为佳，即使必须采用木板，也应该采用色调较明亮而非花哨的木板，色调太深便易有笨拙之感。 \n
+    \t\t2、适中。玄关的间隔不宜太高或太低，而要适中。一般以两米的高度最为适宜；若是玄关的间格太高，处身其中便会有压迫感，而太低，则没有效果，无论在风水方面以及设计方面均不妥当。 \n
+    \t\t3、明亮。玄关宜明不宜暗，所以在采光方面必须多动脑筋，除了间隔宜采用较通透的磨砂玻璃或玻璃砖之外，木地板、地砖或地毯的颜色都不可太深，玄关处如果没有室外的自然光，便要用室内灯光来补救，例如安装长明灯。 \n
+    \t\t4、整洁。玄关宜保持整洁清爽，若是堆放太多杂物，不但会令玄关显得杂乱无章，而且也会对住宅风水大有影玄关凌乱昏暗而甚为压抑的住宅,距离家道中落就不远矣。 \n
+影响玄关功能的八大重点： \n
+    一、花的安置 \n
+    天花板宜高不宜低：玄关顶上的天花板若是太低，具有压迫感，这在风水上属于不吉之兆，象征着家人备受压迫掣肘，难有出头。天花板高，则玄关空气流通较为舒畅，对住宅的气运也大有裨益。
+天花色调宜轻不宜重：玄关顶上天花板的颜色不宜太深，如果天花板的颜色比地板的颜色深，这便形成上重下轻，天翻地覆的格局，象征这家人长幼失序，上下不睦，而天花板的颜色浅，上轻下重，这才是正常之象。天花灯宜方圆而忌三角：玄关顶上的灯饰排列，宜圆宜方却不宜三角形。有人喜欢把数盏筒灯或射灯安装在玄关顶上来照明，这是不错的布置，但如把三盏灯布成三角形，那便会弄巧成拙，形成三枝倒插香的局面，对家居很不利。倘若排列成方形或圆形，则不成问题，因圆形象征团圆，而方形则象征方正平稳。
+ \n二、墙壁的间格 \n
+    墙壁间格应下实上虚：面对大门的玄关，下半部宜以砖墙或木板作为根基，扎实稳重，而上半部则可用玻璃来装饰，以通透不漏最理想。玄关若不是以墙来作间格，用低柜来代替也行，其上选择玻璃或通透的木架来装饰。低柜可用作鞋柜或杂物柜，上面则可镶磨砂玻璃，这样既美观实用，同时也符合下实上虚之道。必须注意的是，玻璃不同镜子，会反射的镜子通常不可面向大门，因为会将家中财气反射出去，但磨砂玻璃则无此顾虑。
+    墙壁颜色须深浅适中：玄关的墙壁间格无论是木板、墙砖或是石材，选用的颜色均不宜太深，以免令玄关看来暮气沉沉，没有活力。而最理想的颜色组合是，位于顶部天花板颜色最浅，位于底部的地板颜色最深，而位于中间的墙壁颜色介于两者之间，作为上下的调和与过渡。
+    墙壁间隔宜平滑：玄关是住宅进出的主要通道，墙壁及地板平滑则气流畅通无阻。而位于如果以凸出的石块作为玄关装饰，凹凸不平，则宅运便会有诸多阻滞，必须尽量避免。
+ \n三．地板的布置 \n
+    玄关的地板宜平整：地板平整可令宅运畅顺，而且也可避免失足摔跤。同时，玄关的地板宜尽量保持水平，不应有高低上下之分。
+    玄关的地板颜色宜较深沉：深色象征厚重，地板色深象征根基深厚，符合风水之道。如要求明亮一些，则可用深色石料四围包边，而中间部份采用较浅色的石材。倘若选择在玄关铺地毯，其理亦同，宜选用四边颜色较深而中间颜色较浅的地毯。
+    玄关地板的图案忌有尖角冲门：玄关地板的图案花样繁多，但均应以选择寓意吉祥的内容。必须避免选用那些多尖角的图案，而尖角冲门则更绝对不宜，以免家口不宁，若无妄之灾。
+    玄关地板的木纹不宜直冲大门：玄关的木地板，不论何种木料，其排列均应令木纹斜向屋内，如流水斜流入屋，但是木纹切勿直冲大门，如直冲则不吉。
+玄关的地板太光滑：有些人家为了美化玄关，往往会把玄关的地板打磨得十分光滑，这极易弄巧成拙，单从家居安全角度来说已并不理想，因为家人或宾客均容易滑倒受伤。地下排水管也不宜跨越大门和玄关之间，以免财水内外交流时，在玄关受污，导致家人健康不佳，财路不顺。
+ \n四、鞋柜的摆放 \n
+    在玄关放置鞋柜，是顺理成章的事，因为无论是主客在此处更换鞋子均十分方便。而且鞋与谐同音，有和谐、好合之意，并且鞋必是成双成对，这是很有意义的，家庭最需要和谐好合，因此入门见鞋很吉利。但虽然如此，在玄关放置鞋柜仍有一些方面需要注意。
+    鞋柜不宜太高太大：鞋柜的高度不宜超过户主身高，若是超过这尺度便不妥。鞋柜的面积宜小不宜大，宜矮不宜高。
+    鞋子宜藏不宜露：鞋柜宜有门，倘若鞋子乱七八糟的堆放而又无门遮掩，便十分有碍观瞻。有些在玄关布置巧妙的鞋柜很典雅自然，因为有门遮掩，所以从外边看，一点也看不出来它是鞋柜，这才符合归藏于密之道。风水重视气流，因此鞋柜必须设法减少异味，否则异味若向四周扩散，则根本无好风水可言。
+    鞋头宜向上不宜向下：鞋柜内的层架大多倾斜，在摆放鞋子入内时，鞋头必须向上，这有步步高升的意味；若是鞋头向下，就意味着会走下坡路。
+    鞋柜宜侧不宜中：鞋柜虽然实用，但却难登大雅之堂，因此除了以上所提及的几点之外，还要注意宜侧不宜中，即指鞋柜不宜摆放在正中，最好把它向两旁移开一些，离开中心的焦点位置。
+ \n五、财神的摆法 \n
+    现代有很多家中供奉神祗，以期祖宗庇佑，健康长寿，招财进宝。但在现代布局的房子中摆放传统的神台，会显得格格不入，若要消除这种矛盾，便要采用因地制宜的布局方法。
+    地主是家居最经常供奉的神祗之一，其他的神祗尚可移入屋内其他较隐蔽的角落，但地主却必须当门而立，因为地主的正名是五方五土龙神，前后地主财神，应该面向大门，向门外四方纳财，这样才可正增强住宅的财运。地主并且还是住宅的守护神，当门而立，便可把牛鬼蛇神拒之门外。
+    地主最佳的摆放方法，是把神位单独供奉在面向大门的玄关地柜中，那便不太显眼，而又不失地主应当向门而立的原则。因为地主自古以来，长期供奉在地面，就算摆在鞋柜旁边，每日人来人往，也没有任何问题。
+    地柜可用作鞋柜或杂物柜，为了要与附近的环境配合，外部的颜色可以随意，但地主神柜的内部则必须采用漆上金点的红色。
+    至于文财神则不宜摆放在玄关向门之处。财神分文武两种，武财神如武圣关公及伏虎元帅赵公明，均宜当门而立，但福禄寿三星及财帛星君等文财神若是面向大门，便会把家中钱财向宅外布施，那就会弄巧成拙。因此文财神即使摆放在玄关，也必须面向宅内，切勿面向大门，以免钱财外泄。文财神面向宅内，是因为这样可引财入室，但必须小心切勿面向厕所或鱼缸，以免虽然引财入屋，但却往往见财化水。
+ \n六、 植物的布局 \n
+    由于玄关是家庭访客进到室内后产生第一印象的地区，因此摆放的室内植物占有重要的作用。大型植物加照明、有型有款的树木及盛开的兰花盆栽组合等设计,都适用于玄关。如遇到玄关光线不佳、遭受穿堂风的吹袭、夜晚温度降低、走道狭窄或少有方形或长方形的空间，则普通开花植物会比形态特殊的植物来得合适。另外，玄关与客厅之间可以考虑摆设同种类的植物，以便于连结着两个空间。
+    玄关摆放植物，绿化室内环境，增加生气，令吉者更吉，凶者反凶为吉。但是必须注意的是，摆入在玄关的植物，宜以赏叶的常绿植物为主，例如铁树、发财树、黄金葛及赏叶榕等等。而有刺的植物如仙人掌类及玫瑰、杜鹃等却勿放在玄关处，以免破坏那里的风水，而且玄关植物必须保持常青，若有枯黄，就要尽快更换。
+ \n七、 饰物的选择 \n
+    由于玄关位于冲要，对宅运大有影响，因此，摆放此处的饰物要小心，以免无意中破坏了住宅风水。古人多摆放狮子、麒麟这些威猛而具有灵性的猛兽在门口镇守，作为住宅的守护神。
+    现代住宅如果摆放狮子或麒麟在屋外，往往会受到诸多限制，退而求其次，则可摆入在玄关内面向大门之处，同样也可收护之效。
+而不少人家喜欢在玄关摆放各种动物造形的工艺品，作为饰物摆设，但应谨记不可与户主的生肖相冲，以免有入门犯冲之虞。
+ \n八、 玄关镜片的安装 \n
+    通常住宅在玄关安镜可作为进出时整理仪表之用，而且也可令玄关看来显得更加宽阔明亮一些。但若是镜子无端对正大门，则绝对不妥当，因为镜片有反射作用，会把从大门流入的旺气及财气反射出去，将财神拒之门外。
+    玄关顶上也不宜张贴镜片，玄关顶上的天花若以镜片砌成，一进门举头就可见自己的倒影，便有头下脚上乾坤颠倒之感，这是风水上的大忌必须尽量避免。</string>
+    <string name="tv_fm_31">1、卫生间的马桶坐向是没有硬性规定的，以方便使用为原则； \n
+2、卫生间门不可与大门入口正冲（可贴笑脸照片在厕门）； \n
+3、卫生间门不可与灶位正冲，家中主妇不安，可做屏风进行改善； \n
+4、卫生间门不可与卧室门正相对，影响身体健康； \n
+5、卫生间门不可冲床位，会腰背酸痛，身体容易疲备。 \n
+6、卫生间门不可冲书桌或办公桌，会坐不安定； \n
+7、卫生间门不可冲神位、祖先神位，会犯小人； \n
+8、卫生间门与二、叁楼走道正冲无妨； \n
+9、卫生间门不可冲金库，容易耗财； \n
+10、卫生间最好安在住家的白虎位为佳； \n
+11、卫生间不要设在神位背後，尤其马桶不可在後； \n
+12、卫生间马桶不可暗冲灶位。 \n</string>
+    <string name="tv_fm_21">就风水而言，厨房具有一些先天的缺陷。因为，厨房在洗涤和烹调食物的过程中，会用掉大量的水，而水正是财富的象征，所以不利于财运的蓄积。但是另一方面，厨房又具有压制凶方煞气的功能。所以将厨房安置在无关紧要或凶方，反而对居住者有利。调整厨房的位置和厨具的设，去除其不利的因素，就能营造出良好的厨房风水。
+    怎样才算 “吉”的厨房？厨房应该设立在宅的南方，其次是在东方或东南方。厨房和主人房的隔壁、厕所门都有一定距离或间隔。厨房内的光线充足，最好阳光能照射。厨房内的空气流通，除了抽油烟机外，还需有抽气扇，这可使空气流通和厨房内的温度降低。厨房内保持干爽，湿气不重。厨房门入口不是正冲灶口。灶头上要有足够的空间和高度，不是太过压灶。
+ \n方法： \n第一招 位置 \n
+    风水师通常会建议将厨房安置在家长本命卦的四个凶方，有助于压制凶方的煞气。炉火所产生的阳气可调和凶方的秽气，改善其风水。厨房也应位于住宅的后半部，尽量远离大门。
+     \n第二招五行生克 \n
+    水槽所产生的水气，与瓦斯炉的火气是相冲突的。所以瓦斯炉不可与水槽或冰箱对冲。瓦斯炉也不可紧邻水槽。炉也不宜独立在厨房中央，因为厨房中心位置火气过旺，会导致家庭失合。
+     \n第三招 以母亲为重 \n
+如果因厨房设计上的限制，无法将炉口朝向家长的任何一个吉方，则设法将炉口朝向母亲的延年方，这可增进家庭关系的合谐。
+     \n第四招厨具摆设 \n
+如果有用到微波炉或电饭锅，应置于主人的四个吉方之一；电饭锅和微波炉的插座也应位于吉方；同样的原则也适用于烤面包机和闷烧锅等。厨房中的各种菜刀或水果刀不应悬挂在墙上，或插在刀架上，应该放入抽屉收好；厨房内也不应悬挂蒜头、洋葱、辣椒，因为这些东西会吸收阴气。
+    \n 第五招 阴阳平衡 \n
+    前面提到，厨房是水火相冲的情况，但是如果能平衡二者，做到水火共济的局面，则可促进厨房风水的合谐。
+在风水上，厨房被定义为属阴的区域，是储存食物，而不是全家人经常使用的地方。然而，如果将厨房的一角当成用餐区，即可增加厨房的阳气，使厨房阴阳平衡。
+     \n第六招 镜子 \n
+    镜子在风水中的运用有正反两面的效果。镜子的正确摆设可增进或改善风水状况，但若摆设不当，则会对居住者造成很大的伤害。厨房悬挂镜子的禁忌之一，就是镜子不能照到炉火。镜子若悬挂在炉子后面的墙上，而照到锅中的食物，伤害更大。此谓之“天门火”，会使住宅遭受火灾或不幸。另一方面，若是在进餐区悬挂镜子，映照桌上的食物，则有加倍家中财富的意义。
+   \n  第七招 植物改运 \n
+    厨房位于南方受强烈的红太阳气，不知不觉会有乱花钱的倾向。而观叶值物可以缓和太阳气，减轻乱花钱的倾向，所以有助于储蓄；厨房位于东方是大吉，若在其它方向，可在桌上、电冰箱附近摆放红花，这样可有利于保护家人身体健康；厨房位于西方的，可在窗边摆放金黄的花.水仙及三色紫罗兰，它们不仅可以挡住夕阳的恶气，同时也能为家里带来意外财运；厨房位于北方的，要在桌上或者橱柜上摆放粉红、橙色的花可为室内增添活力。
+     \n第八招旺财旺运 \n
+    为了招来财运，冰箱不可空空如也，米缸也要随时补满，象征家中衣食无虞。用红包袋装三个钱，放入米缸中，有招财效果。
+
+ \n \n
+ \n书房风水 \n
+首先，书房或书桌应位于文昌位 \n
+文昌位是文昌星飞临的方位 ,每个房屋都有文昌位，利用文昌位是一种助缘望子成龙是每一位家长的殷切期望，为了达成这个美好的心愿，家长们一方面“有求必应”地为孩子们提供各种学习的便利条件，另一方面,一些家长亲自挂帅，严格督导孩子们认真学习，传授各种学习技巧。可怜天下父母心！无疑，良好的天资，是孩子们得天独厚的先天优势。勤能补拙，辛勤的汗水能浇灌出成功之花。正确的学习理念，能够使人少走弯路，事半功倍。
+    除此之外，在风水上有一个文昌位，能够令人智慧提高、头脑灵活，儿女们自然学习进步，如果再融汇其他优势，成绩便可能独占鳌头。所以,如果你能利用文昌位来合理布局书房，一段时间后，你也许会惊喜地发现：孩子变得更聪明了！而对成年人来说，日新月异的知识更新，确实令人目不暇接。虽说是学到老用到老，但要想跟上时代的步伐，恐怕也是心有余而力不足……如果你想减轻一下你的学习压力，请布置好文昌房，相信能在一定程度上提高你的学习效率，拓展你的思路……
+ \n二、文昌位的应用 \n
+1、利用文昌位来布置书房，在文昌位放一灰色或蓝色的地毡，书桌上可放一瓶水浸富贵竹，富贵竹的数目以一枝或四枝为佳。 \n
+2、宅文昌对全家人都有作用，但影响力分散。年命文昌较有针对性，对个人较有助益。 \n
+3、欲求催谷，即短期内见效者，可将书桌放到流年文昌位上。另外，农村习俗，在每年的农历正月初一上头柱香时，用四棵葱及一棵芹菜来拜神,葱及芹菜要用红纸包裹，据传这样能使人聪明。（注：此法已超出风水的范畴，恐怕求得心理安慰的成份居多，是否有用，没有尝试过，姑妄听之。） \n
+    4、如果因家居条件的限制，无法将书台摆放到文昌位，可用风水用品来催吉。比如，在文昌位挂放四枝毛笔，或裁插富贵竹，或摆放文昌塔,同样可以催助学业，有时甚至效果更佳。 \n
+5、择日在文昌位放一只“文兽”，亦可催助学业，使人学有所成。这个作法与孔子的传说有关。相传孔母梦瑞兽口吐宝物而梦醒胎动，从而生下孔子。 \n
+三、书房的宜忌 \n
+1、书房既要通风透气，又要采光良好。但窗户要避开西斜热，因西斜阳光猛烈，      \n 
+令人烦躁而无法潜心学习。 \n
+2、书台不要正对大门或窗户，以免受到冲射，同时也避免为外境干扰而分神。 \n
+3、书房环境要幽雅清静，使人能心无旁鹜地在里面专心修习。不要放置电视、音
+箱之类的东西。 \n
+4、书房颜色以浅绿色为宜，因四绿属木，助旺文昌。 \n
+5、书桌背后宜有靠，不要设置在横梁之下。 \n
+6、四绿方不宜有厕，以免沾污文昌，埋没聪明。 \n
+ \n四、书桌的方向和位置 \n
+风水中所说的方位，顾名思义包括方向和位置两个概念，那么书桌的方向应该向着哪里呢？一般来说，将书桌对着门放置比较好，比如您书房的门是向南的，就将书桌也向着门放置即可；这是方向问题，那么位置呢？这里要注意一点，书桌的方向要对着门，但在位置上却要避开门，不可和门相对。不然受门外煞气直冲，不但精神无法集中，而且这种长期受冲的书桌位置，必定给事业带来损失。这是书桌放置的最基本规则，精确的文昌位要根据八宅派法则来定。请参看八宅派选宅法则一栏。
+ \n五、书房的靠山 \n
+透明的玻璃帷幕建筑是一种流行的趋势，但是，作为一个事业的主持者或重大决策的执行者，座位切不可背靠玻璃，这种背后无靠的情形是经营者的大忌，必然损及财运及事业的发展。同样的，在您家的书房里，也要避免背后无靠的情况出现，尤其是在校就读的大中小学生，书桌座位的背后最好能靠墙，这样就基本避免了背后无靠的发生。
+ \n六、书房的角煞 \n
+靠窗的书桌，要注意窗外十公尺以内其它房屋射入的尖角，尖角距离越远影响越小，越近影响越大。餐厅风水俗话说，家和万事兴，餐厅风水是促进家庭成员和睦相处的关键。良好的餐厅风水不但可凝聚家庭成员的向心力，也有招财的作用。进餐在中国文化是很重要的丁式行为，全家人每天至少要共进一餐，感情才会融洽。
+  \n方法：第一招格局 \n
+　　就风水角度而言，餐厅和其他房间一样，格局要方正，不可有缺角或凸出的角落。长方形或正方形的格局最佳，也最容易装潢。
+　　 \n第二招位置 \n
+　　餐厅应位於客厅和厨房之间，位居住宅的中心位置。这样的布局可增进亲子间关系的合谐。餐厅切忌位於上一层楼的厕所的正下方，因为餐厅的好运会受到压制。
+ \n第三招装潢 \n
+　　家庭的能量部分来自於进餐的食物。由於餐厅是进食的区域，所以跟家庭的财富大有关系。餐厅应采用亮色的装潢和明亮的照明，以增加火行的能量，蓄积阳气。在此处放置植物更可增强阳气和财富。
+　　 \n第四招凶位 \n
+　　餐厅应在住宅的中心位置，但不可直对前门或後门。还有一些格局上的问题也应避免。例如，如果是楼中楼设计，餐厅应位於楼上；餐厅左右两面墙的窗户不应正对，因为气会从一面窗进，而从另一面窗出，无法聚气，不利於住宅的气运。避免利用邻近厕所的空间当餐厅，如果难以避免，餐桌应尽量远离厕所。
+ \n第五招阴阳调合 \n
+　　将餐厅布置成阴阳平衡，但略偏阳的空间。为了增加阳气，祖先画像或骨董家俱等属阴的物品最好不要摆在餐厅。阴气太重有害家运。另一方面，阳气过盛又会造成家庭失和。
+　　 \n第六招毒箭 \n
+　　尖锐的屋角和梁柱会放射煞气，应用家俱和盆景化解屋角，同时要避免坐在梁下，如果无法避免，可用红绳在梁上悬挂两支竹萧，竹萧成四十五度角相对，萧口朝下，如此即可化解煞气。另一个方法就是装设仰角照明灯，灯光直射屋梁。
+  \n   第七招最佳餐桌造型 \n
+　　餐桌的形状具有重要的风水意义。餐桌最好是圆形或椭圆形，避免有尖锐的桌角。象徵家业的兴隆和团结。如果使用方形的餐桌，则应避免坐在桌角，以免被煞气冲到。
+　 \n　第八招幸运数字 \n
+　　餐桌的座位数对家运也有影响。理论上，六、八、九都是属阳的幸运数字。虽然家中的用餐人数都是固定的，不过在宴客时可据以决定该请几位客人。
+ \n第九招吉方 \n
+　　家中每位成员用餐时都应朝向本命卦的四个吉方之一而坐〔参见导言〕。调整家中负责生计者的座位，让他朝生气方而坐。母亲则应朝延年方而坐，因为这代表家庭和乐。在学的子女最好朝向伏位，有发旺文昌运之效。家中长辈面对天医方而坐，则可长保健康。
+　  \n 第十招镜子 \n
+　　在用餐区装设镜子，映照出餐桌上的食物，有使财富加倍的效果。这是家中唯一可以悬挂镜子映照食物的地方，其他诸如厨房是绝对不能挂镜子，因为会导致意外或火灾发生。
+ \n第十一招吉祥物 \n
+　　餐厅适合摆福禄寿三仙，象徵财富、健康和长寿。此外，水果和食品的图画，也会带来好运。橘子代表富贵，桃子代表长寿和健康，石榴代表多子多孙。
+　　 \n第十二招餐具 \n
+　　中国人习惯用筷子和汤匙进食，避免使用尖锐的刀叉，防止冲煞。碗盘通常也有龙、蝙蝠或桃子等吉祥物做为装饰。中国人饭後喜欢喝茶，去除油腻。
+    \n 第十三招餐桌礼丁 \n
+　　进餐时发生口角是既不礼貌又触霉头的事。用餐时间是一家人欢聚的时刻，家庭和乐，家运才会昌旺。如有长者一同进餐，一定要请长辈先用，这不但是礼貌，也有福佑晚辈的意义。</string>
+    <string name="tv_fm_11">就风水而言，厨房具有一些先天的缺陷。因为，厨房在洗涤和烹调食物的过程中，会用掉大量的水，而水正是财富的象征，所以不利于财运的蓄积。但是另一方面，厨房又具有压制凶方煞气的功能。所以将厨房安置在无关紧要或凶方，反而对居住者有利。调整厨房的位置和厨具的设，去除其不利的因素，就能营造出良好的厨房风水。
+    怎样才算 “吉”的厨房？厨房应该设立在宅的南方，其次是在东方或东南方。厨房和主人房的隔壁、厕所门都有一定距离或间隔。厨房内的光线充足，最好阳光能照射。厨房内的空气流通，除了抽油烟机外，还需有抽气扇，这可使空气流通和厨房内的温度降低。厨房内保持干爽，湿气不重。厨房门入口不是正冲灶口。灶头上要有足够的空间和高度，不是太过压灶。
+ \n方法：第一招 位置 \n
+    风水师通常会建议将厨房安置在家长本命卦的四个凶方，有助于压制凶方的煞气。炉火所产生的阳气可调和凶方的秽气，改善其风水。厨房也应位于住宅的后半部，尽量远离大门。
+    \n 第二招五行生克 \n
+    水槽所产生的水气，与瓦斯炉的火气是相冲突的。所以瓦斯炉不可与水槽或冰箱对冲。瓦斯炉也不可紧邻水槽。炉也不宜独立在厨房中央，因为厨房中心位置火气过旺，会导致家庭失合。
+     \n第三招 以母亲为重 \n
+如果因厨房设计上的限制，无法将炉口朝向家长的任何一个吉方，则设法将炉口朝向母亲的延年方，这可增进家庭关系的合谐。
+     \n第四招厨具摆设 \n
+如果有用到微波炉或电饭锅，应置于主人的四个吉方之一；电饭锅和微波炉的插座也应位于吉方；同样的原则也适用于烤面包机和闷烧锅等。厨房中的各种菜刀或水果刀不应悬挂在墙上，或插在刀架上，应该放入抽屉收好；厨房内也不应悬挂蒜头、洋葱、辣椒，因为这些东西会吸收阴气。
+   \n  第五招 阴阳平衡 \n
+    前面提到，厨房是水火相冲的情况，但是如果能平衡二者，做到水火共济的局面，则可促进厨房风水的合谐。
+在风水上，厨房被定义为属阴的区域，是储存食物，而不是全家人经常使用的地方。然而，如果将厨房的一角当成用餐区，即可增加厨房的阳气，使厨房阴阳平衡。
+    \n 第六招 镜子 \n
+    镜子在风水中的运用有正反两面的效果。镜子的正确摆设可增进或改善风水状况，但若摆设不当，则会对居住者造成很大的伤害。厨房悬挂镜子的禁忌之一，就是镜子不能照到炉火。镜子若悬挂在炉子后面的墙上，而照到锅中的食物，伤害更大。此谓之“天门火”，会使住宅遭受火灾或不幸。另一方面，若是在进餐区悬挂镜子，映照桌上的食物，则有加倍家中财富的意义。
+     \n第七招 植物改运 \n
+    厨房位于南方受强烈的红太阳气，不知不觉会有乱花钱的倾向。而观叶值物可以缓和太阳气，减轻乱花钱的倾向，所以有助于储蓄；厨房位于东方是大吉，若在其它方向，可在桌上、电冰箱附近摆放红花，这样可有利于保护家人身体健康；厨房位于西方的，可在窗边摆放金黄的花.水仙及三色紫罗兰，它们不仅可以挡住夕阳的恶气，同时也能为家里带来意外财运；厨房位于北方的，要在桌上或者橱柜上摆放粉红、橙色的花可为室内增添活力。
+     \n第八招旺财旺运 \n
+    为了招来财运，冰箱不可空空如也，米缸也要随时补满，象征家中衣食无虞。用红包袋装三个钱，放入米缸中，有招财效果。</string>
+    <string name="tv_fm_01">家居住宅风水—格局协调云：“宅以形势为身体，以泉水为血脉，以土地为皮肉，以草木为毛发，以舍屋为衣服，以门户为冠带。若是如斯，是事俨雅，乃为上吉。”这是古人把住宅人性化，说明格局搭配得当，对住宅与人都是很重要的。为何有些房子一走进去就会感觉到神清气爽，如沐春风；而有的房子则感觉压抑沉闷，坐立不宁？这就在于格局优劣的分别。四方宽敞、正大光明，布置协调的格局是住家上乘之选。
+客厅风水 \n
+  客厅不仅是待客的地方，也是家人聚会、聊天的场所，应是热闹、和气的地方。客厅中的挂书、摆设从某种程度上也是品味个性的象征。 \n
+    客厅的方位尤其重要，在传统“风水”中被称为“财位”，关系全家的财运、事业、名望等兴衰，所以客厅布局及摆设是不容忽视的。 \n
+    1、位置客厅是家人共用的场所，宜设在房屋中央的位置；若因客厅宽敞而隔一部分做卧房则是最不理想的客厅。 \n
+     \n2、摆设客厅沙发套数不可重复，最忌一套半，或是一方一圆两组沙发的并用。客厅中的鱼缸、盆景有“接气”的功用，使室内更富生机,而鱼种则以色彩缤纷的单数为好。
+     \n3、财位的最佳位置是进门的对角线方位。此处避免柱子和凹处；若有窗户可用窗幔遮住，财位才不致外漏；若此处恰是通道，则可放置屏风，既能避免穿透的尴尬，亦可形塑一个良好的财位；以繁茂的盆景放置财位，能使运势更佳，宜选叶片大而圆的绿色植物。
+     \n4、动线客厅的动线最宜开阔，视野一眼望穿。入门处不宜看到房间门和后门，否则便有“前面进、后门出，无法聚财”之患；走道也应避免直向或横向的贯通全室。
+     \n5、梁柱厅内应避免梁的阻障，可在其上改其结构装饰成各类美丽的造型。如传统式拱门，天花板的延伸、绘花等，也可干脆分成两个区域。或是在墙壁挂一面镜子，象徵性的补足缺角，然后，当成完整的房间来决定中心点。
+  \n方法： \n
+     \n第一招 方位 \n
+    客厅最好位于住家的前半部靠近大门的位置，以便直接吸纳从大门进入的气。如果必须经过一条走廊才能到达客厅，那堋走廊一定要保持整洁，而且照明一定要充足，以免阻碍气进入客厅。如果是夹层屋设计，客厅应位于下层。
+　　 \n第二招 格局 \n
+　　客厅的格局最好是正方形或长方形，座椅区不可冲煞到屋角，沙发不可压梁。如果有突出的屋角放出暗箭，可摆设盆景或家俱化解。
+　　如果客厅呈L形，可用家俱将之隔成两个方形区域，视为两个独立的房间。例如，可将一个区域当成会客室，另一个区域当成起居室。
+     \n第三招 调整家饰 \n
+　　尖锐的物品，例如刀剑、火器、奖牌、动物标本，都不应该挂在墙上。因为这些物品都会产生阴气，导致争吵或暴力行为。同样的也应避免摆设有陵角的台灯或装饰品。
+　　 \n第四招 气流顺畅 \n
+　　一定要使气顺畅的流通在客厅之中，不可有会聚积秽气的死角。
+  \n   第五招风水摆设 \n
+　　客厅的摆设主要是看居住者的生活方式和审美观而定。任何风水吉祥物的摆设都要依据人生八大欲求及个人本命卦的方位，最好是请教专业风水师。
+     \n第六招 八个方位 \n
+　　先画一张客厅的平面图，详细标示门和窗户的位置，将客厅分成九等份，标示出人生八大欲求的对应方位。画出客厅的中心点，然後用罗盘定出客厅的方位，特别是大门的位置。之後就可按五行相生相克的原理催化人生八大欲求。
+　　接下来我们就分别讨论如何布置八个方位的好风水，并催化对应的人生欲求。
+　　 \n第七招 正北，事业运，黑色和蓝色 \n
+　　检查客厅正北方位的布置。正北方代表事业运，属水行，喜用色是蓝色或黑色。在这个方位放置属水的物品对居住者的事业运有帮助，
+　　例如鱼缸、山水画、水车等。或者放置黑色的金属饰品也可以，因为金能生水。
+     \n第八招 正南，声名运，红色 \n
+　　正南方位布置好风水会为家庭带来声名和肯定，特别是负责生计的家长。正南方属火行，喜用色是红色。适合悬挂凤凰、火鹤或日出的图画。
+　　红色地毯或红色的木制装饰品（因为木能生火）也很合适。在这个方位装设照明灯更可增加声名运。如果一定要在这个位置摆镜子，务必要摆一面小镜子，因为镜子属水，而水会灭火，对声名运势不利。
+　　 \n第九招 正东，健康运，绿色 \n
+　　正东方位关系著居住者的健康。在这个区域放置茂盛的植物可促进家人的健康和长寿。属水的物品或山水画也有帮助，因为水可养木。
+    \n 第十招 正西，子孙运，怠色 \n
+   正西方关系子孙运势，五行属金，喜用色是白色、金色和怠色。金属雕刻品、六柱中空金属风铃、电视和音响都很适合摆在此区域。由於土可生金,所以摆设白色花瓶或天然水晶也有催化子孙运的功效。
+  \n 第十一招 西北方，贵人运，白色 \n
+　　强化客厅西北方位的能量，有助於增加贵人运和人际关系。这个区域属金，所以适合摆放白色、金色或怠色的金属饰品，例如金属雕刻品或金属底座附白色圆形灯罩的灯。用红绳串六个古钱或悬挂六柱中空金属风铃也可招引贵人运。
+　 \n第十二招 东北方，文昌运，黄色 \n
+　　如果有小孩正要参加考试，最好注意这个方位的风水布局。这个区域属土，喜用色是黄色和土色。陶瓷花瓶等属土的物品适合用来增强这个区域的能量。天然水晶也很有效。
+     \n第十三招 西南方，桃花运，黄色 \n
+　　如果想增进婚姻或恋爱运势，那堋客厅这个方位最为重要。西南方位属土，催化的方法与东北方相同。在此处放置吊灯式的灯可增加能量，促进夫妻关系合谐；天然水晶和全家福照片也有相同效果。
+   \n 第十四招东南方，财运，绿色 \n
+　　客厅的东南方代表一个家庭的财位。五行属木，喜用色是绿色，所以在这个方位摆设属木的物品可有招财效果，其中又以圆叶的绿色植物
+　　效果最好。绝对不要摆乾燥花，因为阴气太重。此处也很适合摆鱼缸，因为水能养木，缸中养八支金鱼和壹支黑色鱼。要注意鱼缸大小应和客厅空间搭配，过大或过小都不相宜。
+    \n 第十五招 色彩 \n
+　　客厅的主色并非风水布置的主要因素。最重要的是格局和五行的生克所达成的能量平衡。不过根据客厅相对整个住宅的方位选择正确的颜色,可有风水加分的效果。例如，客厅若位於住宅的西南或东北方位，应用黄色系；如果位於东南方或正东方，应用绿色系；位於北方，应用蓝色系；位於南方，应用红色系；位於西北方或西方，应用白色、怠色或金色。
+ \n第十六招家俱 \n
+　　家俱的造型要坚实，使用高背的沙发和座椅，因为不但舒适也象徵家庭生活有依靠。理想上，客厅家俱的摆设最好呈八卦形，由於座椅是彼此相邻，可促进人№关系的合谐。营造适合休息和睡眠的空间，而且不可存在有煞气。卧室一定要收拾整洁，否则会聚积秽气。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mipush_test">MipushTestActivity</string>
+
+    <string name="service_policy_description">请你务必审慎阅读、充分理解协议中相关条款内容。你一旦注册口袋神婆，即视为你已了解并完全同意《用户协议》和《隐私政策》各项内容，包括口袋神婆对使用协议随时所做的任何修改。如你不同意本协议及/或随时对其的修改，请你立即停止注册及使用口袋神婆所提供的全部服务。</string>
+    <string name="service_policy_agree">同意</string>
+    <string name="service_policy_title">用户协议和隐私政策</string>
+    <string name="user_service_title">用户协议</string>
+    <string name="user_policy_title">隐私政策</string>
+    <string name="service_policy_disagree">暂不使用</string>
+    <string name="user_service_content">请您本产品之前，请务必仔细阅读并理解《用户许可使用协议》（以下简称“本协议”）中规定的多有权利和限制。
+
+       我们一向尊重并会严格保护用户在使用本产品时的合法权益（包括用户隐私、用户数据等）不受到任何侵犯。
+
+       本协议（包括本文最后部分的隐私政策）是用户（包括通过各种合法途径获取到本产品的自然人、法人或其他组织机构，以下简称“用户”或“您”）与我们之间针对本产品相关事项最终的、完整的且排他的协议，并取代、合并之前的当事人之间关于上述事项的讨论和协议。
+
+       本协议将对用户使用本产品的行为产生法律约束力，您已承诺和保证有权利和能力订立本协议。用户开始使用本产品将视为已经接受本协议，请认真阅读并理解本协议中各种条款，包括免除和限制我们的免责条款和对用户的权利限制（未成年人审阅时应由法定监护人陪同），如果您不能接受本协议中的全部条款，请勿开始使用本产品。
+
+使用
+
+l  账户
+
+您必须承诺和保证：
+
+       1. 您使用本产品的行为必须合法
+
+       本产品将会依据本协议“修改和终止”的规定保留或终止您的账户。您必须承诺对您的登录信息保密、不被其他人获取与使用，并且对您在本账户下的所有行为负责。您必须将任何有可能触犯法律的、未授权使用或怀疑为未授权使用的行为在第一时间通知本产品。本产品不对您因未能遵守上述要求而造成的损失承担法律责任。
+
+终端用户协议
+
+l  许可
+
+       依据本协议规定，本产品将授予您以下不可转让的、非排他的许可：
+
+       1.使用本产品的权利；
+
+       2.在您所有的网络通信设备、计算机设备和移动通信设备上下载、安装、使用本产品的权利。
+
+l  限制性条款
+
+       本协议对您的授权将受到以下限制：
+
+       1. 您不得对本产品进行任何形式的许可、出售、租赁、转让、发行或其他商业用途；
+
+       2. 除非法律禁止此类限制，否则您不得对本产品的任何部分或衍生产品进行修改、翻译、改编、合并、利用、分解、改造或反向编译、反向工程等；
+
+       3. 您不得以创建相同或竞争服务为目的使用本产品；
+
+       4. 除非法律明文规定，否则您不得对本产品的任何部分以任何形式或方法进行生产、复制、发行、出售、下载或显示等；
+
+       5. 您不得删除或破坏包含在本产品中的任何版权声明或其他所有权标记。
+
+l  费用
+
+       您必须自行负担购买本产品的费用，个人上网或第三方（包括但不限于电信或移动通讯提供商）收取的通讯费、信息费等相关费用。如涉及电信增值服务，我们建议您与增值服务提供商确认相关费用问题。
+
+l  版本
+
+任何本产品的更新版本或未来版本、更新或者其他变更将受到本协议约束。
+
+遵守法律
+
+       您同意遵守《中华人民共和国合同法》、《中华人民共和国著作权法》及其实施条例、《全国人民代表大会常务委员会关于维护互联网安全的决定》（“人大安全决定”）、《中华人民共和国保守国家秘密法》、《中华人民共和国电信条例》（“电信条例“）、《中华人民共和国计算机信息系统安全保护条例》、《中华人民共和国计算机信息网络国际联网管理暂行规定》及其实施办法、《计算机信息系统国际联网保密管理规定》、《互联网信息服务管理办法》、《计算机信息网络国际联网安全保护管理办法》、《互联网电子公告服务管理规定》（“电子公告规定”）等相关中国法律法规的任何及所有的规定，并对以任何方式使用您的密码和您的账号使用本服务的任何行为及其结果承担全部责任。如违反《人大安全决定》有可能构成犯罪，被追究刑事责任。《电子公告规定》则有明文规定，上网用户使用电子公告服务系统对所发布的信息负责。《电信条例》也强调，使用电信网络传输信息的内容及其后果由电信用户负责。在任何情况下，如果本网站有理由认为您的任何行为，包括但不限于您的任何言论和其它行为违反或可能违反上述法律和法规的任何规定，本网站可在任何时候不经任何事先通知终止向您提供服务。
+
+用户内容
+
+l  用户内容
+
+       1.用户内容是指该用户下载、发布或以其他方式使用本产品时产生的所有内容（例如：您的信息、图片、音乐或其他内容）。
+
+       2.您是您的用户内容唯一的责任人，您将承担因您的用户内容披露而导致的您或任何第三方被识别的风险。
+
+       3.您已同意您的用户内容受到权利限制（详见“权利限制”）
+
+权利限制
+
+       您已同意通过分享或其他方式使用本产品中的相关服务，在使用过程中，您将承担因下述行为所造成的风险而产生的全部法律责任：
+
+       1.破坏宪法所确定的基本原则的；
+
+       2.危害国家安全、泄露国家秘密、颠覆国家政权、破坏国家统一的；
+
+       3.损害国家荣誉和利益的；
+
+       4.煽动民族仇恨、民族歧视，破坏民族团结的；
+
+       5.破坏国家宗教政策，宣扬邪教和封建迷信的；
+
+       6.散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+
+       7.侮辱或者诽谤他人，侵害他人合法权益的；
+
+       8.含有法律、行政法规禁止的其他内容的。
+
+       您已经同意不在本产品从事下列行为：
+
+       1.发布或分享电脑病毒、蠕虫、恶意代码、故意破坏或改变计算机系统或数据的软件；
+
+       2.未授权的情况下，收集其他用户的信息或数据，例如电子邮箱地址等；
+
+       3.用自动化的方式恶意使用本产品，给服务器造成过度的负担或以其他方式干扰或损害网站服务器和网络链接；
+
+       4.在未授权的情况下，尝试访问本产品的服务器数据或通信数据；
+
+       5.干扰、破坏本产品其他用户的使用。
+
+修改和终止
+
+l  修改
+
+       本协议容许变更。如果本协议有任何实质性变更，我们将通过电子邮件来通知您。变更通知之后，继续使用本产品则为您已知晓此类变更并同意条款约束；
+
+       我们保留在任何时候无需通知而修改、保留或关闭本产品任何服务之权利；
+
+       您已同意我们无需因修改、保留或关闭本产品任何服务之权利；
+
+       您已同意我们无需因修改、保留或关闭本产品任何服务的行为对您或第三方承担责任。
+
+l  终止
+
+       本协议自您接受之日起生效，在您使用本产品的过程中持续有效，直至依据本协议终止；
+
+       尽管有上述规定，如果您使用本产品的时间早于您接受本协议的时间，您在此知晓并同意本协议于您接受本协议的时间，您在此知晓并同意本协议于您第一次使用本产品时生效，除非依据本协议提前终止；
+
+       我们可能会依据法律的规定，保留您使用本产品或者本账户的权利；无论是否通知，我们将在任何时间以任何原因终止本协议，包括出于善意的相信您违反了我们可接受使用政策或本协议的其他规定；
+
+       不受前款规定所限，如果用户侵犯第三人的版权且我们接到版权所有人或版权所有人的合法代理人的通知后，我们保留终止本协议的权利；
+
+       一旦本协议终止，您使用本产品的权利即告终止。您应当知晓您的产品终止意味着您的用户内容将从我们的活动数据库中删除。我们不因终止本协议对您承担任何责任，包括终止您的用户账户和删除您的用户内容。
+
+第三方
+
+l  您已知晓或同意我们的部分服务时基于第三方的技术支持获得；
+
+       您已知晓本协议是您在与我们之前签订，而非您与上述第三方之间签订。我们是基于本产品所产生的内容、维护、支持服务、保证和由此产生的诉讼等事项的唯一责任人。您已同意遵守且授权给本产品限制您有条件地使用本产品的服务。
+
+l  第三方信息和服务
+
+       1.本产品包含了第三方的部分信息和服务。我们不控制且不对第三方的信息和服务负责；
+
+       2.我们仅为您使用方便的目的或为承诺和保证第三方的需要而提供此类信息和服务；
+
+       3.用户需对使用第三方信息和服务产生的风险承担法律责任；
+
+       4.当用户访问第三方信息和服务时，适用第三方的条款和政策。
+
+赔偿
+
+l  您已同意无害地使用本产品，避免因下述行为或相关行为遭受来第三方的任何投诉、诉讼、损失、损害、责任、成本和费用（包括律师费）：
+
+       1.用户使用本产品的行为；
+
+       2.用户的用户内容；
+
+       3.用户违反本协议的行为。
+
+       l  我们保留专属抗辩权和请求赔偿的权利
+
+       l  您已同意，除非获得我们书面同意，您不得在您与我们共同对第三方提起的诉讼中单方和解。
+
+       l  我们将尽合理努力将此类诉讼、诉讼行为或进程通知您。
+
+       l  在任何情况下，本产品都不对您或任何第三方因本协议产生的任何间接性、后果性、惩罚性的、偶然的、特殊或惩罚性的损害赔偿承担责任。访问、使用本产品所产生的损坏计算机系统或移动通讯设备数据的风险将由您个人承担。
+
+适用法律
+
+       本协议适用中华人民共和国法律；
+
+       如果双方发生纠纷，应本着友好的圆柱协商解决；如协商不成，应向所在地的法院提起诉讼。
+
+独立性
+
+       本协议中的某些条款因故无法适用，则本协议的其他条款继续适用且无法适用的条款将会被修改，以便其能够依法适用。
+
+完整性
+
+       本协议（包括隐私政策）是您和本产品之间关于本产品相关事项的最终的、完整的、排他的协议，且取代和合并之前当事人关于此类事项（包括之前的最终用户许可、服务条款和隐私政策）的讨论和协议；
+
+       每部分的题目只为阅读之便而无任何法律或合同义务；
+
+       除非我们书面同意，您不得转让本协议所规定的权利义务。任何违反上述规定企图转让的行为均无效。</string>
+    <string name="user_policy_content">请您在开始使用我们的产品（以下简称“本产品”）之前请务必仔细阅读并理解《隐私政策》（以下简称“本政策”）。
+
+     我们一向尊重并会严格保护用户在使用本产品时的合法权益（包括用户隐私、用户数据等）。我们力求明确说明我们是如何收集、使用、披露、传送及存储您的信息的。虽然本政策适用于我们的所有服务，但我们也针对特定服务制定了某些明确的某些明确的隐私权补充条文，其中包含有关我们的信息处理做法的其他信息。当我们进行其它数据收集处理活动时会另外取得您的同意。请务必仔细阅读本隐私政策，因为只要您使用我们的服务，就表示您同意隐私政策及补充条文中所描述的做法，如果您不同意隐私政策中所描述的做法，请不要使用我们的服务。
+
+       您可以通过多种不同的方式使用我们的服务。基于此目的，我们将向您解释我们对信息的收集和使用方式，以及您可采用什么方式来保护自己的隐私权。
+
+       我们的隐私政策包括了以下几个方面的问题：
+
+       我们收集哪些信息
+
+       我们如何收集和使用信息
+
+       您如何访问和控制自己的个人信息
+
+       信息的分享、安全以及隐私政策的使用范围和变更
+
+我们会收集哪些信息
+
+       l  您通过我们的服务向其他方提供的共享信息，以及您使用我们服务过程中收集的信息所；
+
+       l  除了您提供的信息外，我们还可能通过您设备中的软件以及其他方式来收集您使用我们的服务的相关信息，如设备信息、日志信息、位置信息等；
+
+我们如何收集和利用信息
+
+        个人信息的收集和使用
+
+       您与我们及其关联公司进行互动时，您可能会被要求提供您同意使用我们基本产品服务所必需的某些个人信息。该个人信息可能与其他信息合并在一起，被用于改进我们的产品或服务等。下文是我们可能收集的个人信息的类型以及我们如何使用该信息的一些示例。
+
+       个人信息的收集
+
+       当您创建APP账户、参加在线调查或者参加其他与我们互动时。
+
+       个人信息的使用
+
+       我们将严格遵守本隐私政策及其更新所载明的内容来使用您的个人信息。您的个人信息将仅用于收集时即已确定并且经过您同意的目的，如有除此之外的任何其他用途，我们都会提前征得您的同意。
+
+l  向您提供服务；
+
+       l  为您的设备提供维护服务；
+
+       l  在法律允许的情况下进行免费抽奖、有奖竞赛或促销；
+
+       l  在我们提供服务时，用于身份验证、客户服务、安全规范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性；
+
+       l  帮助我们设计新服务，改善我们现有服务；
+
+       l  软件认证或管理软件升级；
+
+       l  让您参与有关我们产品和服务的调查；
+
+       非个人信息的收集和使用
+
+       同时，为了运营和改善我们的技术和服务，我们将会自行收集使用您的非个人信息，这将有助于我们向您提供更好的用户体验和提高服务质量。
+
+       非个人信息的收集
+
+       日志信息—当您使用我们的服务等时，我们的服务器会自动记录某些日志信息。这类服务器日志信息可能包含如下信息：IP地址、浏览器类型、浏览器语言、refer来源页、操作系统、日期/时间标记和点击流数据。
+
+Cookie的使用
+
+       Cookie技术：您访问我们平台相关网站或使用我们官网平台提供的服务时，我们可能会通过小型数据文件识别您的身份，这么做是帮您省去重复输入注册信息的步骤，或者帮助判断您的账户安全。这些数据文件可能是Cookie，FlashCookie，或您的浏览器或关联应用程序提供的其他本地存储（统称“Cookie”）。
+
+       l  在您未拒绝接受Cookies的情况下，本应用会在您的计算机上设定或取用Cookies ，以便您能登录或使用依赖于Cookies的本应用平台服务或功能。本应用使用Cookies可为您提供更加周到的个性化服务，包括推广服务。
+
+       l  您有权选择接受或拒绝接受Cookies。您可以通过修改浏览器设置的方式拒绝接受Cookies。但如果您选择拒绝接受Cookies，则您可能无法登录或使用依赖于Cookies的本应用网络服务或功能。
+
+       l  通过本应用所设Cookies所取得的有关信息，将适用本政策。
+
+您如何访问和控制自己的个人信息
+
+       我们将尽一切可能采取适当的技术手段，保证您可以访问、更新和更正自己的注册信息或使用我们的服务时提供的其他个人信息。在访问、更新、更正和删除前述信息时，我们可能会要求您进行身份验证，以保障账户安全。
+
+信息的分享、安全以及隐私政策的使用范围和变更
+
+        我们如何共享信息
+
+除非本隐私政策载明的有限共享，我们会严格保密您的个人信息。未经您的同意，我们将不会向第三方披露您的信息以用于其各自的独立市场营销或商业用途。您于此授权，以下情形我们将会向第三方共享您的个人信息而无需通过您的同意：
+
+        l  业务合作伙伴。我们也可能与可信的业务合作伙伴（包括无线运营商）共享您的信息。这些实体可能使用您的信息来提供您请求的服务、对您的喜好进行预测、并可能向您提供促销材料、广告以及其他材料。
+
+       l  服务提供商。我们也可能向为我们或代表我们提供服务的公司披露您的信息，如协助我们处理账单或代表我们发送电子邮件的公司，但这些实体只能将您的信息用于为我们提供服务。
+
+       l  法律要求或保护我们的服务所必需的其他各方。在有些情况下我们可能会向其他各方披露您的信息；
+
+       l  遵守法律或服从强制性的法律程序（如搜查证或其他法院命令）；
+
+       l  确认或强制遵循我们的服务策略；以及保护我们及我们的各个附属公司、业务合作伙伴或客户的权利、财产或安全；
+
+       l  与公司事务有关的其他各方。在公司合并、转让或破产过程中，我们可能会向第三方披露您的信息；
+
+       l  征得您同意的其他各方。除本政策中描述的披露情况之外，我们也可能在您同意共享或提出共享请求时与第三方共享您的信息；
+
+我们如何确保您的信息安全
+
+       l  您的账户均有安全保护功能，请妥善保管您的账户及密码信息。我们仅在本《隐私政策》所述目的所必需的期间和法律法规要求的时限内保留您的个人信息；
+
+       l  我们使用各种安全技术和程序，以防信息的丢失、不当使用、未经授权阅览或披露。例如，在某些服务中，我们将利用加密技术（例如SSL）来保护您提供的个人信息。但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题；
+
+       l  我们只允许那些为了帮我们处理个人信息而需要知晓这些信息的员工、授权代为处理服务公司的人员访问个人信息，而且他们需要履行严格的合同保密义务，如果其未能履行这些义务，就可能会被追究法律责任或被终止其与我们的关系；
+
+       l  对我们来说，您的信息的安全非常重要。因此，我们将不断努力保障您的个人信息安全，并实施存储和传输全程安全加密等保障手段、以免您的信息在未经授权的情况下被访问、使用或被披露。同时某些加密数据的具体内容，除了用户自己，其他人都无权访问。
+
+对儿童个人信息的收集和使用
+
+       我们建议13周岁以下的儿童在其法定监护人的许可和指导下使用产品或服务。
+
+       我们不会在明知对方为儿童的情况下收集其个人信息，也不会向任何第三方透露其个人信息，监护人有权拒绝我们及其关联公司进一步收集被监护人的个人信息，或要求我们及关联公司删除该被监护人个人信息。如果我们发现我们收集了年龄不满13周岁的儿童的个人信息，我们将采取措施尽快地删除此等信息。
+
+变更
+
+       我们可能适时修订本《隐私政策》的条款，该修订构成本《隐私政策》的一部分。如该等修订造成您在本《隐私政策》下权利的实质减少，我们将在修订生效前通过在主页显著位置提示或者向您发送电子邮件或以其他方式通知您。在该种情况下，若您继续使用我们的服务，即表示同意受经修订的本《隐私政策》的约束。
+</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray23"
+        android:gravity="center"
+        android:text="@string/select_sex"
+        android:textColor="@color/gray25"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/boy"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/gray23"
+        android:gravity="center"
+        android:text="@string/boy"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/gray23"
+        android:gravity="center"
+        android:text="@string/girl"
+        android:textSize="18sp" />
+
+</LinearLayout>

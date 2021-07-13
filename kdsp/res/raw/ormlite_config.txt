@@ -1,0 +1,147 @@
+#
+# generated on 2016/09/05 05:46:06
+#
+# --table-start--
+dataClass=com.qizhu.rili.bean.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=userId
+id=true
+# --field-end--
+# --field-start--
+fieldName=nickName
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=birthTime
+dataPersister=DATE
+# --field-end--
+# --field-start--
+fieldName=userSex
+# --field-end--
+# --field-start--
+fieldName=telephoneNumber
+# --field-end--
+# --field-start--
+fieldName=userState
+# --field-end--
+# --field-start--
+fieldName=blood
+# --field-end--
+# --field-start--
+fieldName=isLunar
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.qizhu.rili.bean.EventItem
+tableName=eventitem
+# --table-fields-start--
+# --field-start--
+fieldName=Id
+id=true
+# --field-end--
+# --field-start--
+fieldName=index
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --field-start--
+fieldName=context
+# --field-end--
+# --field-start--
+fieldName=time
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.qizhu.rili.bean.YSRLTest
+tableName=ysrltest
+# --table-fields-start--
+# --field-start--
+fieldName=testId
+id=true
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --field-start--
+fieldName=imgUrl
+# --field-end--
+# --field-start--
+fieldName=linkUrl
+# --field-end--
+# --field-start--
+fieldName=attationVal
+# --field-end--
+# --field-start--
+fieldName=mHasTested
+# --field-end--
+# --field-start--
+fieldName=mTestedTime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.qizhu.rili.bean.StartupImage
+tableName=startupimage
+# --table-fields-start--
+# --field-start--
+fieldName=stId
+id=true
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+# --field-end--
+# --field-start--
+fieldName=colorVal
+# --field-end--
+# --field-start--
+fieldName=linkUrl
+# --field-end--
+# --field-start--
+fieldName=startTime
+# --field-end--
+# --field-start--
+fieldName=endTime
+# --field-end--
+# --field-start--
+fieldName=duration
+# --field-end--
+# --field-start--
+fieldName=showTimes
+# --field-end--
+# --field-start--
+fieldName=bytes
+dataPersister=BYTE_ARRAY
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.qizhu.rili.bean.LuckyAlias
+tableName=luckyalias
+# --table-fields-start--
+# --field-start--
+fieldName=ldName
+id=true
+# --field-end--
+# --field-start--
+fieldName=alias
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

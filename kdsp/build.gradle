@@ -1,0 +1,260 @@
+apply plugin: 'com.android.application'
+apply plugin: 'bugly'
+apply plugin: 'com.jakewharton.butterknife'
+
+repositories {
+    //flatDir：告诉gradle，编译中依赖的jar包存储在dirs指定的目录
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    //    provided fileTree(dir: 'libs',include:['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'openDefault-1.0.0', ext: 'aar')
+    implementation(name:'umeng-asms-armeabi-v1.1.3',ext: 'aar')
+    implementation(name:'umeng-crash-armeabi-v0.0.4',ext: 'aar')
+    // 支持 GIF 动图，需要添加
+    //compile 'com.facebook.fresco:animated-gif:0.12.0'
+    // 支持 WebP （静态图+动图），需要添加
+    //compile 'com.facebook.fresco:animated-webp:0.12.0'
+    //compile 'com.facebook.fresco:webpsupport:0.12.0'
+    //    compile 'com.android.support:support-v4:28.0.0-alpha1'
+    implementation 'com.android.support:recyclerview-v7:25.3.1'
+    implementation 'com.android.support:design:25.3.1'
+    implementation 'com.j256.ormlite:ormlite-core:5.0'
+    implementation 'com.j256.ormlite:ormlite-android:5.0'
+    implementation 'com.facebook.fresco:fresco:1.3.0'
+    implementation 'jp.wasabeef:fresco-processors:2.0.0'
+    implementation 'in.srain.cube:ultra-ptr:1.0.11'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+
+    // RxJava 2
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.mikhaellopez:circularprogressbar:1.1.1'
+//    implementation 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    implementation 'com.weigan:loopView:0.1.2'
+    compile 'com.lyf:yflibrary:1.0.2'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.code.gson:gson:2.8.2'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    implementation project(':push')
+    implementation files('libs/open_sdk_r5923_lite.jar')
+    implementation 'com.android.support:support-v4:27.0.0'
+    implementation files('libs/tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar')
+}
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '26.1.0'
+            }
+        }
+    }
+}
+bugly {
+    appId = '900009923'
+    appKey = 'oEeSlym8VpnCBvrK'
+    execute = false
+}
+
+android {
+
+    productFlavors {
+        dev {
+            minSdkVersion 21
+        }
+        prod {
+            minSdkVersion 15
+        }
+    }
+
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.qizhu.rili"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 96
+        versionName "3.14.1"
+        flavorDimensions "versionCode"
+        multiDexEnabled true
+        // 默认是web的渠道
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "web"]
+
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    compileOptions {
+        encoding "UTF-8"
+    }
+    signingConfigs {
+        qizhuDefault {
+            storeFile file('calendar.key')
+            storePassword 'susanlele'
+            keyAlias 'calendar'
+            keyPassword 'susanlele'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.qizhuDefault
+            zipAlignEnabled true
+            minifyEnabled true
+            shrinkResources true
+            proguardFile 'proguard-rules.txt'
+
+            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    def outputFile = output.outputFile
+//                    if (outputFile != null && outputFile.name.endsWith('release.apk')) {
+//                        // 输出apk名称为kdsp.100.0.web.apk
+//                        def fileName = "kdsp.${defaultConfig.versionName}.${variant.productFlavors[0].name}.apk"
+//                           output.outputFile = new File(outputFile.parent, fileName)
+//                    }
+//                }
+
+                variant.outputs.all {
+
+                    outputFileName = "kdsp.${defaultConfig.versionName}.${variant.productFlavors[0].name}.apk"
+                }
+            }
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "String", "API_BASE", '"http://api.ishenpo.com:8080/Fortune-Calendar/"'
+            buildConfigField "String", "API_HTTPS_BASE", '"https://api.ishenpo.com/Fortune-Calendar/"'
+            buildConfigField "String", "API_IMG_URL", '"http://pt.qi-zhu.com/@"'
+            buildConfigField "String", "API_DATA_URL", '"http://api.ishenpo.com:8080/DATA/"'
+            buildConfigField "String", "ENV", '"release"'
+
+            ndk {
+//                moduleName "javacallc"  //so文件，编译生产的动态链接库文件自动加前缀lib
+                ldLibs "log"  //实现 log
+
+            }
+
+        }
+//        dexOptions {
+//
+//            // release & debug is in project animators
+//            matchingFallbacks = ['release', 'debug']
+//        }
+                preview {
+
+            //关键代码，release， debug为library中已有buildType
+            matchingFallbacks = ['release', 'debug','releaseLog']
+        }
+
+        debug {
+            signingConfig signingConfigs.qizhuDefault
+            minifyEnabled false
+//            applicationIdSuffix   '.debug'
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "API_BASE", '"http://54.223.89.49/"'
+            buildConfigField "String", "API_HTTPS_BASE", '"http://54.223.89.49/"'
+            buildConfigField "String", "API_IMG_URL", '"http://pt.qi-zhu.com/@"'
+            buildConfigField "String", "API_DATA_URL", '"http://54.223.89.49/DATA/"'
+            buildConfigField "String", "ENV", '"apitest"'
+        }
+        releaseLog {
+            signingConfig signingConfigs.qizhuDefault
+            minifyEnabled false
+            debuggable true
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "String", "API_BASE", '"http://api.ishenpo.com:8080/Fortune-Calendar/"'
+            buildConfigField "String", "API_HTTPS_BASE", '"https://api.ishenpo.com/Fortune-Calendar/"'
+            buildConfigField "String", "API_IMG_URL", '"http://pt.qi-zhu.com/@"'
+            buildConfigField "String", "API_DATA_URL", '"http://api.ishenpo.com:8080/DATA/"'
+            buildConfigField "String", "ENV", '"release"'
+        }
+
+
+
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            jniLibs.srcDirs = ['libs']
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    productFlavors {
+
+
+        anzhuo {}
+        anzhi {}
+        apphui {}
+        anbeishichang {}
+        anzhuozhijia {}
+        anzhuoyuan {}
+        aiqiyi {}
+        baidu {}
+        baidu91 {}
+        chuanyizhushou {}
+        chuizi {}
+        duote {}
+        googleplay {}
+        jike {}
+        jifeng {}
+        jinli {}
+        kuchuan {}
+        liqushichang {}
+        letv {}
+        lenovo {}
+        mumayi {}
+        mm {}
+        miezu {}
+        mogu {}
+        mogushichang {}
+        nduo {}
+        oppo {}
+        qihu360 {}
+        shoujizhijia {}
+        sougouzhushou {}
+        tencent {}
+        vivo {}
+        wo {}
+        wifixinhao {}
+        wangyi {}
+        wandoujia {}
+        web {}
+        xiaomi {}
+        yiyoushichang {}
+        zhengqianba {}
+        zhihuiyun {}
+
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+}

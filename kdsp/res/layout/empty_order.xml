@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><!--无数据时的界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/no_data_img"
+        android:layout_width="119dp"
+        android:layout_height="173dp"
+        android:src="@drawable/default_empty" />
+
+    <TextView
+        android:id="@+id/no_data_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/no_augury"
+        android:textColor="@color/gray6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/to_inferring"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round_gray9_white"
+        android:gravity="center"
+        android:text="@string/to_inferring"
+        android:textColor="@color/purple"
+        android:textSize="16sp" />
+</LinearLayout>
+

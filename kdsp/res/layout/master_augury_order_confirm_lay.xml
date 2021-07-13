@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_has_back_btn"/>
+
+        <ScrollView
+            android:id="@+id/content_lay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/sku_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/gray29"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/coupons_llayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/feature_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="@string/coupons"
+                            android:textColor="@color/gray3"
+                            android:textSize="14sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/coupons_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/purple31"
+                            android:textSize="14sp"/>
+
+                        <ImageView
+                            android:id="@+id/arrow_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/arrow_up_coupons_gray"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/coupons_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/white"
+                        android:visibility="visible"/>
+
+                    <com.qizhu.rili.widget.MyListView
+                        android:id="@+id/coupons_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="8dp"
+                        android:divider="#00000000"
+                        android:dividerHeight="0dip"
+                        android:listSelector="@android:color/transparent"
+                        android:scrollbars="none"
+                        android:visibility="gone">
+                    </com.qizhu.rili.widget.MyListView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/convert_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/point_convert"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/point_tip"
+                        android:textColor="@color/gray3"
+                        android:textSize="16sp"/>
+
+                    <CheckBox
+                        android:id="@+id/point_check"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/point_gray_check"
+                        android:button="@null"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/submit_lay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray9"/>
+
+                <TextView
+                    android:id="@+id/total_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textColor="@color/purple28"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/submit"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/purple31"
+                android:gravity="center"
+                android:text="@string/cart_pay"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pay_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/blank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/black1_transparent_50"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/close"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pay_detail"
+                android:textColor="@color/purple"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray33"/>
+
+        <LinearLayout
+            android:id="@+id/alipay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ali_order"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="@string/alipay"
+                android:textColor="@color/purple"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/ali_selected"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/pay_unselected"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray33"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weixin_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/weixin_order"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="@string/weixin_pay"
+                android:textColor="@color/purple"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/weixin_selected"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/pay_unselected"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray33"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68dp"
+                android:text="@string/pay_amount"
+                android:textColor="@color/purple"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/pay_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@color/purple"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pay_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/round_purple1"
+                android:gravity="center"
+                android:text="@string/confirm_pay"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/renewals_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/renewals_blank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/black1_transparent_50"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/gray36"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cancel_renewals"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/close"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="175dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/default_empty"/>
+
+            <TextView
+                android:id="@+id/balance_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="240dp"
+                android:text="余额不足"
+                android:textColor="@color/gray3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/renewals_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/balance_tip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="余额不足"
+                android:textColor="@color/gray3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/renewals"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/renewals_tip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/round_gray9_white"
+                android:gravity="center"
+                android:text="@string/renewals"
+                android:textColor="@color/purple"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

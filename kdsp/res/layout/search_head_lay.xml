@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/no_result" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="嘤嘤嘤,没有找到相关问题哦!"
+        android:textColor="@color/gray6"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="请更改搜索关键字或点击已有问题"
+        android:textColor="@color/gray9" />
+
+    <TextView
+        android:id="@+id/add_problem"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_gray9_white"
+        android:gravity="center"
+        android:text="添加问题"
+        android:textColor="@color/purple"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/gray36"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="@string/maybe_need"
+        android:textColor="@color/gray"
+        android:textSize="18sp" />
+</LinearLayout>

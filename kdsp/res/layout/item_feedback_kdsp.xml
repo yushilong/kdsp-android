@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/last_item"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="2dp"
+        android:text="2013-3-10 13:00"
+        android:textColor="@color/gray8"
+        android:textSize="10sp" />
+
+    <!--用户头像布局-->
+    <RelativeLayout
+        android:id="@+id/avatar_lay"
+        android:layout_width="42dip"
+        android:layout_height="42dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/date"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dp">
+        <!--用户头像-->
+        <com.qizhu.rili.widget.YSRLDraweeView
+            android:id="@+id/user_avatar"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            fresco:roundAsCircle="true" />
+        <!--达人图标-->
+        <ImageView
+            android:id="@+id/brand_auth"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_alignBottom="@id/user_avatar"
+            android:layout_alignRight="@id/user_avatar"
+            android:layout_marginBottom="-2dip"
+            android:layout_marginRight="-2dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/boy"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar_lay"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/avatar_lay"
+        android:background="@drawable/chat_left"
+        android:minHeight="30dp"
+        android:minWidth="20dp">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:autoLink="web"
+            android:gravity="center_vertical"
+            android:maxWidth="165dp"
+            android:text=""
+            android:textColor="@color/gray8"
+            android:textSize="12sp" />
+
+        <com.qizhu.rili.widget.FitWidthImageView
+            android:id="@+id/content_img"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

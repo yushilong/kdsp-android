@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/up_adjust"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/purple5_up" />
+
+    <ImageView
+        android:id="@+id/down_adjust"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/purple5_down" />
+
+    <GridView
+        android:id="@+id/days_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/down_adjust"
+        android:layout_below="@id/up_adjust"
+        android:overScrollMode="never"
+        android:listSelector="@color/transparent"
+        android:numColumns="5"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/empty_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/down_adjust"
+        android:layout_below="@id/up_adjust"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客官这个月不可以哦"
+            android:textColor="@color/purple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去看看下个月吧"
+            android:textColor="@color/purple" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/sad" />
+    </LinearLayout>
+
+</RelativeLayout>

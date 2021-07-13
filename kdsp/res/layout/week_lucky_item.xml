@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.qizhu.rili.widget.AutoFitTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="@color/pink3" />
+
+    <LinearLayout
+        android:id="@+id/days_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <com.qizhu.rili.widget.AutoFitTextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink10"
+            android:gravity="center"
+            android:textColor="@color/purple16"
+            android:visibility="gone" />
+
+        <com.qizhu.rili.widget.AutoFitTextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink9"
+            android:gravity="center"
+            android:textColor="@color/purple16"
+            android:visibility="gone" />
+
+        <com.qizhu.rili.widget.AutoFitTextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink8"
+            android:gravity="center"
+            android:textColor="@color/purple16"
+            android:visibility="gone" />
+
+        <com.qizhu.rili.widget.AutoFitTextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink7"
+            android:gravity="center"
+            android:textColor="@color/purple16"
+            android:visibility="gone" />
+
+        <com.qizhu.rili.widget.AutoFitTextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/pink6"
+            android:gravity="center"
+            android:textColor="@color/purple16"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

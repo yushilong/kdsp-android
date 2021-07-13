@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="caiyi_boy">
+        <item>四大天王附体，好好发挥才艺吧</item>
+        <item>只拨拨吉他，都能文艺范儿十足</item>
+        <item>今天当个麦霸，让朋友们听演唱会吧</item>
+        <item>NOW,二逼青年都能进化成文艺青年</item>
+        <item>今天有很多人会对你说：哎呀妈呀，你太有才了</item>
+    </string-array>
+
+    <string-array name="chaojia_boy">
+        <item>想吵架，在嘴上装个刹车</item>
+        <item>用吵架的精力去papapa吧</item>
+        <item>爱上一个人很快，但是放下一个人可能要很久</item>
+        <item>不要因为你的一时冲动，面对分手的窘迫</item>
+        <item>爱她就要让让她</item>
+    </string-array>
+
+    <string-array name="didiao_boy">
+        <item>有一种华丽，叫D调（低调）的华丽</item>
+        <item>先低调做人，再高调做事</item>
+        <item>先装孙子，后成霸王</item>
+        <item>四爷的生活不适合你，今天安分点</item>
+        <item>今天，NO ZUO NO DIE</item>
+    </string-array>
+
+    <string-array name="duanlian_boy">
+        <item>你的女神在跑道上召唤你</item>
+        <item>亚健康的意思可不是亚军级健康</item>
+        <item>约炮不如约跑</item>
+        <item>听，肌肉在喊你去锻炼</item>
+        <item>听说，爱运动的男子运气都不差</item>
+    </string-array>
+
+    <string-array name="duche_boy">
+        <item>Now，上班不比去西天取经容易</item>
+        <item>堵车就像便秘，一直原地努力</item>
+        <item>Now，自行车跑的比宝马快</item>
+        <item>停下来，才能好好看看路上的风景</item>
+        <item>今天缺个传送门</item>
+    </string-array>
+
+    <string-array name="fahui_boy">
+        <item>今天，尽情和竞争对手PK吧</item>
+        <item>不要给自己设置上限了，发挥你的极限吧</item>
+        <item>你不发挥，就会挥发</item>
+        <item>从各种成功的经验看,豁出去好好发挥能让自己更成功</item>
+        <item>发挥最佳状态，做最好的自己</item>
+    </string-array>
+
+    <string-array name="gaibian_boy">
+        <item>NOW,计划总是赶不上变化</item>
+        <item>今天的你就是百变怪，被人各种捏</item>
+        <item>出门多确认下，别绕远路哦</item>
+        <item>要想成为变形金刚，先要习惯改变</item>
+        <item>随遇而安，拥抱变化</item>
+    </string-array>
+
+    <string-array name="guiren_boy">
+        <item>今天，会遇到特别的人哦</item>
+        <item>在家靠父母，出门靠贵人</item>
+        <item>贵人可遇不可求，今天的你出门就能撞到</item>
+        <item>一个好汉三个帮，一个贵人顶三个臭皮匠</item>
+        <item>所谓贵人，就是能让你贵起来的人</item>
+    </string-array>
+
+    <string-array name="huanbao_boy">
+        <item>其实少放几个P也能减少碳排放量</item>
+        <item>绿色只要不在头上还是很漂亮的</item>
+        <item>要想日子过的去，必须草地非常绿</item>
+        <item>别撸啦，不只为了你，还为了那些树</item>
+        <item>想富？少生孩纸多种树</item>
+    </string-array>
+
+    <string-array name="jianlou_boy">
+        <item>今天你是实至名归的捡漏王</item>
+        <item>鹬蚌相争渔翁得利，捡漏也能发大财哦。</item>
+        <item>漏网之鱼可逃不出你的手心</item>
+    </string-array>
+
+    <string-array name="jiating_boy">
+        <item>父母，是你一生的贵人</item>
+        <item>只有爸妈明知你吹牛还是会为你高兴</item>
+        <item>自家狗窝舒适度秒杀五星级酒店</item>
+        <item>父母最喜欢的音乐是你的声音</item>
+        <item>动动手指，打个电话给父母，会给你增加好运哦</item>
+    </string-array>
+
+    <string-array name="jielan_boy">
+        <item>戒懒癌，万事成，骚年，你懂了么？！</item>
+        <item>动一动吧，一直懒着会变化石的</item>
+        <item>天上掉馅饼，也要努力才能接住呀。</item>
+        <item>混吃等死可不是你的风格</item>
+        <item>听说，懒惰的人一般都会穷哦</item>
+    </string-array>
+
+    <string-array name="jiezao_boy">
+        <item>世界如此美妙，你却如此焦躁</item>
+        <item>别着急，一步登天的成功并不会稳</item>
+        <item>热锅上的蚂蚁可不是一道好菜</item>
+        <item>心急可吃不了热豆腐</item>
+        <item>去留无痕才是淡定哥的人生名言</item>
+    </string-array>
+
+    <string-array name="jihui_boy">
+        <item>像把妹一样把握住机会吧！</item>
+        <item>奋斗吧，骚年！今天是抓住机会的好日子</item>
+        <item>机会就是现在！把握裆当下吧</item>
+        <item>Tips：顺风一跳，猪都能飞</item>
+        <item>机会永远留给有准备的人，你准备好了？</item>
+    </string-array>
+
+    <string-array name="jingxi_boy">
+        <item>日子总是平淡如水？今天就会给你个惊喜</item>
+        <item>学会拒绝小恩小惠，会有惊喜出现哦。</item>
+        <item>今天的彩票奖项被你承包了</item>
+    </string-array>
+
+    <string-array name="kubi_boy">
+        <item>走哪哪堵车，喝水都塞牙？今天就忍忍吧</item>
+        <item>从哪儿跌倒，就从哪儿爬起来哭</item>
+        <item>宝宝心塞塞，宝宝心里苦</item>
+        <item>眉头的蚊子都被你夹死了</item>
+        <item>没有今天的苦逼，哪来以后的甜蜜</item>
+    </string-array>
+
+    <string-array name="lingting_boy">
+        <item>聆听是一种风景，男人不宜话太多</item>
+        <item>今天适合做一个安静的美男子</item>
+        <item>聆听是暖男的必备技能</item>
+        <item>其实有时候，对方说的话还是蛮有道理的</item>
+        <item>如果说不过她，还是静静的听她BB吧</item>
+    </string-array>
+
+    <string-array name="mafan_boy">
+        <item>警报警报！今天是非精们集体放假</item>
+        <item>麻烦找上门，36计，走你</item>
+        <item>有时候，一件隐身衣能让你避开所有麻烦事</item>
+        <item>七大姑八大姨今天都过来了？假装自己不在家吧</item>
+        <item>借套套，借衣服，借女朋友，想什么呢？赶紧躲躲吧</item>
+    </string-array>
+
+    <string-array name="mianshi_boy">
+        <item>今天去面试，谁都会看你顺眼</item>
+        <item>今天面试后，妈妈再也不用担心你啃老了</item>
+        <item>NOW,面试官的眼里出潘安</item>
+        <item>今天你的脸上有两个大字“人才”</item>
+        <item>据说，今日伯乐遍地走</item>
+    </string-array>
+
+    <string-array name="nengliang_boy">
+        <item>你的能量，超乎你的想象</item>
+        <item>一身正能量的你真的特别帅气</item>
+        <item>未来的你，一定会感激今天奋斗的自己</item>
+        <item>今天好好发挥你的正能量和冲劲</item>
+        <item>若想要成功，鼓足勇气向前冲</item>
+    </string-array>
+
+    <string-array name="pengyou_boy">
+        <item>女友都没有基友贴心</item>
+        <item>都是一被辈子的兄弟，好好聊聊吧</item>
+        <item>打喷嚏了？是好友想你了</item>
+        <item>一起回想一下和铁哥们在一起的中二岁月</item>
+        <item>酒逢知己千杯少，找朋友们聚聚吧</item>
+    </string-array>
+
+    <string-array name="sancai_boy">
+        <item>千金难买爷高兴，买买买，我乐意</item>
+        <item>千金散尽还复来</item>
+        <item>你撒币，才有人捡币</item>
+        <item>要要要，切克闹，煎饼果子来一套</item>
+        <item>花钱是为了有动力赚钱</item>
+    </string-array>
+
+    <string-array name="shifei_boy">
+        <item>是非精最喜欢没有把手的嘴</item>
+        <item>是非来的太快就像龙卷风</item>
+        <item>悲欢交替，人生就是这样</item>
+        <item>今天很容易“被”是非</item>
+    </string-array>
+
+    <string-array name="shouhuo_boy">
+        <item>希望你收获的，不只是肚子上的肥肉</item>
+        <item>一分耕耘一分收获，所以考试前请耕耘100分</item>
+        <item>有付出，总会有收获</item>
+        <item>努力了这么久，今天终于收获啦</item>
+        <item>努力板砖，今朝终成包工头。</item>
+    </string-array>
+
+    <string-array name="taohua_boy">
+        <item>Now,人见人爱，花见花开</item>
+        <item>今天的你自带镁光灯，走到哪里闪哪里</item>
+        <item>妹子滚滚而来，绝对是爷您撩菜的好日子</item>
+        <item>今天的你自带T台，走到哪里帅哪里</item>
+        <item>今夜注定无眠</item>
+    </string-array>
+
+    <string-array name="xiaocai_boy">
+        <item>小财小财，今天就来</item>
+        <item>买张彩票刮刮看，会有意外的小财哦</item>
+        <item>吃完饭要张发票，会有小财进账哦</item>
+    </string-array>
+
+    <string-array name="xuexi_boy">
+        <item>学霸还是学渣，今天由你说了算</item>
+        <item>你喜欢的妹子都在学习，那么你呢？！</item>
+        <item>现在多学习一小时，将来的老婆就多漂亮一分</item>
+        <item>吾日三省吾身：高否？富否？帅否？否，滚去学习吧</item>
+        <item>书中自有黄金屋，要发财就要多学习</item>
+    </string-array>
+
+    <string-array name="yuanwang_boy">
+        <item>今天绝对适合列出愿望清单哦</item>
+        <item>今天的心想事成可不是一句空话哦</item>
+        <item>是时候和神明们说说心里话了</item>
+        <item>这么一个祈福许愿的好日子，不要错过了哦</item>
+        <item>抬头望望天，流星在~飘~</item>
+    </string-array>
+
+    <string-array name="zaoxing_boy">
+        <item>换一种发型，换一种心情</item>
+        <item>凹一下造型，你也是男神</item>
+        <item>NOW,你的造型师能发挥120%的水平</item>
+        <item>今天不打扮，最近不好看</item>
+        <item>秀出你的STYLE</item>
+    </string-array>
+
+    <string-array name="caiyi_girl">
+        <item>女子十二乐坊附体，好好发挥才艺吧</item>
+        <item>只摸摸琴弦，都能文艺范儿十足</item>
+        <item>今天当个麦霸，让朋友们听演唱会吧</item>
+        <item>今天有很多人会对你说：哎呀妈呀，你太有才了</item>
+        <item>你会唱歌？还会跳舞？放心吧今天没有容嬷嬷扎你，好好秀出来！</item>
+    </string-array>
+
+    <string-array name="chaojia_girl">
+        <item>想吵架，就刹车</item>
+        <item>好女不和男斗，一吵架就没逼格了</item>
+        <item>爱上一个人很快，但是放下一个人可能要很久</item>
+        <item>不要因为你的一时冲动，面对分手的窘迫</item>
+        <item>爱他就要让让他</item>
+    </string-array>
+
+    <string-array name="didiao_girl">
+        <item>有一种华丽，叫D调（低调）的华丽</item>
+        <item>华妃的生活不适合你，还是做端妃吧</item>
+        <item>爱谁谁，管好自己，安全！</item>
+        <item>今天，NO,ZUO,NO,DIE</item>
+        <item>我的低调，不是你装逼的资本</item>
+    </string-array>
+
+    <string-array name="duanlian_girl">
+        <item>你不想当女神了吗？还在吃....</item>
+        <item>听说，跑道上都是帅哥哦</item>
+        <item>别成为下一块五花肉</item>
+        <item>比爱过更伤人的是瘦过</item>
+        <item>别让腰围和爱情成反比</item>
+    </string-array>
+
+    <string-array name="duche_girl">
+        <item>Now，上班不比去西天取经容易</item>
+        <item>堵车就像便秘，一直原地努力</item>
+        <item>Now，自行车跑的比宝马快</item>
+        <item>停下来，才能好好看看路上的风景</item>
+        <item>今天缺个传送门</item>
+    </string-array>
+
+    <string-array name="fahui_girl">
+        <item>发挥最佳状态的你，特别有魅力</item>
+        <item>今天，尽情和竞争对手撕逼吧</item>
+        <item>你不发挥，就会挥发</item>
+        <item>今天的你工作运鸿运当头，容易被上司或者同行赏识表扬</item>
+        <item>不能白瞎了你的一身本事啊</item>
+    </string-array>
+
+    <string-array name="gaibian_girl">
+        <item>NOW,计划总是赶不上变化</item>
+        <item>今天的你就是百变怪，被人各种捏</item>
+        <item>出门多确认下，别绕远路哦</item>
+        <item>要想成为变形金刚，先要习惯改变</item>
+        <item>随遇而安，拥抱变化</item>
+    </string-array>
+
+    <string-array name="guiren_girl">
+        <item>今天，会遇到特别的人哦</item>
+        <item>在家靠父母，出门靠贵人</item>
+        <item>贵人可遇不可求，今天的你出门就能撞到</item>
+        <item>不是每个人都有机会遇到贵人，但今天的你可以</item>
+        <item>所谓贵人，就是能让你贵起来的人</item>
+    </string-array>
+
+    <string-array name="huanbao_girl">
+        <item>别给大地母亲再造成成吨的伤害了</item>
+        <item>穿的少点，也是为环保做贡献</item>
+        <item>今天种种树，将来享享福</item>
+        <item>其实少放几个P也能减少碳排放量</item>
+        <item>要想日子过的去，必须草地非常绿</item>
+    </string-array>
+
+    <string-array name="jianlou_girl">
+        <item>捡漏王可不是浪得虚名的</item>
+        <item>鹬蚌相争渔翁得利，捡漏也能发大财哦。</item>
+        <item>漏网之鱼可逃不出你的手心</item>
+    </string-array>
+
+    <string-array name="jiating_girl">
+        <item>父母，是你一生的贵人</item>
+        <item>只有爸妈明知你吹牛还是会为你高兴</item>
+        <item>自家狗窝舒适度秒杀五星级酒店</item>
+        <item>父母最喜欢的音乐是你的声音</item>
+        <item>动动手指，打个电话给父母，会给你增加好运哦</item>
+    </string-array>
+
+    <string-array name="jielan_girl">
+        <item>戒懒癌！万事成，妹子，你懂了么？！</item>
+        <item>动一动吧，一直懒着会变化石的</item>
+        <item>混吃等死可不是你的风格</item>
+        <item>听说，懒惰的人容易胖哦</item>
+        <item>别让未来的你懊悔你现在的懒惰</item>
+    </string-array>
+
+    <string-array name="jiezao_girl">
+        <item>听说，女人急躁时会长皱纹哦</item>
+        <item>淡定，是你的终究是你的</item>
+        <item>心平气和，笑看群众撕逼</item>
+        <item>不急不急，慢慢对付那些小婊砸</item>
+        <item>心急可吃不了热豆腐</item>
+    </string-array>
+
+    <string-array name="jihui_girl">
+        <item>机会，今天等着和你约会</item>
+        <item>不会把握机会的人，一定不会把小鲜肉</item>
+        <item>奋斗吧，妹子！今天是抓住机会的好日子</item>
+        <item>机会永远留给有准备的人，今天你准备好了吗？</item>
+        <item>手指缝合拢，别让机会溜走</item>
+    </string-array>
+
+    <string-array name="jingxi_girl">
+        <item>日子总是平淡如水？今天就会给你个惊喜</item>
+        <item>学会拒绝小恩小惠，会有惊喜出现哦。</item>
+        <item>今天的彩票奖项被你承包了</item>
+    </string-array>
+
+    <string-array name="lingting_girl">
+        <item>聆听是一种风景，女人不宜话太多</item>
+        <item>今天适合做一个安静的美女子</item>
+        <item>三个女人一台戏，今天不如台下听戏</item>
+        <item>其实有时候，对方说的话还是蛮有道理的</item>
+        <item>我就静静听你吹牛B，不说话</item>
+    </string-array>
+
+    <string-array name="mafan_girl">
+        <item>警报警报！今天是非精们集体放假</item>
+        <item>有麻烦事？记住36计，走为上计</item>
+        <item>QQ悄悄挂离线，是非精们能退避三舍哦</item>
+        <item>大姨妈大姨夫都想过来蹭饭？怕麻烦就假装自己不在家吧</item>
+        <item>借洗面奶，借衣服，借男朋友，怎么办呢？赶紧躲躲吧</item>
+    </string-array>
+
+    <string-array name="mianshi_girl">
+        <item>今天面试，是个刷眼缘的好日子</item>
+        <item>今天面试后，妈妈再也不用担心你啃老了</item>
+        <item>NOW,面试官的眼里出西施</item>
+        <item>今天你的脸上有两个大字“人才”</item>
+        <item>不用潜规则，面试官就会相中你</item>
+    </string-array>
+
+    <string-array name="nengliang_girl">
+        <item>元气满满，充满能量，没有人能挡得住你</item>
+        <item>一身正能量的你真的特别有魅力</item>
+        <item>未来的你，一定会感激今天奋斗的自己</item>
+        <item>今天好好发挥你的正能量和冲劲</item>
+        <item>今天你的电量爆表啦！好好发挥自己吧</item>
+    </string-array>
+
+    <string-array name="pengyou_girl">
+        <item>NOW，男友都没有闺蜜贴心</item>
+        <item>打喷嚏了？是好友想你了</item>
+        <item>找闺蜜出去血拼一把</item>
+        <item>就算全世界的男人抛弃你了，还有闺蜜来拥抱你</item>
+        <item>有时候，你都想和闺蜜啪啪啪</item>
+    </string-array>
+
+    <string-array name="sancai_girl">
+        <item>小主今儿个啥都想买</item>
+        <item>偶尔剁剁手，也是减肥的一种</item>
+        <item>再不花钱，银行都要爆了</item>
+        <item>要要要，切克闹，煎饼果子来一套</item>
+        <item>NOW，为货币流通做点贡献</item>
+    </string-array>
+
+    <string-array name="shifei_girl">
+        <item>是非精最喜欢没有把手的嘴</item>
+        <item>是非来的太快就像龙卷风</item>
+        <item>悲欢交替，人生就是这样</item>
+    </string-array>
+
+    <string-array name="shouhuo_girl">
+        <item>希望你收获的，不只是肚子上的肥肉</item>
+        <item>一分耕耘一分收获，所以考试前请耕耘100分</item>
+        <item>有付出，总会有收获</item>
+        <item>努力了这么久，今天终于收获啦</item>
+    </string-array>
+
+    <string-array name="taohua_girl">
+        <item>今天的你的魅力无人能挡</item>
+        <item>不知又有多少男人倒在你的石榴裙下</item>
+        <item>鲜肉滚滚而来，绝对是你撩汤的好日子</item>
+        <item>男神撞树上只因为目光离不开你</item>
+        <item>Now,人见人爱，花见花开</item>
+    </string-array>
+
+    <string-array name="xiaocai_girl">
+        <item>小财小财，今天就来</item>
+        <item>买张彩票刮刮看，会有意外的小财哦</item>
+        <item>吃完饭要张发票，会有小财进账哦</item>
+    </string-array>
+
+    <string-array name="xiaohao_girl">
+        <item>走哪哪堵车，喝水都塞牙？今天就忍忍吧</item>
+        <item>从哪儿跌倒，就从哪儿爬起来哭</item>
+        <item>宝宝心塞塞，宝宝心里苦</item>
+        <item>眉头的蚊子都被你夹死了</item>
+        <item>没有今天的苦逼，哪来以后的甜蜜</item>
+    </string-array>
+
+    <string-array name="xuexi_girl">
+        <item>学霸还是学渣，今天由你说了算</item>
+        <item>你喜欢的帅锅都在学习，那么你呢？！</item>
+        <item>现在多学习一小时，将来的老公就多帅气一分</item>
+        <item>吾日三省吾身：白否？富否？美否？否，滚去学习吧</item>
+        <item>书中自有颜如玉，今天学习就权当化妆吧</item>
+    </string-array>
+
+    <string-array name="yuanwang_girl">
+        <item>么包包，伐开心？许个愿能成真哦</item>
+        <item>是时候和神明们说说心里话了</item>
+        <item>神仙们今儿空，赶紧跪舔</item>
+        <item>你不说，神仙怎么知道你要啥</item>
+        <item>看看天上有没有流星？许个愿吧</item>
+    </string-array>
+
+    <string-array name="yima_girl">
+        <item>亲戚今天可能会来看你哦</item>
+        <item>今天姨妈来看你，请喝红糖水哦</item>
+        <item>特殊的日子给自己特殊的呵护</item>
+    </string-array>
+
+    <string-array name="zaoxing_girl">
+        <item>换一种发型，换一种心情</item>
+        <item>凹一下造型，你也是女神</item>
+        <item>NOW,你的造型师能发挥120%的水平</item>
+        <item>今天不打扮，最近不好看</item>
+        <item>秀出你的STYLE</item>
+    </string-array>
+</resources>

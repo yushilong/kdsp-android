@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!--列表基布局-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--顶部布局-->
+    <RelativeLayout
+        android:id="@+id/my_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <!--底部布局-->
+    <RelativeLayout
+        android:id="@+id/my_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/my_bottom"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/my_title">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--滑动隐藏布局-->
+            <RelativeLayout
+                android:id="@+id/scroll_enter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed" />
+
+            <!--固定布局-->
+            <RelativeLayout
+                android:id="@+id/scroll_fixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <com.qizhu.rili.widget.LoopViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!--与viewPager顶部对齐的布局-->
+    <RelativeLayout
+        android:id="@+id/my_alin_top_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/main_content" />
+
+    <!--与viewPager底部对齐的布局-->
+    <RelativeLayout
+        android:id="@+id/my_alin_bottom_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/main_content" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/coupons_bg"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/coupons_title"
+            android:textColor="@color/yellow11"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/title_type_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="全场通用"
+            android:textColor="@color/yellow11"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/title_tip_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:text="全场通用"
+            android:textColor="@color/yellow11"
+            android:textSize="12sp"/>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:includeFontPadding="false"
+                android:text="6"
+                android:textColor="@color/red"
+                android:textSize="85sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_toRightOf="@id/price_tv"
+                android:gravity="bottom"
+                android:text="元"
+                android:textColor="@color/red"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/get"
+            android:id="@+id/ok"
+            android:layout_width="150dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_yellow"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+
+        android:padding="5dp"
+        android:src="@drawable/update_cancel"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--图片-->
+    <com.qizhu.rili.widget.YSRLDraweeView
+        android:id="@+id/palm_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--图片的描述-->
+    <TextView
+        android:id="@+id/palm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

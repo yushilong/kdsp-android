@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/solar_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/gray53"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lunar_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/gray53"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/total_words_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/gray53"
+        android:textSize="14sp"/>
+
+
+    <com.qizhu.rili.widget.CirclePercentView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/circle_percent_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/circle_llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray36"/>
+
+</LinearLayout>

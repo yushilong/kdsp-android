@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray39"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_has_back_btn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple37"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="23dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="23dp">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/master_avatar_little" />
+
+        <EditText
+            android:hint="@string/master_ask_hit"
+            android:id="@+id/question_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="left"
+            android:padding="12dp"
+            android:textColor="@color/gray9"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/body_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.qizhu.rili">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+                     tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+                     tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"
+                     tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <!-- 友盟 -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+                     tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!-- 可选 -->
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- 友盟end -->
+    <application
+        android:name=".AppContext"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/app_theme_notitle">
+        <activity
+            android:name=".ui.activity.AppStart"
+            android:screenOrientation="portrait"
+            android:theme="@style/app_theme_fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+
+        <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.TodayDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/app_theme_fullscreen"/>
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".ui.activity.LoginForgetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".ui.activity.SettingUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <!-- 微信授权回调activity -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+
+            android:theme="@android:style/Theme.NoDisplay"/>
+        <!-- 微信支付回调activity -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+
+            android:theme="@android:style/Theme.NoDisplay"/>
+        <activity
+            android:name=".ui.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AppRecommendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AnalysisResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.FeedBackListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".ui.activity.CalendarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.YSRLWebActivity"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".ui.activity.LocalWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".ui.activity.SetInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.DefaultPageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AnalysisFriendActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.NewsAgentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LifeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.StarActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.ShadowActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.FeelingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LoginChooserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyShareDialogStyleBottom"/>
+        <activity
+            android:name=".ui.activity.SettingServerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LifeTimeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.ImageZoomViewer"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PrayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.ShakeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PrayDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PrayListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LoveLineSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LoveLineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.SetFriendsInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.TakeHandsPhotoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.BranchLinesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.LineDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.InferringWordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.RewardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.FateCatListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AugurySubmitActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PaySuccessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AuguryDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AuguryListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AddProblemActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.SearchProblemListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.WordRewardListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.CalendarGoodActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.MonthFortuneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.HandsOrFaceOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.HandsOrFaceOrderDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MemberShipCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MemberShipActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.RenewalsSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.InferringBloodActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.BloodResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MobileLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAuguryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAuguryCarOrderConfirmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+
+        <activity
+            android:name=".ui.activity.MasterAuguryCartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.GoodsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AddAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AddressListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.GoodsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.HotAskListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.ZoomableImageViewpagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.CartListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.OrderConfirmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.OrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.LogisticsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.RefundProgressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MessageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".ui.activity.ReplyCommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.ReplyListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".ui.activity.TenYearsFortuneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.TestNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.TestNameResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAskDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAuguryDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MasterAskResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MyLifeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.ArticleDetailListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.CollectListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MemberShipCarListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.LifeNumberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.LifeNumberResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.BaZiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AnimalsLuckActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.MarraigeShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.AnimalsSubmitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.WeChatCouponsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+        <activity
+            android:name=".ui.activity.FengShuiReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DefaultBackground"/>
+
+        <!-- 分享处理activity,新浪微博需要特殊回调 -->
+        <activity
+            android:name=".ui.activity.ShareActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/MyShareDialogStyleBottom">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_RESP_ACTIVITY"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 超链接处理activity -->
+        <activity
+            android:name=".ui.activity.BrowserActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="ysrl"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.YSRLService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.qizhu.service.CLEAR_CACHE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.qizhu.service.CLEAR_CACHE_ON_TIME"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.qizhu.service.DOWNLOAD_APK"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.qizhu.service.INSTALL_APK"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.qizhu.service.ALARM"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".service.PlayerService"/>
+
+        <!-- QQ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="1104254810"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"/>
+        <!-- alipay sdk end -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="@string/umeng_appkey"/>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="9fb14d7f356db2abaaaaa77ac7715a17"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}"/>
+        <!-- 友盟 IM -->
+        <meta-data
+            android:name="APP_KEY"
+            android:value="@string/app_key"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.qizhu.rili.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

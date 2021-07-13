@@ -1,0 +1,4386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root version="1.0">
+
+    <province name="北京">
+        <city name="北京市">
+            <area>东城区</area>
+            <area>西城区</area>
+            <area>朝阳区</area>
+            <area>丰台区</area>
+            <area>石景山区</area>
+            <area>海淀区</area>
+            <area>门头沟区</area>
+            <area>房山区</area>
+            <area>通州区</area>
+            <area>顺义区</area>
+            <area>昌平区</area>
+            <area>大兴区</area>
+            <area>怀柔区</area>
+            <area>平谷区</area>
+            <area>密云区</area>
+            <area>延庆区</area>
+        </city>
+    </province>
+
+    <province name="天津">
+        <city name="天津市">
+            <area>和平区</area>
+            <area>河东区</area>
+            <area>河西区</area>
+            <area>南开区</area>
+            <area>河北区</area>
+            <area>红桥区</area>
+            <area>东丽区</area>
+            <area>西青区</area>
+            <area>津南区</area>
+            <area>北辰区</area>
+            <area>武清区</area>
+            <area>宝坻区</area>
+            <area>滨海新区</area>
+            <area>宁河区</area>
+            <area>静海区</area>
+            <area>蓟县</area>
+        </city>
+    </province>
+
+    <province name="上海">
+        <city name="上海市">
+            <area>黄浦区</area>
+            <area>卢湾区</area>
+            <area>徐汇区</area>
+            <area>长宁区</area>
+            <area>静安区</area>
+            <area>普陀区</area>
+            <area>闸北区</area>
+            <area>虹口区</area>
+            <area>杨浦区</area>
+            <area>闵行区</area>
+            <area>宝山区</area>
+            <area>嘉定区</area>
+            <area>浦东新区</area>
+            <area>金山区</area>
+            <area>松江区</area>
+            <area>青浦区</area>
+            <area>南汇区</area>
+            <area>奉贤区</area>
+            <area>崇明县</area>
+        </city>
+    </province>
+
+    <province name="重庆">
+        <city name="重庆市">
+            <area>万州区</area>
+            <area>涪陵区</area>
+            <area>渝中区</area>
+            <area>大渡口区</area>
+            <area>江北区</area>
+            <area>沙坪坝区</area>
+            <area>九龙坡区</area>
+            <area>南岸区</area>
+            <area>北碚区</area>
+            <area>万盛区</area>
+            <area>双桥区</area>
+            <area>渝北区</area>
+            <area>巴南区</area>
+            <area>黔江区</area>
+            <area>长寿区</area>
+            <area>江津区</area>
+            <area>合川区</area>
+            <area>永川区</area>
+            <area>南川区</area>
+            <area>綦江县</area>
+            <area>潼南县</area>
+            <area>铜梁县</area>
+            <area>大足县</area>
+            <area>荣昌县</area>
+            <area>璧山县</area>
+            <area>梁平县</area>
+            <area>城口县</area>
+            <area>丰都县</area>
+            <area>垫江县</area>
+            <area>武隆县</area>
+            <area>忠县</area>
+            <area>开县</area>
+            <area>云阳县</area>
+            <area>奉节县</area>
+            <area>巫山县</area>
+            <area>巫溪县</area>
+            <area>石柱土家族自治县</area>
+            <area>秀山土家族苗族自治县</area>
+            <area>酉阳土家族苗族自治县</area>
+            <area>彭水苗族土家族自治县</area>
+        </city>
+    </province>
+
+    <province name="河北省">
+        <city name="石家庄市">
+            <area>长安区</area>
+            <area>桥西区</area>
+            <area>新华区</area>
+            <area>井陉矿区</area>
+            <area>裕华区</area>
+            <area>藁城区</area>
+            <area>鹿泉区</area>
+            <area>栾城区</area>
+            <area>井陉县</area>
+            <area>正定县</area>
+            <area>行唐县</area>
+            <area>灵寿县</area>
+            <area>高邑县</area>
+            <area>深泽县</area>
+            <area>赞皇县</area>
+            <area>无极县</area>
+            <area>平山县</area>
+            <area>元氏县</area>
+            <area>赵县</area>
+            <area>辛集市</area>
+            <area>晋州市</area>
+            <area>新乐市</area>
+        </city>
+
+        <city name="唐山市">
+            <area>路南区</area>
+            <area>路北区</area>
+            <area>古冶区</area>
+            <area>开平区</area>
+            <area>丰南区</area>
+            <area>丰润区</area>
+            <area>曹妃甸区</area>
+            <area>滦县</area>
+            <area>滦南县</area>
+            <area>乐亭县</area>
+            <area>迁西县</area>
+            <area>玉田县</area>
+            <area>遵化市</area>
+            <area>迁安市</area>
+        </city>
+
+        <city name="秦皇岛市">
+            <area>海港区</area>
+            <area>山海关区</area>
+            <area>北戴河区</area>
+            <area>抚宁区</area>
+            <area>青龙满族自治县</area>
+            <area>昌黎县</area>
+            <area>卢龙县</area>
+        </city>
+
+        <city name="邯郸市">
+            <area>邯山区</area>
+            <area>丛台区</area>
+            <area>复兴区</area>
+            <area>峰峰矿区</area>
+            <area>邯郸县</area>
+            <area>临漳县</area>
+            <area>成安县</area>
+            <area>大名县</area>
+            <area>涉县</area>
+            <area>磁县</area>
+            <area>肥乡县</area>
+            <area>永年县</area>
+            <area>邱县</area>
+            <area>鸡泽县</area>
+            <area>广平县</area>
+            <area>馆陶县</area>
+            <area>魏县</area>
+            <area>曲周县</area>
+            <area>武安市</area>
+        </city>
+
+        <city name="邢台市">
+            <area>桥东区</area>
+            <area>桥西区</area>
+            <area>邢台县</area>
+            <area>临城县</area>
+            <area>内丘县</area>
+            <area>柏乡县</area>
+            <area>隆尧县</area>
+            <area>任县</area>
+            <area>南和县</area>
+            <area>宁晋县</area>
+            <area>巨鹿县</area>
+            <area>新河县</area>
+            <area>广宗县</area>
+            <area>平乡县</area>
+            <area>威县</area>
+            <area>清河县</area>
+            <area>临西县</area>
+            <area>南宫市</area>
+            <area>沙河市</area>
+        </city>
+
+        <city name="保定市">
+            <area>竞秀区</area>
+            <area>莲池区</area>
+            <area>满城区</area>
+            <area>清苑区</area>
+            <area>徐水区</area>
+            <area>涞水县</area>
+            <area>阜平县</area>
+            <area>定兴县</area>
+            <area>唐县</area>
+            <area>高阳县</area>
+            <area>容城县</area>
+            <area>涞源县</area>
+            <area>望都县</area>
+            <area>安新县</area>
+            <area>易县</area>
+            <area>曲阳县</area>
+            <area>蠡县</area>
+            <area>顺平县</area>
+            <area>博野县</area>
+            <area>雄县</area>
+            <area>涿州市</area>
+            <area>定州市</area>
+            <area>安国市</area>
+            <area>高碑店市</area>
+        </city>
+
+        <city name="张家口市">
+            <area>桥东区</area>
+            <area>桥西区</area>
+            <area>宣化区</area>
+            <area>下花园区</area>
+            <area>宣化县</area>
+            <area>张北县</area>
+            <area>康保县</area>
+            <area>沽源县</area>
+            <area>尚义县</area>
+            <area>蔚县</area>
+            <area>阳原县</area>
+            <area>怀安县</area>
+            <area>万全县</area>
+            <area>怀来县</area>
+            <area>涿鹿县</area>
+            <area>赤城县</area>
+            <area>崇礼县</area>
+        </city>
+
+        <city name="承德市">
+            <area>双桥区</area>
+            <area>双滦区</area>
+            <area>鹰手营子矿区</area>
+            <area>承德县</area>
+            <area>兴隆县</area>
+            <area>平泉县</area>
+            <area>滦平县</area>
+            <area>隆化县</area>
+            <area>丰宁满族自治县</area>
+            <area>宽城满族自治县</area>
+            <area>围场满族蒙古族自治县</area>
+        </city>
+
+        <city name="沧州市">
+            <area>新华区</area>
+            <area>运河区</area>
+            <area>沧县</area>
+            <area>青县</area>
+            <area>东光县</area>
+            <area>海兴县</area>
+            <area>盐山县</area>
+            <area>肃宁县</area>
+            <area>南皮县</area>
+            <area>吴桥县</area>
+            <area>献县</area>
+            <area>孟村回族自治县</area>
+            <area>泊头市</area>
+            <area>任丘市</area>
+            <area>黄骅市</area>
+            <area>河间市</area>
+        </city>
+
+        <city name="廊坊市">
+            <area>安次区</area>
+            <area>广阳区</area>
+            <area>固安县</area>
+            <area>永清县</area>
+            <area>香河县</area>
+            <area>大城县</area>
+            <area>文安县</area>
+            <area>大厂回族自治县</area>
+            <area>霸州市</area>
+            <area>三河市</area>
+        </city>
+
+        <city name="衡水市">
+            <area>桃城区</area>
+            <area>枣强县</area>
+            <area>武邑县</area>
+            <area>武强县</area>
+            <area>饶阳县</area>
+            <area>安平县</area>
+            <area>故城县</area>
+            <area>景县</area>
+            <area>阜城县</area>
+            <area>冀州市</area>
+            <area>深州市</area>
+        </city>
+    </province>
+
+    <province name="山西省">
+        <city name="太原市">
+            <area>小店区</area>
+            <area>迎泽区</area>
+            <area>杏花岭区</area>
+            <area>尖草坪区</area>
+            <area>万柏林区</area>
+            <area>晋源区</area>
+            <area>清徐县</area>
+            <area>阳曲县</area>
+            <area>娄烦县</area>
+            <area>古交市</area>
+        </city>
+
+        <city name="大同市">
+            <area>城区</area>
+            <area>矿区</area>
+            <area>南郊区</area>
+            <area>新荣区</area>
+            <area>阳高县</area>
+            <area>天镇县</area>
+            <area>广灵县</area>
+            <area>灵丘县</area>
+            <area>浑源县</area>
+            <area>左云县</area>
+            <area>大同县</area>
+        </city>
+
+        <city name="阳泉市">
+            <area>城区</area>
+            <area>矿区</area>
+            <area>郊区</area>
+            <area>平定县</area>
+            <area>盂县</area>
+        </city>
+
+        <city name="长治市">
+            <area>城区</area>
+            <area>郊区</area>
+            <area>长治县</area>
+            <area>襄垣县</area>
+            <area>屯留县</area>
+            <area>平顺县</area>
+            <area>黎城县</area>
+            <area>壶关县</area>
+            <area>长子县</area>
+            <area>武乡县</area>
+            <area>沁县</area>
+            <area>沁源县</area>
+            <area>潞城市</area>
+        </city>
+
+        <city name="晋城市">
+            <area>城区</area>
+            <area>沁水县</area>
+            <area>阳城县</area>
+            <area>陵川县</area>
+            <area>泽州县</area>
+            <area>高平市</area>
+        </city>
+
+        <city name="朔州市">
+            <area>朔城区</area>
+            <area>平鲁区</area>
+            <area>山阴县</area>
+            <area>应县</area>
+            <area>右玉县</area>
+            <area>怀仁县</area>
+        </city>
+
+        <city name="晋中市">
+            <area>榆次区</area>
+            <area>榆社县</area>
+            <area>左权县</area>
+            <area>和顺县</area>
+            <area>昔阳县</area>
+            <area>寿阳县</area>
+            <area>太谷县</area>
+            <area>祁县</area>
+            <area>平遥县</area>
+            <area>灵石县</area>
+            <area>介休市</area>
+        </city>
+
+        <city name="运城市">
+            <area>盐湖区</area>
+            <area>临猗县</area>
+            <area>万荣县</area>
+            <area>闻喜县</area>
+            <area>稷山县</area>
+            <area>新绛县</area>
+            <area>绛县</area>
+            <area>垣曲县</area>
+            <area>夏县</area>
+            <area>平陆县</area>
+            <area>芮城县</area>
+            <area>永济市</area>
+            <area>河津市</area>
+        </city>
+
+        <city name="忻州市">
+            <area>忻府区</area>
+            <area>定襄县</area>
+            <area>五台县</area>
+            <area>代县</area>
+            <area>繁峙县</area>
+            <area>宁武县</area>
+            <area>静乐县</area>
+            <area>神池县</area>
+            <area>五寨县</area>
+            <area>岢岚县</area>
+            <area>河曲县</area>
+            <area>保德县</area>
+            <area>偏关县</area>
+            <area>原平市</area>
+        </city>
+
+        <city name="临汾市">
+            <area>尧都区</area>
+            <area>曲沃县</area>
+            <area>翼城县</area>
+            <area>襄汾县</area>
+            <area>洪洞县</area>
+            <area>古县</area>
+            <area>安泽县</area>
+            <area>浮山县</area>
+            <area>吉县</area>
+            <area>乡宁县</area>
+            <area>大宁县</area>
+            <area>隰县</area>
+            <area>永和县</area>
+            <area>蒲县</area>
+            <area>汾西县</area>
+            <area>侯马市</area>
+            <area>霍州市</area>
+        </city>
+
+        <city name="吕梁市">
+
+            <area>离石区</area>
+            <area>文水县</area>
+            <area>交城县</area>
+            <area>兴县</area>
+            <area>临县</area>
+            <area>柳林县</area>
+            <area>石楼县</area>
+            <area>岚县</area>
+            <area>方山县</area>
+            <area>中阳县</area>
+            <area>交口县</area>
+            <area>孝义市</area>
+            <area>汾阳市</area>
+        </city>
+    </province>
+
+    <province name="内蒙古自治区">
+        <city name="呼和浩特市">
+            <area>新城区</area>
+            <area>回民区</area>
+            <area>玉泉区</area>
+            <area>赛罕区</area>
+            <area>土默特左旗</area>
+            <area>托克托县</area>
+            <area>和林格尔县</area>
+            <area>清水河县</area>
+            <area>武川县</area>
+        </city>
+
+        <city name="包头市">
+
+            <area>东河区</area>
+            <area>昆都仑区</area>
+            <area>青山区</area>
+            <area>石拐区</area>
+            <area>白云鄂博矿区</area>
+            <area>九原区</area>
+            <area>土默特右旗</area>
+            <area>固阳县</area>
+            <area>达尔罕茂明安联合旗</area>
+        </city>
+
+        <city name="乌海市">
+            <area>海勃湾区</area>
+            <area>海南区</area>
+            <area>乌达区</area>
+        </city>
+
+        <city name="赤峰市">
+            <area>红山区</area>
+            <area>元宝山区</area>
+            <area>松山区</area>
+            <area>阿鲁科尔沁旗</area>
+            <area>巴林左旗</area>
+            <area>巴林右旗</area>
+            <area>林西县</area>
+            <area>克什克腾旗</area>
+            <area>翁牛特旗</area>
+            <area>喀喇沁旗</area>
+            <area>宁城县</area>
+            <area>敖汉旗</area>
+        </city>
+
+        <city name="通辽市">
+
+            <area>科尔沁区</area>
+            <area>科尔沁左翼中旗</area>
+            <area>科尔沁左翼后旗</area>
+            <area>开鲁县</area>
+            <area>库伦旗</area>
+            <area>奈曼旗</area>
+            <area>扎鲁特旗</area>
+            <area>霍林郭勒市</area>
+        </city>
+
+        <city name="鄂尔多斯市">
+
+            <area>东胜区</area>
+            <area>达拉特旗</area>
+            <area>准格尔旗</area>
+            <area>鄂托克前旗</area>
+            <area>鄂托克旗</area>
+            <area>杭锦旗</area>
+            <area>乌审旗</area>
+            <area>伊金霍洛旗</area>
+        </city>
+
+        <city name="呼伦贝尔市">
+
+            <area>海拉尔区</area>
+            <area>扎赉诺尔区</area>
+            <area>阿荣旗</area>
+            <area>莫力达瓦达斡尔族自治旗</area>
+            <area>鄂伦春自治旗</area>
+            <area>鄂温克族自治旗</area>
+            <area>陈巴尔虎旗</area>
+            <area>新巴尔虎左旗</area>
+            <area>新巴尔虎右旗</area>
+            <area>满洲里市</area>
+            <area>牙克石市</area>
+            <area>扎兰屯市</area>
+            <area>额尔古纳市</area>
+            <area>根河市</area>
+        </city>
+
+        <city name="巴彦淖尔市">
+
+            <area>临河区</area>
+            <area>五原县</area>
+            <area>磴口县</area>
+            <area>乌拉特前旗</area>
+            <area>乌拉特中旗</area>
+            <area>乌拉特后旗</area>
+            <area>杭锦后旗</area>
+        </city>
+
+        <city name="乌兰察布市">
+
+            <area>集宁区</area>
+            <area>卓资县</area>
+            <area>化德县</area>
+            <area>商都县</area>
+            <area>兴和县</area>
+            <area>凉城县</area>
+            <area>察哈尔右翼前旗</area>
+            <area>察哈尔右翼中旗</area>
+            <area>察哈尔右翼后旗</area>
+            <area>四子王旗</area>
+            <area>丰镇市</area>
+        </city>
+
+        <city name="兴安盟">
+
+            <area>乌兰浩特市</area>
+            <area>阿尔山市</area>
+            <area>科尔沁右翼前旗</area>
+            <area>科尔沁右翼中旗</area>
+            <area>扎赉特旗</area>
+            <area>突泉县</area>
+        </city>
+
+        <city name="锡林郭勒盟">
+
+            <area>二连浩特市</area>
+            <area>锡林浩特市</area>
+            <area>阿巴嘎旗</area>
+            <area>苏尼特左旗</area>
+            <area>苏尼特右旗</area>
+            <area>东乌珠穆沁旗</area>
+            <area>西乌珠穆沁旗</area>
+            <area>太仆寺旗</area>
+            <area>镶黄旗</area>
+            <area>正镶白旗</area>
+            <area>正蓝旗</area>
+            <area>多伦县</area>
+        </city>
+
+        <city name="阿拉善盟">
+
+            <area>阿拉善左旗</area>
+            <area>阿拉善右旗</area>
+            <area>额济纳旗</area>
+        </city>
+    </province>
+
+    <province name="辽宁省">
+
+
+        <city name="沈阳市">
+
+            <area>和平区</area>
+            <area>沈河区</area>
+            <area>大东区</area>
+            <area>皇姑区</area>
+            <area>铁西区</area>
+            <area>苏家屯区</area>
+            <area>东陵区</area>
+            <area>沈北新区</area>
+            <area>于洪区</area>
+            <area>辽中县</area>
+            <area>康平县</area>
+            <area>法库县</area>
+            <area>新民市</area>
+        </city>
+
+        <city name="大连市">
+
+            <area>中山区</area>
+            <area>西岗区</area>
+            <area>沙河口区</area>
+            <area>甘井子区</area>
+            <area>旅顺口区</area>
+            <area>金州区</area>
+            <area>长海县</area>
+            <area>瓦房店市</area>
+            <area>普兰店市</area>
+            <area>庄河市</area>
+        </city>
+
+        <city name="鞍山市">
+
+            <area>铁东区</area>
+            <area>铁西区</area>
+            <area>立山区</area>
+            <area>千山区</area>
+            <area>台安县</area>
+            <area>岫岩满族自治县</area>
+            <area>海城市</area>
+        </city>
+
+        <city name="抚顺市">
+
+            <area>新抚区</area>
+            <area>东洲区</area>
+            <area>望花区</area>
+            <area>顺城区</area>
+            <area>抚顺县</area>
+            <area>新宾满族自治县</area>
+            <area>清原满族自治县</area>
+        </city>
+
+        <city name="本溪市">
+
+            <area>平山区</area>
+            <area>溪湖区</area>
+            <area>明山区</area>
+            <area>南芬区</area>
+            <area>本溪满族自治县</area>
+            <area>桓仁满族自治县</area>
+        </city>
+
+        <city name="丹东市">
+
+            <area>元宝区</area>
+            <area>振兴区</area>
+            <area>振安区</area>
+            <area>宽甸满族自治县</area>
+            <area>东港市</area>
+            <area>凤城市</area>
+        </city>
+
+        <city name="锦州市">
+
+            <area>古塔区</area>
+            <area>凌河区</area>
+            <area>太和区</area>
+            <area>黑山县</area>
+            <area>义县</area>
+            <area>凌海市</area>
+            <area>北镇市</area>
+        </city>
+
+        <city name="营口市">
+
+            <area>站前区</area>
+            <area>西市区</area>
+            <area>鲅鱼圈区</area>
+            <area>老边区</area>
+            <area>盖州市</area>
+            <area>大石桥市</area>
+        </city>
+
+        <city name="阜新市">
+
+            <area>海州区</area>
+            <area>新邱区</area>
+            <area>太平区</area>
+            <area>清河门区</area>
+            <area>细河区</area>
+            <area>阜新蒙古族自治县</area>
+            <area>彰武县</area>
+        </city>
+
+        <city name="辽阳市">
+
+            <area>白塔区</area>
+            <area>文圣区</area>
+            <area>宏伟区</area>
+            <area>弓长岭区</area>
+            <area>太子河区</area>
+            <area>辽阳县</area>
+            <area>灯塔市</area>
+        </city>
+
+        <city name="盘锦市">
+
+            <area>双台子区</area>
+            <area>兴隆台区</area>
+            <area>大洼县</area>
+            <area>盘山县</area>
+        </city>
+
+        <city name="铁岭市">
+
+            <area>银州区</area>
+            <area>清河区</area>
+            <area>铁岭县</area>
+            <area>西丰县</area>
+            <area>昌图县</area>
+            <area>调兵山市</area>
+            <area>开原市</area>
+        </city>
+
+        <city name="朝阳市">
+
+            <area>双塔区</area>
+            <area>龙城区</area>
+            <area>朝阳县</area>
+            <area>建平县</area>
+            <area>喀喇沁左翼蒙古族自治县</area>
+            <area>北票市</area>
+            <area>凌源市</area>
+        </city>
+
+        <city name="葫芦岛市">
+
+            <area>连山区</area>
+            <area>龙港区</area>
+            <area>南票区</area>
+            <area>绥中县</area>
+            <area>建昌县</area>
+            <area>兴城市</area>
+        </city>
+    </province>
+
+    <province name="吉林省">
+
+
+        <city name="长春市">
+
+            <area>南关区</area>
+            <area>宽城区</area>
+            <area>朝阳区</area>
+            <area>二道区</area>
+            <area>绿园区</area>
+            <area>双阳区</area>
+            <area>农安县</area>
+            <area>九台区</area>
+            <area>榆树市</area>
+            <area>德惠市</area>
+        </city>
+
+        <city name="吉林市">
+
+            <area>昌邑区</area>
+            <area>龙潭区</area>
+            <area>船营区</area>
+            <area>丰满区</area>
+            <area>永吉县</area>
+            <area>蛟河市</area>
+            <area>桦甸市</area>
+            <area>舒兰市</area>
+            <area>磐石市</area>
+        </city>
+
+        <city name="四平市">
+
+            <area>铁西区</area>
+            <area>铁东区</area>
+            <area>梨树县</area>
+            <area>伊通满族自治县</area>
+            <area>公主岭市</area>
+            <area>双辽市</area>
+        </city>
+
+        <city name="辽源市">
+
+            <area>龙山区</area>
+            <area>西安区</area>
+            <area>东丰县</area>
+            <area>东辽县</area>
+        </city>
+
+        <city name="通化市">
+
+            <area>东昌区</area>
+            <area>二道江区</area>
+            <area>通化县</area>
+            <area>辉南县</area>
+            <area>柳河县</area>
+            <area>梅河口市</area>
+            <area>集安市</area>
+        </city>
+
+        <city name="白山市">
+
+            <area>浑江区</area>
+            <area>江源区</area>
+            <area>抚松县</area>
+            <area>靖宇县</area>
+            <area>长白朝鲜族自治县</area>
+            <area>临江市</area>
+        </city>
+
+        <city name="松原市">
+
+            <area>宁江区</area>
+            <area>前郭尔罗斯蒙古族自治县</area>
+            <area>长岭县</area>
+            <area>乾安县</area>
+            <area>扶余县</area>
+        </city>
+
+        <city name="白城市">
+
+            <area>洮北区</area>
+            <area>镇赉县</area>
+            <area>通榆县</area>
+            <area>洮南市</area>
+            <area>大安市</area>
+        </city>
+
+        <city name="延边朝鲜族自治州">
+
+            <area>延吉市</area>
+            <area>图们市</area>
+            <area>敦化市</area>
+            <area>珲春市</area>
+            <area>龙井市</area>
+            <area>和龙市</area>
+            <area>汪清县</area>
+            <area>安图县</area>
+        </city>
+    </province>
+
+    <province name="黑龙江省">
+
+
+        <city name="哈尔滨市">
+
+            <area>道里区</area>
+            <area>南岗区</area>
+            <area>道外区</area>
+            <area>平房区</area>
+            <area>松北区</area>
+            <area>香坊区</area>
+            <area>呼兰区</area>
+            <area>阿城区</area>
+            <area>依兰县</area>
+            <area>方正县</area>
+            <area>宾县</area>
+            <area>巴彦县</area>
+            <area>木兰县</area>
+            <area>通河县</area>
+            <area>延寿县</area>
+            <area>双城市</area>
+            <area>尚志市</area>
+            <area>五常市</area>
+        </city>
+
+        <city name="齐齐哈尔市">
+
+            <area>龙沙区</area>
+            <area>建华区</area>
+            <area>铁锋区</area>
+            <area>昂昂溪区</area>
+            <area>富拉尔基区</area>
+            <area>碾子山区</area>
+            <area>梅里斯达斡尔族区</area>
+            <area>龙江县</area>
+            <area>依安县</area>
+            <area>泰来县</area>
+            <area>甘南县</area>
+            <area>富裕县</area>
+            <area>克山县</area>
+            <area>克东县</area>
+            <area>拜泉县</area>
+            <area>讷河市</area>
+        </city>
+
+        <city name="鸡西市">
+
+            <area>鸡冠区</area>
+            <area>恒山区</area>
+            <area>滴道区</area>
+            <area>梨树区</area>
+            <area>城子河区</area>
+            <area>麻山区</area>
+            <area>鸡东县</area>
+            <area>虎林市</area>
+            <area>密山市</area>
+        </city>
+
+        <city name="鹤岗市">
+
+            <area>向阳区</area>
+            <area>工农区</area>
+            <area>南山区</area>
+            <area>兴安区</area>
+            <area>东山区</area>
+            <area>兴山区</area>
+            <area>萝北县</area>
+            <area>绥滨县</area>
+        </city>
+
+        <city name="双鸭山市">
+
+            <area>尖山区</area>
+            <area>岭东区</area>
+            <area>四方台区</area>
+            <area>宝山区</area>
+            <area>集贤县</area>
+            <area>友谊县</area>
+            <area>宝清县</area>
+            <area>饶河县</area>
+        </city>
+
+        <city name="大庆市">
+
+            <area>萨尔图区</area>
+            <area>龙凤区</area>
+            <area>让胡路区</area>
+            <area>红岗区</area>
+            <area>大同区</area>
+            <area>肇州县</area>
+            <area>肇源县</area>
+            <area>林甸县</area>
+            <area>杜尔伯特蒙古族自治县</area>
+        </city>
+
+        <city name="伊春市">
+
+            <area>伊春区</area>
+            <area>南岔区</area>
+            <area>友好区</area>
+            <area>西林区</area>
+            <area>翠峦区</area>
+            <area>新青区</area>
+            <area>美溪区</area>
+            <area>金山屯区</area>
+            <area>五营区</area>
+            <area>乌马河区</area>
+            <area>汤旺河区</area>
+            <area>带岭区</area>
+            <area>乌伊岭区</area>
+            <area>红星区</area>
+            <area>上甘岭区</area>
+            <area>嘉荫县</area>
+            <area>铁力市</area>
+        </city>
+
+        <city name="佳木斯市">
+
+            <area>向阳区</area>
+            <area>前进区</area>
+            <area>东风区</area>
+            <area>郊区</area>
+            <area>桦南县</area>
+            <area>桦川县</area>
+            <area>汤原县</area>
+            <area>抚远县</area>
+            <area>同江市</area>
+            <area>富锦市</area>
+        </city>
+
+        <city name="七台河市">
+
+            <area>新兴区</area>
+            <area>桃山区</area>
+            <area>茄子河区</area>
+            <area>勃利县</area>
+        </city>
+
+        <city name="牡丹江市">
+
+            <area>东安区</area>
+            <area>阳明区</area>
+            <area>爱民区</area>
+            <area>西安区</area>
+            <area>东宁县</area>
+            <area>林口县</area>
+            <area>绥芬河市</area>
+            <area>海林市</area>
+            <area>宁安市</area>
+            <area>穆棱市</area>
+        </city>
+
+        <city name="黑河市">
+
+            <area>爱辉区</area>
+            <area>嫩江县</area>
+            <area>逊克县</area>
+            <area>孙吴县</area>
+            <area>北安市</area>
+            <area>五大连池市</area>
+        </city>
+
+        <city name="绥化市">
+
+            <area>北林区</area>
+            <area>望奎县</area>
+            <area>兰西县</area>
+            <area>青冈县</area>
+            <area>庆安县</area>
+            <area>明水县</area>
+            <area>绥棱县</area>
+            <area>安达市</area>
+            <area>肇东市</area>
+            <area>海伦市</area>
+        </city>
+
+        <city name="大兴安岭地区">
+
+            <area>加格达奇区</area>
+            <area>松岭区</area>
+            <area>新林区</area>
+            <area>呼中区</area>
+            <area>呼玛县</area>
+            <area>塔河县</area>
+            <area>漠河县</area>
+        </city>
+    </province>
+
+    <province name="江苏省">
+
+
+        <city name="南京市">
+
+            <area>玄武区</area>
+            <area>白下区</area>
+            <area>秦淮区</area>
+            <area>建邺区</area>
+            <area>鼓楼区</area>
+            <area>下关区</area>
+            <area>浦口区</area>
+            <area>栖霞区</area>
+            <area>雨花台区</area>
+            <area>江宁区</area>
+            <area>六合区</area>
+            <area>溧水县</area>
+            <area>高淳县</area>
+        </city>
+
+        <city name="无锡市">
+
+            <area>崇安区</area>
+            <area>南长区</area>
+            <area>北塘区</area>
+            <area>锡山区</area>
+            <area>惠山区</area>
+            <area>滨湖区</area>
+            <area>江阴市</area>
+            <area>宜兴市</area>
+        </city>
+
+        <city name="徐州市">
+
+            <area>鼓楼区</area>
+            <area>云龙区</area>
+            <area>九里区</area>
+            <area>贾汪区</area>
+            <area>泉山区</area>
+            <area>丰县</area>
+            <area>沛县</area>
+            <area>铜山县</area>
+            <area>睢宁县</area>
+            <area>新沂市</area>
+            <area>邳州市</area>
+        </city>
+
+        <city name="常州市">
+
+            <area>天宁区</area>
+            <area>钟楼区</area>
+            <area>戚墅堰区</area>
+            <area>新北区</area>
+            <area>武进区</area>
+            <area>溧阳市</area>
+            <area>金坛市</area>
+        </city>
+
+        <city name="苏州市">
+
+            <area>沧浪区</area>
+            <area>平江区</area>
+            <area>金阊区</area>
+            <area>虎丘区</area>
+            <area>吴中区</area>
+            <area>相城区</area>
+            <area>常熟市</area>
+            <area>张家港市</area>
+            <area>昆山市</area>
+            <area>吴江市</area>
+            <area>太仓市</area>
+        </city>
+
+        <city name="南通市">
+
+            <area>崇川区</area>
+            <area>港闸区</area>
+            <area>海安县</area>
+            <area>如东县</area>
+            <area>启东市</area>
+            <area>如皋市</area>
+            <area>通州市</area>
+            <area>海门市</area>
+
+        </city>
+        <city name="连云港市">
+
+            <area>连云区</area>
+            <area>新浦区</area>
+            <area>海州区</area>
+            <area>赣榆县</area>
+            <area>东海县</area>
+            <area>灌云县</area>
+            <area>灌南县</area>
+        </city>
+
+        <city name="淮安市">
+
+            <area>清河区</area>
+            <area>楚州区</area>
+            <area>淮阴区</area>
+            <area>清浦区</area>
+            <area>涟水县</area>
+            <area>洪泽县</area>
+            <area>盱眙县</area>
+            <area>金湖县</area>
+        </city>
+
+        <city name="盐城市">
+
+            <area>亭湖区</area>
+            <area>盐都区</area>
+            <area>响水县</area>
+            <area>滨海县</area>
+            <area>阜宁县</area>
+            <area>射阳县</area>
+            <area>建湖县</area>
+            <area>东台市</area>
+            <area>大丰市</area>
+        </city>
+
+        <city name="扬州市">
+
+            <area>广陵区</area>
+            <area>邗江区</area>
+            <area>维扬区</area>
+            <area>宝应县</area>
+            <area>仪征市</area>
+            <area>高邮市</area>
+            <area>江都市</area>
+        </city>
+
+        <city name="镇江市">
+
+            <area>京口区</area>
+            <area>润州区</area>
+            <area>丹徒区</area>
+            <area>丹阳市</area>
+            <area>扬中市</area>
+            <area>句容市</area>
+        </city>
+
+        <city name="泰州市">
+
+            <area>海陵区</area>
+            <area>高港区</area>
+            <area>兴化市</area>
+            <area>靖江市</area>
+            <area>泰兴市</area>
+            <area>姜堰市</area>
+        </city>
+
+        <city name="宿迁市">
+
+            <area>宿城区</area>
+            <area>宿豫区</area>
+            <area>沭阳县</area>
+            <area>泗阳县</area>
+            <area>泗洪县</area>
+        </city>
+    </province>
+
+    <province name="浙江省">
+
+
+        <city name="杭州市">
+
+            <area>上城区</area>
+            <area>下城区</area>
+            <area>江干区</area>
+            <area>拱墅区</area>
+            <area>西湖区</area>
+            <area>滨江区</area>
+            <area>萧山区</area>
+            <area>余杭区</area>
+            <area>桐庐县</area>
+            <area>淳安县</area>
+            <area>建德市</area>
+            <area>富阳市</area>
+            <area>临安市</area>
+        </city>
+
+        <city name="宁波市">
+
+            <area>海曙区</area>
+            <area>江东区</area>
+            <area>江北区</area>
+            <area>北仑区</area>
+            <area>镇海区</area>
+            <area>鄞州区</area>
+            <area>象山县</area>
+            <area>宁海县</area>
+            <area>余姚市</area>
+            <area>慈溪市</area>
+            <area>奉化市</area>
+        </city>
+
+        <city name="温州市">
+
+            <area>鹿城区</area>
+            <area>龙湾区</area>
+            <area>瓯海区</area>
+            <area>洞头县</area>
+            <area>永嘉县</area>
+            <area>平阳县</area>
+            <area>苍南县</area>
+            <area>文成县</area>
+            <area>泰顺县</area>
+            <area>瑞安市</area>
+            <area>乐清市</area>
+        </city>
+
+        <city name="嘉兴市">
+
+            <area>南湖区</area>
+            <area>秀洲区</area>
+            <area>嘉善县</area>
+            <area>海盐县</area>
+            <area>海宁市</area>
+            <area>平湖市</area>
+            <area>桐乡市</area>
+        </city>
+
+        <city name="湖州市">
+
+            <area>吴兴区</area>
+            <area>南浔区</area>
+            <area>德清县</area>
+            <area>长兴县</area>
+            <area>安吉县</area>
+        </city>
+
+        <city name="绍兴市">
+
+            <area>越城区</area>
+            <area>绍兴县</area>
+            <area>新昌县</area>
+            <area>诸暨市</area>
+            <area>上虞市</area>
+            <area>嵊州市</area>
+        </city>
+
+        <city name="金华市">
+
+            <area>婺城区</area>
+            <area>金东区</area>
+            <area>武义县</area>
+            <area>浦江县</area>
+            <area>磐安县</area>
+            <area>兰溪市</area>
+            <area>义乌市</area>
+            <area>东阳市</area>
+            <area>永康市</area>
+        </city>
+
+        <city name="衢州市">
+
+            <area>柯城区</area>
+            <area>衢江区</area>
+            <area>常山县</area>
+            <area>开化县</area>
+            <area>龙游县</area>
+            <area>江山市</area>
+        </city>
+
+        <city name="舟山市">
+
+            <area>定海区</area>
+            <area>普陀区</area>
+            <area>岱山县</area>
+            <area>嵊泗县</area>
+        </city>
+
+        <city name="台州市">
+
+            <area>椒江区</area>
+            <area>黄岩区</area>
+            <area>路桥区</area>
+            <area>玉环县</area>
+            <area>三门县</area>
+            <area>天台县</area>
+            <area>仙居县</area>
+            <area>温岭市</area>
+            <area>临海市</area>
+        </city>
+
+        <city name="丽水市">
+
+            <area>莲都区</area>
+            <area>青田县</area>
+            <area>缙云县</area>
+            <area>遂昌县</area>
+            <area>松阳县</area>
+            <area>云和县</area>
+            <area>庆元县</area>
+            <area>景宁畲族自治县</area>
+            <area>龙泉市</area>
+        </city>
+    </province>
+
+    <province name="安徽省">
+
+
+        <city name="合肥市">
+
+            <area>瑶海区</area>
+            <area>庐阳区</area>
+            <area>蜀山区</area>
+            <area>包河区</area>
+            <area>长丰县</area>
+            <area>肥东县</area>
+            <area>肥西县</area>
+            <area>巢湖市</area>
+
+        </city>
+
+        <city name="芜湖市">
+
+            <area>镜湖区</area>
+            <area>弋江区</area>
+            <area>鸠江区</area>
+            <area>三山区</area>
+            <area>芜湖县</area>
+            <area>繁昌县</area>
+            <area>南陵县</area>
+        </city>
+
+        <city name="蚌埠市">
+
+            <area>龙子湖区</area>
+            <area>蚌山区</area>
+            <area>禹会区</area>
+            <area>淮上区</area>
+            <area>怀远县</area>
+            <area>五河县</area>
+            <area>固镇县</area>
+        </city>
+
+        <city name="淮南市">
+
+            <area>大通区</area>
+            <area>田家庵区</area>
+            <area>谢家集区</area>
+            <area>八公山区</area>
+            <area>潘集区</area>
+            <area>凤台县</area>
+        </city>
+
+        <city name="马鞍山市">
+
+            <area>金家庄区</area>
+            <area>花山区</area>
+            <area>雨山区</area>
+            <area>当涂县</area>
+        </city>
+
+        <city name="淮北市">
+
+            <area>杜集区</area>
+            <area>相山区</area>
+            <area>烈山区</area>
+            <area>濉溪县</area>
+        </city>
+
+        <city name="铜陵市">
+
+            <area>铜官山区</area>
+            <area>狮子山区</area>
+            <area>郊区</area>
+            <area>铜陵县</area>
+        </city>
+
+        <city name="安庆市">
+
+            <area>迎江区</area>
+            <area>大观区</area>
+            <area>宜秀区</area>
+            <area>怀宁县</area>
+            <area>枞阳县</area>
+            <area>潜山县</area>
+            <area>太湖县</area>
+            <area>宿松县</area>
+            <area>望江县</area>
+            <area>岳西县</area>
+            <area>桐城市</area>
+        </city>
+
+        <city name="黄山市">
+
+            <area>屯溪区</area>
+            <area>黄山区</area>
+            <area>徽州区</area>
+            <area>歙县</area>
+            <area>休宁县</area>
+            <area>黟县</area>
+            <area>祁门县</area>
+        </city>
+
+        <city name="滁州市">
+
+            <area>琅琊区</area>
+            <area>南谯区</area>
+            <area>来安县</area>
+            <area>全椒县</area>
+            <area>定远县</area>
+            <area>凤阳县</area>
+            <area>天长市</area>
+            <area>明光市</area>
+        </city>
+
+        <city name="阜阳市">
+
+            <area>颍州区</area>
+            <area>颍东区</area>
+            <area>颍泉区</area>
+            <area>临泉县</area>
+            <area>太和县</area>
+            <area>阜南县</area>
+            <area>颍上县</area>
+            <area>界首市</area>
+        </city>
+
+        <city name="宿州市">
+
+            <area>埇桥区</area>
+            <area>砀山县</area>
+            <area>萧县</area>
+            <area>灵璧县</area>
+            <area>泗县</area>
+        </city>
+
+
+
+        <city name="六安市">
+
+            <area>金安区</area>
+            <area>裕安区</area>
+            <area>寿县</area>
+            <area>霍邱县</area>
+            <area>舒城县</area>
+            <area>金寨县</area>
+            <area>霍山县</area>
+        </city>
+
+        <city name="亳州市">
+
+            <area>谯城区</area>
+            <area>涡阳县</area>
+            <area>蒙城县</area>
+            <area>利辛县</area>
+        </city>
+
+        <city name="池州市">
+
+            <area>贵池区</area>
+            <area>东至县</area>
+            <area>石台县</area>
+            <area>青阳县</area>
+        </city>
+
+        <city name="宣城市">
+
+            <area>宣州区</area>
+            <area>郎溪县</area>
+            <area>广德县</area>
+            <area>泾县</area>
+            <area>绩溪县</area>
+            <area>旌德县</area>
+            <area>宁国市</area>
+        </city>
+    </province>
+
+    <province name="福建省">
+
+
+        <city name="福州市">
+
+            <area>鼓楼区</area>
+            <area>台江区</area>
+            <area>仓山区</area>
+            <area>马尾区</area>
+            <area>晋安区</area>
+            <area>闽侯县</area>
+            <area>连江县</area>
+            <area>罗源县</area>
+            <area>闽清县</area>
+            <area>永泰县</area>
+            <area>平潭县</area>
+            <area>福清市</area>
+            <area>长乐市</area>
+        </city>
+
+        <city name="厦门市">
+
+            <area>思明区</area>
+            <area>海沧区</area>
+            <area>湖里区</area>
+            <area>集美区</area>
+            <area>同安区</area>
+            <area>翔安区</area>
+        </city>
+
+        <city name="莆田市">
+
+            <area>城厢区</area>
+            <area>涵江区</area>
+            <area>荔城区</area>
+            <area>秀屿区</area>
+            <area>仙游县</area>
+        </city>
+
+        <city name="三明市">
+
+            <area>梅列区</area>
+            <area>三元区</area>
+            <area>明溪县</area>
+            <area>清流县</area>
+            <area>宁化县</area>
+            <area>大田县</area>
+            <area>尤溪县</area>
+            <area>沙县</area>
+            <area>将乐县</area>
+            <area>泰宁县</area>
+            <area>建宁县</area>
+            <area>永安市</area>
+        </city>
+
+        <city name="泉州市">
+
+            <area>鲤城区</area>
+            <area>丰泽区</area>
+            <area>洛江区</area>
+            <area>泉港区</area>
+            <area>惠安县</area>
+            <area>安溪县</area>
+            <area>永春县</area>
+            <area>德化县</area>
+            <area>金门县</area>
+            <area>石狮市</area>
+            <area>晋江市</area>
+            <area>南安市</area>
+        </city>
+
+        <city name="漳州市">
+
+            <area>芗城区</area>
+            <area>龙文区</area>
+            <area>云霄县</area>
+            <area>漳浦县</area>
+            <area>诏安县</area>
+            <area>长泰县</area>
+            <area>东山县</area>
+            <area>南靖县</area>
+            <area>平和县</area>
+            <area>华安县</area>
+            <area>龙海市</area>
+        </city>
+
+        <city name="南平市">
+
+            <area>延平区</area>
+            <area>顺昌县</area>
+            <area>浦城县</area>
+            <area>光泽县</area>
+            <area>松溪县</area>
+            <area>政和县</area>
+            <area>邵武市</area>
+            <area>武夷山市</area>
+            <area>建瓯市</area>
+            <area>建阳市</area>
+        </city>
+
+        <city name="龙岩市">
+
+            <area>新罗区</area>
+            <area>长汀县</area>
+            <area>永定县</area>
+            <area>上杭县</area>
+            <area>武平县</area>
+            <area>连城县</area>
+            <area>漳平市</area>
+        </city>
+
+        <city name="宁德市">
+
+            <area>蕉城区</area>
+            <area>霞浦县</area>
+            <area>古田县</area>
+            <area>屏南县</area>
+            <area>寿宁县</area>
+            <area>周宁县</area>
+            <area>柘荣县</area>
+            <area>福安市</area>
+            <area>福鼎市</area>
+        </city>
+    </province>
+
+    <province name="江西省">
+
+
+        <city name="南昌市">
+
+            <area>东湖区</area>
+            <area>西湖区</area>
+            <area>青云谱区</area>
+            <area>湾里区</area>
+            <area>青山湖区</area>
+            <area>南昌县</area>
+            <area>新建县</area>
+            <area>安义县</area>
+            <area>进贤县</area>
+        </city>
+
+        <city name="景德镇市">
+
+            <area>昌江区</area>
+            <area>珠山区</area>
+            <area>浮梁县</area>
+            <area>乐平市</area>
+        </city>
+
+        <city name="萍乡市">
+
+            <area>安源区</area>
+            <area>湘东区</area>
+            <area>莲花县</area>
+            <area>上栗县</area>
+            <area>芦溪县</area>
+        </city>
+
+        <city name="九江市">
+
+            <area>庐山区</area>
+            <area>浔阳区</area>
+            <area>九江县</area>
+            <area>武宁县</area>
+            <area>修水县</area>
+            <area>永修县</area>
+            <area>德安县</area>
+            <area>星子县</area>
+            <area>都昌县</area>
+            <area>湖口县</area>
+            <area>彭泽县</area>
+            <area>瑞昌市</area>
+        </city>
+
+        <city name="新余市">
+
+            <area>渝水区</area>
+            <area>分宜县</area>
+        </city>
+
+        <city name="鹰潭市">
+
+            <area>月湖区</area>
+            <area>余江县</area>
+            <area>贵溪市</area>
+        </city>
+
+        <city name="赣州市">
+
+            <area>章贡区</area>
+            <area>赣县</area>
+            <area>信丰县</area>
+            <area>大余县</area>
+            <area>上犹县</area>
+            <area>崇义县</area>
+            <area>安远县</area>
+            <area>龙南县</area>
+            <area>定南县</area>
+            <area>全南县</area>
+            <area>宁都县</area>
+            <area>于都县</area>
+            <area>兴国县</area>
+            <area>会昌县</area>
+            <area>寻乌县</area>
+            <area>石城县</area>
+            <area>瑞金市</area>
+            <area>南康市</area>
+        </city>
+
+        <city name="吉安市">
+
+            <area>吉州区</area>
+            <area>青原区</area>
+            <area>吉安县</area>
+            <area>吉水县</area>
+            <area>峡江县</area>
+            <area>新干县</area>
+            <area>永丰县</area>
+            <area>泰和县</area>
+            <area>遂川县</area>
+            <area>万安县</area>
+            <area>安福县</area>
+            <area>永新县</area>
+            <area>井冈山市</area>
+        </city>
+
+        <city name="宜春市">
+
+            <area>袁州区</area>
+            <area>奉新县</area>
+            <area>万载县</area>
+            <area>上高县</area>
+            <area>宜丰县</area>
+            <area>靖安县</area>
+            <area>铜鼓县</area>
+            <area>丰城市</area>
+            <area>樟树市</area>
+            <area>高安市</area>
+        </city>
+
+        <city name="抚州市">
+
+            <area>临川区</area>
+            <area>南城县</area>
+            <area>黎川县</area>
+            <area>南丰县</area>
+            <area>崇仁县</area>
+            <area>乐安县</area>
+            <area>宜黄县</area>
+            <area>金溪县</area>
+            <area>资溪县</area>
+            <area>东乡县</area>
+            <area>广昌县</area>
+        </city>
+
+        <city name="上饶市">
+
+            <area>信州区</area>
+            <area>上饶县</area>
+            <area>广丰县</area>
+            <area>玉山县</area>
+            <area>铅山县</area>
+            <area>横峰县</area>
+            <area>弋阳县</area>
+            <area>余干县</area>
+            <area>鄱阳县</area>
+            <area>万年县</area>
+            <area>婺源县</area>
+            <area>德兴市</area>
+        </city>
+    </province>
+
+    <province name="山东省">
+
+
+        <city name="济南市">
+
+            <area>历下区</area>
+            <area>市中区</area>
+            <area>槐荫区</area>
+            <area>天桥区</area>
+            <area>历城区</area>
+            <area>长清区</area>
+            <area>平阴县</area>
+            <area>济阳县</area>
+            <area>商河县</area>
+            <area>章丘市</area>
+        </city>
+
+        <city name="青岛市">
+
+            <area>市南区</area>
+            <area>市北区</area>
+            <area>四方区</area>
+            <area>黄岛区</area>
+            <area>崂山区</area>
+            <area>李沧区</area>
+            <area>城阳区</area>
+            <area>胶州市</area>
+            <area>即墨市</area>
+            <area>平度市</area>
+            <area>胶南市</area>
+            <area>莱西市</area>
+        </city>
+
+        <city name="淄博市">
+
+            <area>淄川区</area>
+            <area>张店区</area>
+            <area>博山区</area>
+            <area>临淄区</area>
+            <area>周村区</area>
+            <area>桓台县</area>
+            <area>高青县</area>
+            <area>沂源县</area>
+        </city>
+
+        <city name="枣庄市">
+
+            <area>市中区</area>
+            <area>薛城区</area>
+            <area>峄城区</area>
+            <area>台儿庄区</area>
+            <area>山亭区</area>
+            <area>滕州市</area>
+        </city>
+
+        <city name="东营市">
+
+            <area>东营区</area>
+            <area>河口区</area>
+            <area>垦利县</area>
+            <area>利津县</area>
+            <area>广饶县</area>
+        </city>
+
+        <city name="烟台市">
+
+            <area>芝罘区</area>
+            <area>福山区</area>
+            <area>牟平区</area>
+            <area>莱山区</area>
+            <area>长岛县</area>
+            <area>龙口市</area>
+            <area>莱阳市</area>
+            <area>莱州市</area>
+            <area>蓬莱市</area>
+            <area>招远市</area>
+            <area>栖霞市</area>
+            <area>海阳市</area>
+        </city>
+
+        <city name="潍坊市">
+
+            <area>潍城区</area>
+            <area>寒亭区</area>
+            <area>坊子区</area>
+            <area>奎文区</area>
+            <area>临朐县</area>
+            <area>昌乐县</area>
+            <area>青州市</area>
+            <area>诸城市</area>
+            <area>寿光市</area>
+            <area>安丘市</area>
+            <area>高密市</area>
+            <area>昌邑市</area>
+        </city>
+
+        <city name="济宁市">
+
+            <area>市中区</area>
+            <area>任城区</area>
+            <area>微山县</area>
+            <area>鱼台县</area>
+            <area>金乡县</area>
+            <area>嘉祥县</area>
+            <area>汶上县</area>
+            <area>泗水县</area>
+            <area>梁山县</area>
+            <area>曲阜市</area>
+            <area>兖州市</area>
+            <area>邹城市</area>
+        </city>
+
+        <city name="泰安市">
+
+            <area>泰山区</area>
+            <area>岱岳区</area>
+            <area>宁阳县</area>
+            <area>东平县</area>
+            <area>新泰市</area>
+            <area>肥城市</area>
+        </city>
+
+        <city name="威海市">
+
+            <area>环翠区</area>
+            <area>文登市</area>
+            <area>荣成市</area>
+            <area>乳山市</area>
+        </city>
+
+        <city name="日照市">
+
+            <area>东港区</area>
+            <area>岚山区</area>
+            <area>五莲县</area>
+            <area>莒县</area>
+        </city>
+
+        <city name="莱芜市">
+
+            <area>莱城区</area>
+            <area>钢城区</area>
+        </city>
+
+        <city name="临沂市">
+
+            <area>兰山区</area>
+            <area>罗庄区</area>
+            <area>河东区</area>
+            <area>沂南县</area>
+            <area>郯城县</area>
+            <area>沂水县</area>
+            <area>苍山县</area>
+            <area>费县</area>
+            <area>平邑县</area>
+            <area>莒南县</area>
+            <area>蒙阴县</area>
+            <area>临沭县</area>
+        </city>
+
+        <city name="德州市">
+
+            <area>德城区</area>
+            <area>陵县</area>
+            <area>宁津县</area>
+            <area>庆云县</area>
+            <area>临邑县</area>
+            <area>齐河县</area>
+            <area>平原县</area>
+            <area>夏津县</area>
+            <area>武城县</area>
+            <area>乐陵市</area>
+            <area>禹城市</area>
+        </city>
+
+        <city name="聊城市">
+
+            <area>东昌府区</area>
+            <area>阳谷县</area>
+            <area>莘县</area>
+            <area>茌平县</area>
+            <area>东阿县</area>
+            <area>冠县</area>
+            <area>高唐县</area>
+            <area>临清市</area>
+        </city>
+
+        <city name="滨州市">
+
+            <area>滨城区</area>
+            <area>惠民县</area>
+            <area>阳信县</area>
+            <area>无棣县</area>
+            <area>沾化县</area>
+            <area>博兴县</area>
+            <area>邹平县</area>
+        </city>
+
+        <city name="菏泽市">
+
+            <area>牡丹区</area>
+            <area>曹县</area>
+            <area>单县</area>
+            <area>成武县</area>
+            <area>巨野县</area>
+            <area>郓城县</area>
+            <area>鄄城县</area>
+            <area>定陶县</area>
+            <area>东明县</area>
+        </city>
+    </province>
+
+    <province name="河南省">
+
+
+        <city name="郑州市">
+
+            <area>中原区</area>
+            <area>二七区</area>
+            <area>管城回族区</area>
+            <area>金水区</area>
+            <area>上街区</area>
+            <area>惠济区</area>
+            <area>中牟县</area>
+            <area>巩义市</area>
+            <area>荥阳市</area>
+            <area>新密市</area>
+            <area>新郑市</area>
+            <area>登封市</area>
+        </city>
+
+        <city name="开封市">
+
+            <area>龙亭区</area>
+            <area>顺河回族区</area>
+            <area>鼓楼区</area>
+            <area>禹王台区</area>
+            <area>金明区</area>
+            <area>杞县</area>
+            <area>通许县</area>
+            <area>尉氏县</area>
+            <area>开封县</area>
+            <area>兰考县</area>
+        </city>
+
+        <city name="洛阳市">
+
+            <area>老城区</area>
+            <area>西工区</area>
+            <area>瀍河回族区</area>
+            <area>涧西区</area>
+            <area>吉利区</area>
+            <area>洛龙区</area>
+            <area>孟津县</area>
+            <area>新安县</area>
+            <area>栾川县</area>
+            <area>嵩县</area>
+            <area>汝阳县</area>
+            <area>宜阳县</area>
+            <area>洛宁县</area>
+            <area>伊川县</area>
+            <area>偃师市</area>
+        </city>
+
+        <city name="平顶山市">
+
+            <area>新华区</area>
+            <area>卫东区</area>
+            <area>石龙区</area>
+            <area>湛河区</area>
+            <area>宝丰县</area>
+            <area>叶县</area>
+            <area>鲁山县</area>
+            <area>郏县</area>
+            <area>舞钢市</area>
+            <area>汝州市</area>
+        </city>
+
+        <city name="安阳市">
+
+            <area>文峰区</area>
+            <area>北关区</area>
+            <area>殷都区</area>
+            <area>龙安区</area>
+            <area>安阳县</area>
+            <area>汤阴县</area>
+            <area>滑县</area>
+            <area>内黄县</area>
+            <area>林州市</area>
+        </city>
+
+        <city name="鹤壁市">
+
+            <area>鹤山区</area>
+            <area>山城区</area>
+            <area>淇滨区</area>
+            <area>浚县</area>
+            <area>淇县</area>
+        </city>
+
+        <city name="新乡市">
+
+            <area>红旗区</area>
+            <area>卫滨区</area>
+            <area>凤泉区</area>
+            <area>牧野区</area>
+            <area>新乡县</area>
+            <area>获嘉县</area>
+            <area>原阳县</area>
+            <area>延津县</area>
+            <area>封丘县</area>
+            <area>长垣县</area>
+            <area>卫辉市</area>
+            <area>辉县市</area>
+        </city>
+
+        <city name="焦作市">
+
+            <area>解放区</area>
+            <area>中站区</area>
+            <area>马村区</area>
+            <area>山阳区</area>
+            <area>修武县</area>
+            <area>博爱县</area>
+            <area>武陟县</area>
+            <area>温县</area>
+            <area>沁阳市</area>
+            <area>孟州市</area>
+        </city>
+
+        <city name="濮阳市">
+
+            <area>华龙区</area>
+            <area>清丰县</area>
+            <area>南乐县</area>
+            <area>范县</area>
+            <area>台前县</area>
+            <area>濮阳县</area>
+        </city>
+
+        <city name="许昌市">
+
+            <area>魏都区</area>
+            <area>许昌县</area>
+            <area>鄢陵县</area>
+            <area>襄城县</area>
+            <area>禹州市</area>
+            <area>长葛市</area>
+        </city>
+
+        <city name="漯河市">
+
+            <area>源汇区</area>
+            <area>郾城区</area>
+            <area>召陵区</area>
+            <area>舞阳县</area>
+            <area>临颍县</area>
+        </city>
+
+        <city name="三门峡市">
+
+            <area>湖滨区</area>
+            <area>渑池县</area>
+            <area>陕县</area>
+            <area>卢氏县</area>
+            <area>义马市</area>
+            <area>灵宝市</area>
+        </city>
+
+        <city name="南阳市">
+
+            <area>宛城区</area>
+            <area>卧龙区</area>
+            <area>南召县</area>
+            <area>方城县</area>
+            <area>西峡县</area>
+            <area>镇平县</area>
+            <area>内乡县</area>
+            <area>淅川县</area>
+            <area>社旗县</area>
+            <area>唐河县</area>
+            <area>新野县</area>
+            <area>桐柏县</area>
+            <area>邓州市</area>
+        </city>
+
+        <city name="商丘市">
+
+            <area>梁园区</area>
+            <area>睢阳区</area>
+            <area>民权县</area>
+            <area>睢县</area>
+            <area>宁陵县</area>
+            <area>柘城县</area>
+            <area>虞城县</area>
+            <area>夏邑县</area>
+            <area>永城市</area>
+        </city>
+
+        <city name="信阳市">
+
+            <area>浉河区</area>
+            <area>平桥区</area>
+            <area>罗山县</area>
+            <area>光山县</area>
+            <area>新县</area>
+            <area>商城县</area>
+            <area>固始县</area>
+            <area>潢川县</area>
+            <area>淮滨县</area>
+            <area>息县</area>
+        </city>
+
+        <city name="周口市">
+
+            <area>川汇区</area>
+            <area>扶沟县</area>
+            <area>西华县</area>
+            <area>商水县</area>
+            <area>沈丘县</area>
+            <area>郸城县</area>
+            <area>淮阳县</area>
+            <area>太康县</area>
+            <area>鹿邑县</area>
+            <area>项城市</area>
+        </city>
+
+        <city name="驻马店市">
+
+            <area>驿城区</area>
+            <area>西平县</area>
+            <area>上蔡县</area>
+            <area>平舆县</area>
+            <area>正阳县</area>
+            <area>确山县</area>
+            <area>泌阳县</area>
+            <area>汝南县</area>
+            <area>遂平县</area>
+            <area>新蔡县</area>
+        </city>
+
+        <city name="济源市">
+
+            <area>济源市</area>
+        </city>
+    </province>
+
+    <province name="湖北省">
+
+
+        <city name="武汉市">
+
+            <area>江岸区</area>
+            <area>江汉区</area>
+            <area>硚口区</area>
+            <area>汉阳区</area>
+            <area>武昌区</area>
+            <area>青山区</area>
+            <area>洪山区</area>
+            <area>东西湖区</area>
+            <area>汉南区</area>
+            <area>蔡甸区</area>
+            <area>江夏区</area>
+            <area>黄陂区</area>
+            <area>新洲区</area>
+        </city>
+
+        <city name="黄石市">
+
+            <area>黄石港区</area>
+            <area>西塞山区</area>
+            <area>下陆区</area>
+            <area>铁山区</area>
+            <area>阳新县</area>
+            <area>大冶市</area>
+        </city>
+
+        <city name="十堰市">
+
+            <area>茅箭区</area>
+            <area>张湾区</area>
+            <area>郧县</area>
+            <area>郧西县</area>
+            <area>竹山县</area>
+            <area>竹溪县</area>
+            <area>房县</area>
+            <area>丹江口市</area>
+        </city>
+
+        <city name="宜昌市">
+
+            <area>西陵区</area>
+            <area>伍家岗区</area>
+            <area>点军区</area>
+            <area>猇亭区</area>
+            <area>夷陵区</area>
+            <area>远安县</area>
+            <area>兴山县</area>
+            <area>秭归县</area>
+            <area>长阳土家族自治县</area>
+            <area>五峰土家族自治县</area>
+            <area>宜都市</area>
+            <area>当阳市</area>
+            <area>枝江市</area>
+        </city>
+
+        <city name="襄樊市">
+
+            <area>襄城区</area>
+            <area>樊城区</area>
+            <area>襄阳区</area>
+            <area>南漳县</area>
+            <area>谷城县</area>
+            <area>保康县</area>
+            <area>老河口市</area>
+            <area>枣阳市</area>
+            <area>宜城市</area>
+        </city>
+
+        <city name="鄂州市">
+
+            <area>梁子湖区</area>
+            <area>华容区</area>
+            <area>鄂城区</area>
+        </city>
+
+        <city name="荆门市">
+
+            <area>东宝区</area>
+            <area>掇刀区</area>
+            <area>京山县</area>
+            <area>沙洋县</area>
+            <area>钟祥市</area>
+        </city>
+
+        <city name="孝感市">
+
+            <area>孝南区</area>
+            <area>孝昌县</area>
+            <area>大悟县</area>
+            <area>云梦县</area>
+            <area>应城市</area>
+            <area>安陆市</area>
+            <area>汉川市</area>
+        </city>
+
+        <city name="荆州市">
+
+            <area>沙市区</area>
+            <area>荆州区</area>
+            <area>公安县</area>
+            <area>监利县</area>
+            <area>江陵县</area>
+            <area>石首市</area>
+            <area>洪湖市</area>
+            <area>松滋市</area>
+        </city>
+
+        <city name="黄冈市">
+
+            <area>黄州区</area>
+            <area>团风县</area>
+            <area>红安县</area>
+            <area>罗田县</area>
+            <area>英山县</area>
+            <area>浠水县</area>
+            <area>蕲春县</area>
+            <area>黄梅县</area>
+            <area>麻城市</area>
+            <area>武穴市</area>
+        </city>
+
+        <city name="咸宁市">
+
+            <area>咸安区</area>
+            <area>嘉鱼县</area>
+            <area>通城县</area>
+            <area>崇阳县</area>
+            <area>通山县</area>
+            <area>赤壁市</area>
+        </city>
+
+        <city name="随州市">
+
+            <area>曾都区</area>
+            <area>广水市</area>
+        </city>
+
+        <city name="恩施土家族苗族自治州">
+
+            <area>恩施市</area>
+            <area>利川市</area>
+            <area>建始县</area>
+            <area>巴东县</area>
+            <area>宣恩县</area>
+            <area>咸丰县</area>
+            <area>来凤县</area>
+            <area>鹤峰县</area>
+        </city>
+
+        <city name="仙桃市">
+
+            <area>仙桃市</area>
+        </city>
+
+        <city name="潜江市">
+
+            <area>潜江市</area>
+        </city>
+
+        <city name="天门市">
+
+            <area>天门市</area>
+        </city>
+
+        <city name="神农架林区">
+
+            <area>神农架林区</area>
+        </city>
+    </province>
+
+    <province name="湖南省">
+
+
+        <city name="长沙市">
+            <area>芙蓉区</area>
+            <area>天心区</area>
+            <area>岳麓区</area>
+            <area>开福区</area>
+            <area>雨花区</area>
+            <area>长沙县</area>
+            <area>望城县</area>
+            <area>宁乡县</area>
+            <area>浏阳市</area>
+        </city>
+
+        <city name="株洲市">
+            <area>荷塘区</area>
+            <area>芦淞区</area>
+            <area>石峰区</area>
+            <area>天元区</area>
+            <area>株洲县</area>
+            <area>攸县</area>
+            <area>茶陵县</area>
+            <area>炎陵县</area>
+            <area>醴陵市</area>
+        </city>
+
+        <city name="湘潭市">
+            <area>雨湖区</area>
+            <area>岳塘区</area>
+            <area>湘潭县</area>
+            <area>湘乡市</area>
+            <area>韶山市</area>
+        </city>
+
+        <city name="衡阳市">
+            <area>珠晖区</area>
+            <area>雁峰区</area>
+            <area>石鼓区</area>
+            <area>蒸湘区</area>
+            <area>南岳区</area>
+            <area>衡阳县</area>
+            <area>衡南县</area>
+            <area>衡山县</area>
+            <area>衡东县</area>
+            <area>祁东县</area>
+            <area>耒阳市</area>
+            <area>常宁市</area>
+        </city>
+
+        <city name="邵阳市">
+            <area>双清区</area>
+            <area>大祥区</area>
+            <area>北塔区</area>
+            <area>邵东县</area>
+            <area>新邵县</area>
+            <area>邵阳县</area>
+            <area>隆回县</area>
+            <area>洞口县</area>
+            <area>绥宁县</area>
+            <area>新宁县</area>
+            <area>城步苗族自治县</area>
+            <area>武冈市</area>
+        </city>
+
+        <city name="岳阳市">
+            <area>岳阳楼区</area>
+            <area>云溪区</area>
+            <area>君山区</area>
+            <area>岳阳县</area>
+            <area>华容县</area>
+            <area>湘阴县</area>
+            <area>平江县</area>
+            <area>汨罗市</area>
+            <area>临湘市</area>
+        </city>
+
+        <city name="常德市">
+            <area>武陵区</area>
+            <area>鼎城区</area>
+            <area>安乡县</area>
+            <area>汉寿县</area>
+            <area>澧县</area>
+            <area>临澧县</area>
+            <area>桃源县</area>
+            <area>石门县</area>
+            <area>津市市</area>
+        </city>
+
+        <city name="张家界市">
+            <area>永定区</area>
+            <area>武陵源区</area>
+            <area>慈利县</area>
+            <area>桑植县</area>
+        </city>
+
+        <city name="益阳市">
+            <area>资阳区</area>
+            <area>赫山区</area>
+            <area>南县</area>
+            <area>桃江县</area>
+            <area>安化县</area>
+            <area>沅江市</area>
+        </city>
+
+        <city name="郴州市">
+            <area>北湖区</area>
+            <area>苏仙区</area>
+            <area>桂阳县</area>
+            <area>宜章县</area>
+            <area>永兴县</area>
+            <area>嘉禾县</area>
+            <area>临武县</area>
+            <area>汝城县</area>
+            <area>桂东县</area>
+            <area>安仁县</area>
+            <area>资兴市</area>
+        </city>
+
+        <city name="永州市">
+            <area>零陵区</area>
+            <area>冷水滩区</area>
+            <area>祁阳县</area>
+            <area>东安县</area>
+            <area>双牌县</area>
+            <area>道县</area>
+            <area>江永县</area>
+            <area>宁远县</area>
+            <area>蓝山县</area>
+            <area>新田县</area>
+            <area>江华瑶族自治县</area>
+        </city>
+
+        <city name="怀化市">
+            <area>鹤城区</area>
+            <area>中方县</area>
+            <area>沅陵县</area>
+            <area>辰溪县</area>
+            <area>溆浦县</area>
+            <area>会同县</area>
+            <area>麻阳苗族自治县</area>
+            <area>新晃侗族自治县</area>
+            <area>芷江侗族自治县</area>
+            <area>靖州苗族侗族自治县</area>
+            <area>通道侗族自治县</area>
+            <area>洪江市</area>
+        </city>
+
+        <city name="娄底市">
+            <area>娄星区</area>
+            <area>双峰县</area>
+            <area>新化县</area>
+            <area>冷水江市</area>
+            <area>涟源市</area>
+        </city>
+
+        <city name="湘西土家族苗族自治州">
+
+            <area>吉首市</area>
+            <area>泸溪县</area>
+            <area>凤凰县</area>
+            <area>花垣县</area>
+            <area>保靖县</area>
+            <area>古丈县</area>
+            <area>永顺县</area>
+            <area>龙山县</area>
+        </city>
+    </province>
+
+    <province name="广东省">
+
+
+        <city name="广州市">
+
+            <area>荔湾区</area>
+            <area>越秀区</area>
+            <area>海珠区</area>
+            <area>天河区</area>
+            <area>白云区</area>
+            <area>黄埔区</area>
+            <area>番禺区</area>
+            <area>花都区</area>
+            <area>南沙区</area>
+            <area>萝岗区</area>
+            <area>增城市</area>
+            <area>从化市</area>
+        </city>
+
+        <city name="韶关市">
+
+            <area>武江区</area>
+            <area>浈江区</area>
+            <area>曲江区</area>
+            <area>始兴县</area>
+            <area>仁化县</area>
+            <area>翁源县</area>
+            <area>乳源瑶族自治县</area>
+            <area>新丰县</area>
+            <area>乐昌市</area>
+            <area>南雄市</area>
+        </city>
+
+        <city name="深圳市">
+
+            <area>罗湖区</area>
+            <area>福田区</area>
+            <area>南山区</area>
+            <area>宝安区</area>
+            <area>龙岗区</area>
+            <area>盐田区</area>
+
+        </city>
+        <city name="珠海市">
+
+            <area>香洲区</area>
+            <area>斗门区</area>
+            <area>金湾区</area>
+        </city>
+
+        <city name="汕头市">
+
+            <area>龙湖区</area>
+            <area>金平区</area>
+            <area>濠江区</area>
+            <area>潮阳区</area>
+            <area>潮南区</area>
+            <area>澄海区</area>
+            <area>南澳县</area>
+        </city>
+
+        <city name="佛山市">
+
+            <area>禅城区</area>
+            <area>南海区</area>
+            <area>顺德区</area>
+            <area>三水区</area>
+            <area>高明区</area>
+        </city>
+
+        <city name="江门市">
+
+            <area>蓬江区</area>
+            <area>江海区</area>
+            <area>新会区</area>
+            <area>台山市</area>
+            <area>开平市</area>
+            <area>鹤山市</area>
+            <area>恩平市</area>
+        </city>
+
+        <city name="湛江市">
+
+            <area>赤坎区</area>
+            <area>霞山区</area>
+            <area>坡头区</area>
+            <area>麻章区</area>
+            <area>遂溪县</area>
+            <area>徐闻县</area>
+            <area>廉江市</area>
+            <area>雷州市</area>
+            <area>吴川市</area>
+        </city>
+
+        <city name="茂名市">
+
+            <area>茂南区</area>
+            <area>茂港区</area>
+            <area>电白县</area>
+            <area>高州市</area>
+            <area>化州市</area>
+            <area>信宜市</area>
+        </city>
+
+        <city name="肇庆市">
+
+            <area>端州区</area>
+            <area>鼎湖区</area>
+            <area>广宁县</area>
+            <area>怀集县</area>
+            <area>封开县</area>
+            <area>德庆县</area>
+            <area>高要市</area>
+            <area>四会市</area>
+        </city>
+
+        <city name="惠州市">
+
+            <area>惠城区</area>
+            <area>惠阳区</area>
+            <area>博罗县</area>
+            <area>惠东县</area>
+            <area>龙门县</area>
+        </city>
+
+        <city name="梅州市">
+
+            <area>梅江区</area>
+            <area>梅县</area>
+            <area>大埔县</area>
+            <area>丰顺县</area>
+            <area>五华县</area>
+            <area>平远县</area>
+            <area>蕉岭县</area>
+            <area>兴宁市</area>
+        </city>
+
+        <city name="汕尾市">
+
+            <area>城区</area>
+            <area>海丰县</area>
+            <area>陆河县</area>
+            <area>陆丰市</area>
+        </city>
+
+        <city name="河源市">
+
+            <area>源城区</area>
+            <area>紫金县</area>
+            <area>龙川县</area>
+            <area>连平县</area>
+            <area>和平县</area>
+            <area>东源县</area>
+        </city>
+
+        <city name="阳江市">
+
+            <area>江城区</area>
+            <area>阳西县</area>
+            <area>阳东县</area>
+            <area>阳春市</area>
+        </city>
+
+        <city name="清远市">
+
+            <area>清城区</area>
+            <area>佛冈县</area>
+            <area>阳山县</area>
+            <area>连山壮族瑶族自治县</area>
+            <area>连南瑶族自治县</area>
+            <area>清新县</area>
+            <area>英德市</area>
+            <area>连州市</area>
+        </city>
+
+        <city name="东莞市">
+
+            <area>东莞市</area>
+        </city>
+
+        <city name="中山市">
+
+            <area>中山市</area>
+        </city>
+
+        <city name="潮州市">
+
+            <area>湘桥区</area>
+            <area>潮安县</area>
+            <area>饶平县</area>
+        </city>
+
+        <city name="揭阳市">
+
+            <area>榕城区</area>
+            <area>揭东县</area>
+            <area>揭西县</area>
+            <area>惠来县</area>
+            <area>普宁市</area>
+        </city>
+
+        <city name="云浮市">
+
+            <area>云城区</area>
+            <area>新兴县</area>
+            <area>郁南县</area>
+            <area>云安县</area>
+            <area>罗定市</area>
+        </city>
+    </province>
+
+    <province name="广西壮族自治区">
+
+
+        <city name="南宁市">
+
+            <area>兴宁区</area>
+            <area>青秀区</area>
+            <area>江南区</area>
+            <area>西乡塘区</area>
+            <area>良庆区</area>
+            <area>邕宁区</area>
+            <area>武鸣县</area>
+            <area>隆安县</area>
+            <area>马山县</area>
+            <area>上林县</area>
+            <area>宾阳县</area>
+            <area>横县</area>
+        </city>
+
+        <city name="柳州市">
+
+            <area>城中区</area>
+            <area>鱼峰区</area>
+            <area>柳南区</area>
+            <area>柳北区</area>
+            <area>柳江县</area>
+            <area>柳城县</area>
+            <area>鹿寨县</area>
+            <area>融安县</area>
+            <area>融水苗族自治县</area>
+            <area>三江侗族自治县</area>
+        </city>
+
+        <city name="桂林市">
+
+            <area>秀峰区</area>
+            <area>叠彩区</area>
+            <area>象山区</area>
+            <area>七星区</area>
+            <area>雁山区</area>
+            <area>阳朔县</area>
+            <area>临桂县</area>
+            <area>灵川县</area>
+            <area>全州县</area>
+            <area>兴安县</area>
+            <area>永福县</area>
+            <area>灌阳县</area>
+            <area>龙胜各族自治县</area>
+            <area>资源县</area>
+            <area>平乐县</area>
+            <area>荔浦县</area>
+            <area>恭城瑶族自治县</area>
+        </city>
+
+        <city name="梧州市">
+
+            <area>万秀区</area>
+            <area>蝶山区</area>
+            <area>长洲区</area>
+            <area>苍梧县</area>
+            <area>藤县</area>
+            <area>蒙山县</area>
+            <area>岑溪市</area>
+        </city>
+
+        <city name="北海市">
+
+            <area>海城区</area>
+            <area>银海区</area>
+            <area>铁山港区</area>
+            <area>合浦县</area>
+        </city>
+
+        <city name="防城港市">
+
+            <area>港口区</area>
+            <area>防城区</area>
+            <area>上思县</area>
+            <area>东兴市</area>
+        </city>
+
+        <city name="钦州市">
+
+            <area>钦南区</area>
+            <area>钦北区</area>
+            <area>灵山县</area>
+            <area>浦北县</area>
+        </city>
+
+        <city name="贵港市">
+
+            <area>港北区</area>
+            <area>港南区</area>
+            <area>覃塘区</area>
+            <area>平南县</area>
+            <area>桂平市</area>
+        </city>
+
+        <city name="玉林市">
+
+            <area>玉州区</area>
+            <area>容县</area>
+            <area>陆川县</area>
+            <area>博白县</area>
+            <area>兴业县</area>
+            <area>北流市</area>
+        </city>
+
+        <city name="百色市">
+
+            <area>右江区</area>
+            <area>田阳县</area>
+            <area>田东县</area>
+            <area>平果县</area>
+            <area>德保县</area>
+            <area>靖西县</area>
+            <area>那坡县</area>
+            <area>凌云县</area>
+            <area>乐业县</area>
+            <area>田林县</area>
+            <area>西林县</area>
+            <area>隆林各族自治县</area>
+        </city>
+
+        <city name="贺州市">
+
+            <area>八步区</area>
+            <area>昭平县</area>
+            <area>钟山县</area>
+            <area>富川瑶族自治县</area>
+        </city>
+
+        <city name="河池市">
+
+            <area>金城江区</area>
+            <area>南丹县</area>
+            <area>天峨县</area>
+            <area>凤山县</area>
+            <area>东兰县</area>
+            <area>罗城仫佬族自治县</area>
+            <area>环江毛南族自治县</area>
+            <area>巴马瑶族自治县</area>
+            <area>都安瑶族自治县</area>
+            <area>大化瑶族自治县</area>
+            <area>宜州市</area>
+        </city>
+
+        <city name="来宾市">
+
+            <area>兴宾区</area>
+            <area>忻城县</area>
+            <area>象州县</area>
+            <area>武宣县</area>
+            <area>金秀瑶族自治县</area>
+            <area>合山市</area>
+        </city>
+
+        <city name="崇左市">
+
+            <area>江洲区</area>
+            <area>扶绥县</area>
+            <area>宁明县</area>
+            <area>龙州县</area>
+            <area>大新县</area>
+            <area>天等县</area>
+            <area>凭祥市</area>
+        </city>
+    </province>
+
+    <province name="海南省">
+
+
+        <city name="海口市">
+
+            <area>秀英区</area>
+            <area>龙华区</area>
+            <area>琼山区</area>
+            <area>美兰区</area>
+        </city>
+
+        <city name="三亚市">
+
+            <area>三亚市</area>
+        </city>
+
+        <city name="五指山市">
+
+            <area>五指山市</area>
+        </city>
+
+        <city name="儋州市">
+
+            <area>儋州市</area>
+        </city>
+
+        <city name="文昌市">
+
+            <area>文昌市</area>
+        </city>
+
+        <city name="万宁市">
+
+            <area>万宁市</area>
+        </city>
+
+        <city name="东方市">
+
+            <area>东方市</area>
+        </city>
+
+        <city name="定安县">
+
+            <area>定安县</area>
+        </city>
+
+        <city name="屯昌县">
+
+            <area>屯昌县</area>
+        </city>
+
+        <city name="澄迈县">
+
+            <area>澄迈县</area>
+        </city>
+
+        <city name="临高县">
+
+            <area>临高县</area>
+        </city>
+
+        <city name="白沙黎族自治县">
+
+            <area>白沙黎族自治县</area>
+        </city>
+
+        <city name="昌江黎族自治县">
+
+            <area>昌江黎族自治县</area>
+        </city>
+
+        <city name="乐东黎族自治县">
+
+            <area>乐东黎族自治县</area>
+        </city>
+
+        <city name="陵水黎族自治县">
+
+            <area>陵水黎族自治县</area>
+        </city>
+
+        <city name="保亭黎族苗族自治县">
+
+            <area>保亭黎族苗族自治县</area>
+        </city>
+
+        <city name="琼中黎族苗族自治县">
+
+            <area>琼中黎族苗族自治县</area>
+        </city>
+
+        <city name="西沙群岛">
+
+            <area>西沙群岛</area>
+        </city>
+
+        <city name="南沙群岛">
+
+            <area>南沙群岛</area>
+        </city>
+
+        <city name="中沙群岛的岛礁及其海域">
+
+            <area>中沙群岛的岛礁及其海域</area>
+        </city>
+    </province>
+
+    <province name="四川省">
+
+
+        <city name="成都市">
+
+            <area>锦江区</area>
+            <area>青羊区</area>
+            <area>金牛区</area>
+            <area>武侯区</area>
+            <area>成华区</area>
+            <area>龙泉驿区</area>
+            <area>青白江区</area>
+            <area>新都区</area>
+            <area>温江区</area>
+            <area>金堂县</area>
+            <area>双流县</area>
+            <area>郫县</area>
+            <area>大邑县</area>
+            <area>蒲江县</area>
+            <area>新津县</area>
+            <area>都江堰市</area>
+            <area>彭州市</area>
+            <area>邛崃市</area>
+            <area>崇州市</area>
+        </city>
+
+        <city name="自贡市">
+
+            <area>自流井区</area>
+            <area>贡井区</area>
+            <area>大安区</area>
+            <area>沿滩区</area>
+            <area>荣县</area>
+            <area>富顺县</area>
+        </city>
+
+        <city name="攀枝花市">
+
+            <area>东区</area>
+            <area>西区</area>
+            <area>仁和区</area>
+            <area>米易县</area>
+            <area>盐边县</area>
+        </city>
+
+        <city name="泸州市">
+
+            <area>江阳区</area>
+            <area>纳溪区</area>
+            <area>龙马潭区</area>
+            <area>泸县</area>
+            <area>合江县</area>
+            <area>叙永县</area>
+            <area>古蔺县</area>
+        </city>
+
+        <city name="德阳市">
+
+            <area>旌阳区</area>
+            <area>中江县</area>
+            <area>罗江县</area>
+            <area>广汉市</area>
+            <area>什邡市</area>
+            <area>绵竹市</area>
+        </city>
+
+        <city name="绵阳市">
+
+            <area>涪城区</area>
+            <area>游仙区</area>
+            <area>三台县</area>
+            <area>盐亭县</area>
+            <area>安县</area>
+            <area>梓潼县</area>
+            <area>北川羌族自治县</area>
+            <area>平武县</area>
+            <area>江油市</area>
+        </city>
+
+        <city name="广元市">
+
+            <area>市中区</area>
+            <area>元坝区</area>
+            <area>朝天区</area>
+            <area>旺苍县</area>
+            <area>青川县</area>
+            <area>剑阁县</area>
+            <area>苍溪县</area>
+        </city>
+
+        <city name="遂宁市">
+
+            <area>船山区</area>
+            <area>安居区</area>
+            <area>蓬溪县</area>
+            <area>射洪县</area>
+            <area>大英县</area>
+        </city>
+
+        <city name="内江市">
+
+            <area>市中区</area>
+            <area>东兴区</area>
+            <area>威远县</area>
+            <area>资中县</area>
+            <area>隆昌县</area>
+        </city>
+
+        <city name="乐山市">
+
+            <area>市中区</area>
+            <area>沙湾区</area>
+            <area>五通桥区</area>
+            <area>金口河区</area>
+            <area>犍为县</area>
+            <area>井研县</area>
+            <area>夹江县</area>
+            <area>沐川县</area>
+            <area>峨边彝族自治县</area>
+            <area>马边彝族自治县</area>
+            <area>峨眉山市</area>
+        </city>
+
+        <city name="南充市">
+
+            <area>顺庆区</area>
+            <area>高坪区</area>
+            <area>嘉陵区</area>
+            <area>南部县</area>
+            <area>营山县</area>
+            <area>蓬安县</area>
+            <area>仪陇县</area>
+            <area>西充县</area>
+            <area>阆中市</area>
+        </city>
+
+        <city name="眉山市">
+
+            <area>东坡区</area>
+            <area>仁寿县</area>
+            <area>彭山县</area>
+            <area>洪雅县</area>
+            <area>丹棱县</area>
+            <area>青神县</area>
+        </city>
+
+        <city name="宜宾市">
+
+            <area>翠屏区</area>
+            <area>宜宾县</area>
+            <area>南溪县</area>
+            <area>江安县</area>
+            <area>长宁县</area>
+            <area>高县</area>
+            <area>珙县</area>
+            <area>筠连县</area>
+            <area>兴文县</area>
+            <area>屏山县</area>
+        </city>
+
+        <city name="广安市">
+
+            <area>广安区</area>
+            <area>岳池县</area>
+            <area>武胜县</area>
+            <area>邻水县</area>
+            <area>华蓥市</area>
+        </city>
+
+        <city name="达州市">
+
+            <area>通川区</area>
+            <area>达县</area>
+            <area>宣汉县</area>
+            <area>开江县</area>
+            <area>大竹县</area>
+            <area>渠县</area>
+            <area>万源市</area>
+        </city>
+
+        <city name="雅安市">
+
+            <area>雨城区</area>
+            <area>名山县</area>
+            <area>荥经县</area>
+            <area>汉源县</area>
+            <area>石棉县</area>
+            <area>天全县</area>
+            <area>芦山县</area>
+            <area>宝兴县</area>
+        </city>
+
+        <city name="巴中市">
+
+            <area>巴州区</area>
+            <area>通江县</area>
+            <area>南江县</area>
+            <area>平昌县</area>
+        </city>
+
+        <city name="资阳市">
+
+            <area>雁江区</area>
+            <area>安岳县</area>
+            <area>乐至县</area>
+            <area>简阳市</area>
+        </city>
+
+        <city name="阿坝藏族羌族自治州">
+
+            <area>汶川县</area>
+            <area>理县</area>
+            <area>茂县</area>
+            <area>松潘县</area>
+            <area>九寨沟县</area>
+            <area>九寨沟县</area>
+            <area>小金县</area>
+            <area>黑水县</area>
+            <area>马尔康县</area>
+            <area>壤塘县</area>
+            <area>阿坝县</area>
+            <area>若尔盖县</area>
+            <area>红原县</area>
+        </city>
+
+        <city name="甘孜藏族自治州">
+
+            <area>康定县</area>
+            <area>泸定县</area>
+            <area>丹巴县</area>
+            <area>九龙县</area>
+            <area>雅江县</area>
+            <area>道孚县</area>
+            <area>炉霍县</area>
+            <area>甘孜县</area>
+            <area>新龙县</area>
+            <area>德格县</area>
+            <area>白玉县</area>
+            <area>石渠县</area>
+            <area>色达县</area>
+            <area>理塘县</area>
+            <area>巴塘县</area>
+            <area>乡城县</area>
+            <area>稻城县</area>
+            <area>得荣县</area>
+        </city>
+
+        <city name="凉山彝族自治州">
+
+            <area>西昌市</area>
+            <area>木里藏族自治县</area>
+            <area>盐源县</area>
+            <area>德昌县</area>
+            <area>会理县</area>
+            <area>会东县</area>
+            <area>宁南县</area>
+            <area>普格县</area>
+            <area>布拖县</area>
+            <area>金阳县</area>
+            <area>昭觉县</area>
+            <area>喜德县</area>
+            <area>冕宁县</area>
+            <area>越西县</area>
+            <area>甘洛县</area>
+            <area>美姑县</area>
+            <area>雷波县</area>
+        </city>
+    </province>
+
+    <province name="贵州省">
+
+
+        <city name="贵阳市">
+
+            <area>南明区</area>
+            <area>云岩区</area>
+            <area>花溪区</area>
+            <area>乌当区</area>
+            <area>白云区</area>
+            <area>小河区</area>
+            <area>开阳县</area>
+            <area>息烽县</area>
+            <area>修文县</area>
+            <area>清镇市</area>
+        </city>
+
+        <city name="六盘水市">
+
+            <area>钟山区</area>
+            <area>六枝特区</area>
+            <area>水城县</area>
+            <area>盘县</area>
+        </city>
+
+        <city name="遵义市">
+
+            <area>红花岗区</area>
+            <area>汇川区</area>
+            <area>遵义县</area>
+            <area>桐梓县</area>
+            <area>绥阳县</area>
+            <area>正安县</area>
+            <area>道真仡佬族苗族自治县</area>
+            <area>务川仡佬族苗族自治县</area>
+            <area>凤冈县</area>
+            <area>湄潭县</area>
+            <area>余庆县</area>
+            <area>习水县</area>
+            <area>赤水市</area>
+            <area>仁怀市</area>
+        </city>
+
+        <city name="安顺市">
+
+            <area>西秀区</area>
+            <area>平坝县</area>
+            <area>普定县</area>
+            <area>镇宁布依族苗族自治县</area>
+            <area>关岭布依族苗族自治县</area>
+            <area>紫云苗族布依族自治县</area>
+        </city>
+
+        <city name="铜仁地区">
+
+            <area>铜仁市</area>
+            <area>江口县</area>
+            <area>玉屏侗族自治县</area>
+            <area>石阡县</area>
+            <area>思南县</area>
+            <area>印江土家族苗族自治县</area>
+            <area>德江县</area>
+            <area>沿河土家族自治县</area>
+            <area>松桃苗族自治县</area>
+            <area>万山特区</area>
+        </city>
+
+        <city name="黔西南布依族苗族自治州">
+
+            <area>兴义市</area>
+            <area>兴仁县</area>
+            <area>普安县</area>
+            <area>晴隆县</area>
+            <area>贞丰县</area>
+            <area>望谟县</area>
+            <area>册亨县</area>
+            <area>安龙县</area>
+        </city>
+
+        <city name="毕节地区">
+
+            <area>毕节市</area>
+            <area>大方县</area>
+            <area>黔西县</area>
+            <area>金沙县</area>
+            <area>织金县</area>
+            <area>纳雍县</area>
+            <area>威宁彝族回族苗族自治县</area>
+            <area>赫章县</area>
+        </city>
+
+        <city name="黔东南苗族侗族自治州">
+
+            <area>凯里市</area>
+            <area>黄平县</area>
+            <area>施秉县</area>
+            <area>三穗县</area>
+            <area>镇远县</area>
+            <area>岑巩县</area>
+            <area>天柱县</area>
+            <area>锦屏县</area>
+            <area>剑河县</area>
+            <area>台江县</area>
+            <area>黎平县</area>
+            <area>榕江县</area>
+            <area>从江县</area>
+            <area>雷山县</area>
+            <area>麻江县</area>
+            <area>丹寨县</area>
+        </city>
+
+        <city name="黔南布依族苗族自治州">
+
+            <area>都匀市</area>
+            <area>福泉市</area>
+            <area>荔波县</area>
+            <area>贵定县</area>
+            <area>瓮安县</area>
+            <area>独山县</area>
+            <area>平塘县</area>
+            <area>罗甸县</area>
+            <area>长顺县</area>
+            <area>龙里县</area>
+            <area>惠水县</area>
+            <area>三都水族自治县</area>
+        </city>
+    </province>
+
+    <province name="云南省">
+
+
+        <city name="昆明市">
+
+            <area>五华区</area>
+            <area>盘龙区</area>
+            <area>官渡区</area>
+            <area>西山区</area>
+            <area>东川区</area>
+            <area>呈贡县</area>
+            <area>晋宁县</area>
+            <area>富民县</area>
+            <area>宜良县</area>
+            <area>石林彝族自治县</area>
+            <area>嵩明县</area>
+            <area>禄劝彝族苗族自治县</area>
+            <area>寻甸回族彝族自治县</area>
+            <area>安宁市</area>
+        </city>
+
+        <city name="曲靖市">
+
+            <area>麒麟区</area>
+            <area>马龙县</area>
+            <area>陆良县</area>
+            <area>师宗县</area>
+            <area>罗平县</area>
+            <area>富源县</area>
+            <area>会泽县</area>
+            <area>沾益县</area>
+            <area>宣威市</area>
+        </city>
+
+        <city name="玉溪市">
+
+            <area>红塔区</area>
+            <area>江川县</area>
+            <area>澄江县</area>
+            <area>通海县</area>
+            <area>华宁县</area>
+            <area>易门县</area>
+            <area>峨山彝族自治县</area>
+            <area>新平彝族傣族自治县</area>
+            <area>元江哈尼族彝族傣族自治县</area>
+        </city>
+
+        <city name="保山市">
+
+            <area>隆阳区</area>
+            <area>施甸县</area>
+            <area>腾冲县</area>
+            <area>龙陵县</area>
+            <area>昌宁县</area>
+        </city>
+
+        <city name="昭通市">
+
+            <area>昭阳区</area>
+            <area>鲁甸县</area>
+            <area>巧家县</area>
+            <area>盐津县</area>
+            <area>大关县</area>
+            <area>永善县</area>
+            <area>绥江县</area>
+            <area>镇雄县</area>
+            <area>彝良县</area>
+            <area>威信县</area>
+            <area>水富县</area>
+        </city>
+
+        <city name="丽江市">
+
+            <area>古城区</area>
+            <area>玉龙纳西族自治县</area>
+            <area>永胜县</area>
+            <area>华坪县</area>
+            <area>宁蒗彝族自治县</area>
+        </city>
+
+        <city name="普洱市">
+
+            <area>思茅区</area>
+            <area>宁洱哈尼族彝族自治县</area>
+            <area>墨江哈尼族自治县</area>
+            <area>景东彝族自治县</area>
+            <area>景谷傣族彝族自治县</area>
+            <area>镇沅彝族哈尼族拉祜族自治县</area>
+            <area>江城哈尼族彝族自治县</area>
+            <area>孟连傣族拉祜族佤族自治县</area>
+            <area>澜沧拉祜族自治县</area>
+            <area>西盟佤族自治县</area>
+        </city>
+
+        <city name="临沧市">
+
+            <area>临翔区</area>
+            <area>凤庆县</area>
+            <area>云县</area>
+            <area>永德县</area>
+            <area>镇康县</area>
+            <area>双江拉祜族佤族布朗族傣族自治县</area>
+            <area>耿马傣族佤族自治县</area>
+            <area>沧源佤族自治县</area>
+        </city>
+
+        <city name="楚雄彝族自治州">
+
+            <area>楚雄市</area>
+            <area>双柏县</area>
+            <area>牟定县</area>
+            <area>南华县</area>
+            <area>姚安县</area>
+            <area>大姚县</area>
+            <area>永仁县</area>
+            <area>元谋县</area>
+            <area>武定县</area>
+            <area>禄丰县</area>
+
+        </city>
+        <city name="红河哈尼族彝族自治州">
+
+            <area>个旧市</area>
+            <area>开远市</area>
+            <area>蒙自县</area>
+            <area>屏边苗族自治县</area>
+            <area>建水县</area>
+            <area>石屏县</area>
+            <area>弥勒县</area>
+            <area>泸西县</area>
+            <area>元阳县</area>
+            <area>红河县</area>
+            <area>金平苗族瑶族傣族自治县</area>
+            <area>绿春县</area>
+            <area>河口瑶族自治县</area>
+        </city>
+
+        <city name="文山壮族苗族自治州">
+
+            <area>文山县</area>
+            <area>砚山县</area>
+            <area>西畴县</area>
+            <area>麻栗坡县</area>
+            <area>马关县</area>
+            <area>丘北县</area>
+            <area>广南县</area>
+            <area>富宁县</area>
+        </city>
+
+        <city name="西双版纳傣族自治州">
+
+            <area>景洪市</area>
+            <area>勐海县</area>
+            <area>勐腊县</area>
+        </city>
+
+        <city name="大理白族自治州">
+
+            <area>大理市</area>
+            <area>漾濞彝族自治县</area>
+            <area>祥云县</area>
+            <area>宾川县</area>
+            <area>弥渡县</area>
+            <area>南涧彝族自治县</area>
+            <area>巍山彝族回族自治县</area>
+            <area>永平县</area>
+            <area>云龙县</area>
+            <area>洱源县</area>
+            <area>剑川县</area>
+            <area>鹤庆县</area>
+        </city>
+
+        <city name="德宏傣族景颇族自治州">
+
+            <area>瑞丽市</area>
+            <area>潞西市</area>
+            <area>梁河县</area>
+            <area>盈江县</area>
+            <area>陇川县</area>
+        </city>
+
+        <city name="怒江傈僳族自治州">
+
+            <area>泸水县</area>
+            <area>福贡县</area>
+            <area>贡山独龙族怒族自治县</area>
+            <area>兰坪白族普米族自治县</area>
+        </city>
+
+        <city name="迪庆藏族自治州">
+
+            <area>香格里拉县</area>
+            <area>德钦县</area>
+            <area>维西傈僳族自治县</area>
+        </city>
+    </province>
+
+    <province name="西藏自治区">
+
+
+        <city name="拉萨市">
+
+            <area>城关区</area>
+            <area>林周县</area>
+            <area>当雄县</area>
+            <area>尼木县</area>
+            <area>曲水县</area>
+            <area>堆龙德庆县</area>
+            <area>达孜县</area>
+            <area>墨竹工卡县</area>
+        </city>
+
+        <city name="昌都地区">
+
+            <area>昌都县</area>
+            <area>江达县</area>
+            <area>贡觉县</area>
+            <area>类乌齐县</area>
+            <area>丁青县</area>
+            <area>察雅县</area>
+            <area>八宿县</area>
+            <area>左贡县</area>
+            <area>芒康县</area>
+            <area>洛隆县</area>
+            <area>边坝县</area>
+        </city>
+
+        <city name="山南地区">
+
+            <area>乃东县</area>
+            <area>扎囊县</area>
+            <area>贡嘎县</area>
+            <area>桑日县</area>
+            <area>琼结县</area>
+            <area>曲松县</area>
+            <area>措美县</area>
+            <area>洛扎县</area>
+            <area>加查县</area>
+            <area>隆子县</area>
+            <area>错那县</area>
+            <area>浪卡子县</area>
+        </city>
+
+        <city name="日喀则地区">
+
+            <area>日喀则市</area>
+            <area>南木林县</area>
+            <area>江孜县</area>
+            <area>定日县</area>
+            <area>萨迦县</area>
+            <area>拉孜县</area>
+            <area>昂仁县</area>
+            <area>谢通门县</area>
+            <area>白朗县</area>
+            <area>仁布县</area>
+            <area>康马县</area>
+            <area>定结县</area>
+            <area>仲巴县</area>
+            <area>亚东县</area>
+            <area>吉隆县</area>
+            <area>聂拉木县</area>
+            <area>萨嘎县</area>
+            <area>岗巴县</area>
+        </city>
+
+        <city name="那曲地区">
+
+            <area>那曲县</area>
+            <area>嘉黎县</area>
+            <area>比如县</area>
+            <area>聂荣县</area>
+            <area>安多县</area>
+            <area>申扎县</area>
+            <area>索县</area>
+            <area>班戈县</area>
+            <area>巴青县</area>
+            <area>尼玛县</area>
+        </city>
+
+        <city name="阿里地区">
+
+            <area>普兰县</area>
+            <area>札达县</area>
+            <area>噶尔县</area>
+            <area>日土县</area>
+            <area>革吉县</area>
+            <area>改则县</area>
+            <area>措勤县</area>
+
+        </city>
+        <city name="林芝地区">
+
+            <area>林芝县</area>
+            <area>工布江达县</area>
+            <area>米林县</area>
+            <area>墨脱县</area>
+            <area>波密县</area>
+            <area>察隅县</area>
+            <area>朗县</area>
+        </city>
+    </province>
+
+    <province name="陕西省">
+
+
+        <city name="西安市">
+
+            <area>新城区</area>
+            <area>碑林区</area>
+            <area>莲湖区</area>
+            <area>灞桥区</area>
+            <area>未央区</area>
+            <area>雁塔区</area>
+            <area>阎良区</area>
+            <area>临潼区</area>
+            <area>长安区</area>
+            <area>蓝田县</area>
+            <area>周至县</area>
+            <area>户县</area>
+            <area>高陵县</area>
+        </city>
+
+        <city name="铜川市">
+
+            <area>王益区</area>
+            <area>印台区</area>
+            <area>耀州区</area>
+            <area>宜君县</area>
+        </city>
+
+        <city name="宝鸡市">
+
+            <area>太白县</area>
+            <area>凤县</area>
+            <area>麟游县</area>
+            <area>千阳县</area>
+            <area>陇县</area>
+            <area>眉县</area>
+            <area>扶风县</area>
+            <area>岐山县</area>
+            <area>凤翔县</area>
+            <area>陈仓区</area>
+            <area>金台区</area>
+            <area>渭滨区</area>
+        </city>
+
+        <city name="咸阳市">
+
+            <area>秦都区</area>
+            <area>杨凌区</area>
+            <area>渭城区</area>
+            <area>三原县</area>
+            <area>泾阳县</area>
+            <area>乾县</area>
+            <area>礼泉县</area>
+            <area>永寿县</area>
+            <area>彬县</area>
+            <area>长武县</area>
+            <area>旬邑县</area>
+            <area>淳化县</area>
+            <area>武功县</area>
+            <area>兴平市</area>
+        </city>
+
+        <city name="渭南市">
+
+            <area>临渭区</area>
+            <area>华县</area>
+            <area>潼关县</area>
+            <area>大荔县</area>
+            <area>合阳县</area>
+            <area>澄城县</area>
+            <area>蒲城县</area>
+            <area>白水县</area>
+            <area>富平县</area>
+            <area>韩城市</area>
+            <area>华阴市</area>
+        </city>
+
+        <city name="延安市">
+
+            <area>宝塔区</area>
+            <area>延长县</area>
+            <area>延川县</area>
+            <area>子长县</area>
+            <area>安塞县</area>
+            <area>志丹县</area>
+            <area>吴起县</area>
+            <area>甘泉县</area>
+            <area>富县</area>
+            <area>洛川县</area>
+            <area>宜川县</area>
+            <area>黄龙县</area>
+            <area>黄陵县</area>
+        </city>
+
+        <city name="汉中市">
+
+            <area>汉台区</area>
+            <area>南郑县</area>
+            <area>城固县</area>
+            <area>洋县</area>
+            <area>西乡县</area>
+            <area>勉县</area>
+            <area>宁强县</area>
+            <area>略阳县</area>
+            <area>镇巴县</area>
+            <area>留坝县</area>
+            <area>佛坪县</area>
+        </city>
+
+        <city name="榆林市">
+
+            <area>榆阳区</area>
+            <area>神木县</area>
+            <area>府谷县</area>
+            <area>横山县</area>
+            <area>靖边县</area>
+            <area>定边县</area>
+            <area>绥德县</area>
+            <area>米脂县</area>
+            <area>佳县</area>
+            <area>吴堡县</area>
+            <area>清涧县</area>
+            <area>子洲县</area>
+        </city>
+
+        <city name="安康市">
+
+            <area>汉滨区</area>
+            <area>汉阴县</area>
+            <area>石泉县</area>
+            <area>宁陕县</area>
+            <area>紫阳县</area>
+            <area>岚皋县</area>
+            <area>平利县</area>
+            <area>镇坪县</area>
+            <area>旬阳县</area>
+            <area>白河县</area>
+        </city>
+
+        <city name="白河县">
+
+            <area>商州区</area>
+            <area>洛南县</area>
+            <area>丹凤县</area>
+            <area>商南县</area>
+            <area>山阳县</area>
+            <area>镇安县</area>
+            <area>柞水县</area>
+        </city>
+    </province>
+
+    <province name="甘肃省">
+
+
+        <city name="兰州市">
+
+            <area>城关区</area>
+            <area>七里河区</area>
+            <area>西固区</area>
+            <area>安宁区</area>
+            <area>红古区</area>
+            <area>永登县</area>
+            <area>皋兰县</area>
+            <area>榆中县</area>
+        </city>
+
+        <city name="嘉峪关市">
+
+            <area>嘉峪关市</area>
+        </city>
+
+        <city name="金昌市">
+
+            <area>金川区</area>
+            <area>永昌县</area>
+        </city>
+
+        <city name="白银市">
+
+            <area>白银区</area>
+            <area>平川区</area>
+            <area>靖远县</area>
+            <area>会宁县</area>
+            <area>景泰县</area>
+        </city>
+
+        <city name="天水市">
+
+            <area>秦州区</area>
+            <area>麦积区</area>
+            <area>清水县</area>
+            <area>秦安县</area>
+            <area>甘谷县</area>
+            <area>武山县</area>
+            <area>张家川回族自治县</area>
+        </city>
+
+        <city name="武威市">
+
+            <area>凉州区</area>
+            <area>民勤县</area>
+            <area>古浪县</area>
+            <area>天祝藏族自治县</area>
+        </city>
+
+        <city name="张掖市">
+
+            <area>甘州区</area>
+            <area>肃南裕固族自治县</area>
+            <area>民乐县</area>
+            <area>临泽县</area>
+            <area>高台县</area>
+            <area>山丹县</area>
+        </city>
+
+        <city name="平凉市">
+
+            <area>崆峒区</area>
+            <area>泾川县</area>
+            <area>灵台县</area>
+            <area>崇信县</area>
+            <area>华亭县</area>
+            <area>庄浪县</area>
+            <area>静宁县</area>
+        </city>
+
+        <city name="酒泉市">
+
+            <area>肃州区</area>
+            <area>金塔县</area>
+            <area>瓜州县</area>
+            <area>肃北蒙古族自治县</area>
+            <area>阿克塞哈萨克族自治县</area>
+            <area>玉门市</area>
+            <area>敦煌市</area>
+        </city>
+
+        <city name="庆阳市">
+
+            <area>西峰区</area>
+            <area>庆城县</area>
+            <area>环县</area>
+            <area>华池县</area>
+            <area>合水县</area>
+            <area>正宁县</area>
+            <area>宁县</area>
+            <area>镇原县</area>
+        </city>
+
+        <city name="定西市">
+
+            <area>安定区</area>
+            <area>通渭县</area>
+            <area>陇西县</area>
+            <area>渭源县</area>
+            <area>临洮县</area>
+            <area>漳县</area>
+            <area>岷县</area>
+        </city>
+
+        <city name="陇南市">
+
+            <area>武都区</area>
+            <area>成县</area>
+            <area>文县</area>
+            <area>宕昌县</area>
+            <area>康县</area>
+            <area>西和县</area>
+            <area>礼县</area>
+            <area>徽县</area>
+            <area>两当县</area>
+        </city>
+
+        <city name="临夏回族自治州">
+
+            <area>临夏市</area>
+            <area>临夏县</area>
+            <area>康乐县</area>
+            <area>永靖县</area>
+            <area>广河县</area>
+            <area>和政县</area>
+            <area>东乡族自治县</area>
+            <area>积石山保安族东乡族撒拉族自治县</area>
+        </city>
+
+        <city name="甘南藏族自治州">
+
+            <area>合作市</area>
+            <area>临潭县</area>
+            <area>卓尼县</area>
+            <area>舟曲县</area>
+            <area>迭部县</area>
+            <area>玛曲县</area>
+            <area>碌曲县</area>
+            <area>夏河县</area>
+        </city>
+
+    </province>
+
+    <province name="青海省">
+
+
+        <city name="西宁市">
+
+            <area>城东区</area>
+            <area>城中区</area>
+            <area>城西区</area>
+            <area>城北区</area>
+            <area>大通回族土族自治县</area>
+            <area>湟中县</area>
+            <area>湟源县</area>
+        </city>
+
+        <city name="海东地区">
+
+            <area>平安县</area>
+            <area>民和回族土族自治县</area>
+            <area>乐都县</area>
+            <area>互助土族自治县</area>
+            <area>化隆回族自治县</area>
+            <area>循化撒拉族自治县</area>
+        </city>
+
+        <city name="海北藏族自治州">
+
+            <area>门源回族自治县</area>
+            <area>祁连县</area>
+            <area>海晏县</area>
+            <area>刚察县</area>
+        </city>
+
+        <city name="黄南藏族自治州">
+
+            <area>同仁县</area>
+            <area>尖扎县</area>
+            <area>泽库县</area>
+            <area>河南蒙古族自治县</area>
+            <area>海南藏族自治州</area>
+            <area>共和县</area>
+            <area>同德县</area>
+            <area>贵德县</area>
+            <area>兴海县</area>
+            <area>贵南县</area>
+        </city>
+
+        <city name="果洛藏族自治州">
+
+            <area>玛沁县</area>
+            <area>班玛县</area>
+            <area>甘德县</area>
+            <area>达日县</area>
+            <area>久治县</area>
+            <area>玛多县</area>
+        </city>
+
+        <city name="玉树藏族自治州">
+
+            <area>玉树县</area>
+            <area>杂多县</area>
+            <area>称多县</area>
+            <area>治多县</area>
+            <area>囊谦县</area>
+            <area>曲麻莱县</area>
+        </city>
+
+        <city name="海西蒙古族藏族自治州">
+
+            <area>格尔木市</area>
+            <area>德令哈市</area>
+            <area>乌兰县</area>
+            <area>都兰县</area>
+            <area>天峻县</area>
+        </city>
+    </province>
+    <province name="宁夏回族自治区">
+
+
+        <city name="银川市">
+
+            <area>兴庆区</area>
+            <area>西夏区</area>
+            <area>金凤区</area>
+            <area>永宁县</area>
+            <area>贺兰县</area>
+            <area>灵武市</area>
+        </city>
+
+        <city name="石嘴山市">
+
+            <area>大武口区</area>
+            <area>惠农区</area>
+            <area>平罗县</area>
+        </city>
+
+        <city name="吴忠市">
+
+            <area>利通区</area>
+            <area>盐池县</area>
+            <area>同心县</area>
+            <area>青铜峡市</area>
+        </city>
+
+        <city name="固原市">
+
+            <area>原州区</area>
+            <area>西吉县</area>
+            <area>隆德县</area>
+            <area>泾源县</area>
+            <area>彭阳县</area>
+        </city>
+
+        <city name="中卫市">
+
+            <area>沙坡头区</area>
+            <area>中宁县</area>
+            <area>海原县</area>
+        </city>
+    </province>
+
+    <province name="新疆维吾尔自治区">
+
+
+        <city name="乌鲁木齐市">
+
+            <area>天山区</area>
+            <area>沙依巴克区</area>
+            <area>新市区</area>
+            <area>水磨沟区</area>
+            <area>头屯河区</area>
+            <area>达坂城区</area>
+            <area>米东区</area>
+            <area>乌鲁木齐县</area>
+        </city>
+
+        <city name="克拉玛依市">
+
+            <area>独山子区</area>
+            <area>克拉玛依区</area>
+            <area>白碱滩区</area>
+            <area>乌尔禾区</area>
+        </city>
+
+        <city name="吐鲁番地区">
+
+            <area>吐鲁番市</area>
+            <area>鄯善县</area>
+            <area>托克逊县</area>
+        </city>
+
+        <city name="哈密地区">
+
+            <area>哈密市</area>
+            <area>巴里坤哈萨克自治县</area>
+            <area>伊吾县</area>
+        </city>
+
+        <city name="昌吉回族自治州">
+
+            <area>昌吉市</area>
+            <area>阜康市</area>
+            <area>呼图壁县</area>
+            <area>玛纳斯县</area>
+            <area>奇台县</area>
+            <area>吉木萨尔县</area>
+            <area>木垒哈萨克自治县</area>
+        </city>
+
+        <city name="博尔塔拉蒙古自治州">
+
+            <area>博乐市</area>
+            <area>精河县</area>
+            <area>温泉县</area>
+        </city>
+
+        <city name="巴音郭楞蒙古自治州">
+
+            <area>库尔勒市</area>
+            <area>轮台县</area>
+            <area>尉犁县</area>
+            <area>若羌县</area>
+            <area>且末县</area>
+            <area>焉耆回族自治县</area>
+            <area>和静县</area>
+            <area>和硕县</area>
+            <area>博湖县</area>
+        </city>
+
+        <city name="阿克苏地区">
+
+            <area>阿克苏市</area>
+            <area>温宿县</area>
+            <area>库车县</area>
+            <area>沙雅县</area>
+            <area>新和县</area>
+            <area>拜城县</area>
+            <area>乌什县</area>
+            <area>阿瓦提县</area>
+            <area>柯坪县</area>
+        </city>
+
+        <city name="克孜勒苏柯尔克孜自治州">
+
+            <area>阿图什市</area>
+            <area>阿克陶县</area>
+            <area>阿合奇县</area>
+            <area>乌恰县</area>
+        </city>
+
+        <city name="喀什地区">
+
+            <area>喀什市</area>
+            <area>疏附县</area>
+            <area>疏勒县</area>
+            <area>英吉沙县</area>
+            <area>泽普县</area>
+            <area>莎车县</area>
+            <area>叶城县</area>
+            <area>麦盖提县</area>
+            <area>岳普湖县</area>
+            <area>伽师县</area>
+            <area>巴楚县</area>
+            <area>塔什库尔干塔吉克自治县</area>
+        </city>
+
+        <city name="和田地区">
+
+            <area>和田市</area>
+            <area>和田县</area>
+            <area>墨玉县</area>
+            <area>皮山县</area>
+            <area>洛浦县</area>
+            <area>策勒县</area>
+            <area>于田县</area>
+            <area>民丰县</area>
+        </city>
+
+        <city name="伊犁哈萨克自治州">
+
+            <area>伊宁市</area>
+            <area>奎屯市</area>
+            <area>伊宁县</area>
+            <area>察布查尔锡伯自治县</area>
+            <area>霍城县</area>
+            <area>巩留县</area>
+            <area>新源县</area>
+            <area>昭苏县</area>
+            <area>特克斯县</area>
+            <area>尼勒克县</area>
+        </city>
+
+        <city name="塔城地区">
+
+            <area>塔城市</area>
+            <area>乌苏市</area>
+            <area>额敏县</area>
+            <area>沙湾县</area>
+            <area>托里县</area>
+            <area>裕民县</area>
+            <area>和布克赛尔蒙古自治县</area>
+        </city>
+
+        <city name="阿勒泰地区">
+
+            <area>阿勒泰市</area>
+            <area>布尔津县</area>
+            <area>富蕴县</area>
+            <area>福海县</area>
+            <area>哈巴河县</area>
+            <area>青河县</area>
+            <area>吉木乃县</area>
+        </city>
+
+        <city name="石河子市">
+
+            <area>石河子市</area>
+        </city>
+
+        <city name="阿拉尔市">
+
+            <area>阿拉尔市</area>
+        </city>
+
+        <city name="图木舒克市">
+
+            <area>图木舒克市</area>
+        </city>
+
+        <city name="五家渠市">
+
+            <area>五家渠市</area>
+        </city>
+    </province>
+
+</root>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/last_item"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <!--用户头像布局-->
+    <RelativeLayout
+        android:id="@+id/avatar_lay"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+        <!--用户头像-->
+        <com.qizhu.rili.widget.YSRLDraweeView
+            android:id="@+id/user_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            fresco:roundedCornerRadius="5dp" />
+        <!--达人图标-->
+        <ImageView
+            android:id="@+id/brand_auth"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@id/user_avatar"
+            android:layout_alignRight="@id/user_avatar"
+            android:layout_marginBottom="-2dp"
+            android:layout_marginRight="-2dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/boy"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar_lay"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/avatar_lay"
+        android:background="@drawable/chat_left"
+        android:minHeight="30dp"
+        android:minWidth="20dp">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:autoLink="web"
+            android:gravity="center_vertical"
+            android:maxWidth="200dp"
+            android:text=""
+            android:textColor="@color/gray3"
+            android:textSize="12sp" />
+
+        <com.qizhu.rili.widget.FitWidthImageView
+            android:id="@+id/content_img"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/goods_lay"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:minHeight="82dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.qizhu.rili.widget.YSRLDraweeView
+                android:id="@+id/image"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/goods_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="@color/gray3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/goods_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/purple28"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

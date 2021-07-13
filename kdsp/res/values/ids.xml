@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="gridview" type="id" />
+    <item name="webview" type="id" />
+    <item name="scrollview" type="id" />
+
+    <item name="tag_calendar_week" type="id" />
+    <item name="tag_calendar_month" type="id" />
+    <item name="tag_calendar_month_pos" type="id" />
+    <item name="tag_calendar_day" type="id" />
+    <item name="tag_calendar_day_of_week" type="id" />
+
+    <item name="imageview_uri_tag" type="id" />
+    <item name="imageview_width_tag" type="id" />
+    <item name="imageview_resId_tag" type="id" />
+
+    <item name="voice_tag" type="id" />
+</resources>

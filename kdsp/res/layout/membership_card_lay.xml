@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_has_back_btn" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/normal_lay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray36"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/normal_tip"
+                    android:layout_width="119dp"
+                    android:layout_height="173dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/default_empty" />
+
+                <ImageView
+                    android:id="@+id/normal_tip4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/normal_tip"
+                    android:src="@drawable/not_member" />
+
+                <TextView
+                    android:id="@+id/normal_tip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/normal_tip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="充值会员免费测手相面相"
+                    android:textColor="@color/gray4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normal_tip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/normal_tip1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="还有各种折扣优惠"
+                    android:textColor="@color/gray4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normal_tip3"
+                    android:layout_width="125dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/normal_tip2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/round_gray9_white"
+                    android:gravity="center"
+                    android:text="去了解"
+                    android:textColor="@color/purple"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/member_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray36"
+                    android:orientation="horizontal">
+
+                    <com.qizhu.rili.widget.YSRLDraweeView
+                        android:id="@+id/membership_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="13dp"
+                        fresco:roundedCornerRadius="5dp" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/membership_card"
+                        android:layout_alignRight="@id/membership_card"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/purple29"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/weal_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="18dp"
+                            android:text="@string/membership"
+                            android:textColor="@color/gray3"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:id="@+id/container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/member_ship_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/membership"
+                            android:textColor="@color/gray7"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/renewals_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray36"
+                        android:gravity="center_horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/renewals"
+                            android:layout_width="110dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="50dp"
+                            android:background="@drawable/round_gray9_white"
+                            android:gravity="center"
+                            android:text="@string/renewals"
+                            android:textColor="@color/purple"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

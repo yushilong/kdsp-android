@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/inferring_word"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/inferring_word_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:src="@drawable/inferring_word"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="测字"
+                    android:textColor="@color/gray6"
+                    android:textSize="@dimen/text_size_13"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/test_font_unread"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignRight="@id/inferring_word_img"
+                android:background="@drawable/circle_red8"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/love_line"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/love_line"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="前世今生"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/number_llayout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/life_number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/life_line"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shake"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/shake"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="灵签"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/life_llayout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_life"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/my_life"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/bazi_llayout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/bazi_life"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/bazi_life"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inferring_blood"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/inferring_blood"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="血型"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/analysis_friend"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/analysis_friend"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="分析小伙伴"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/good_day"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/good_day"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="择日"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wu_xing_llayout"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_wu_xing"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/my_wuxing"
+                android:textColor="@color/gray6"
+                android:textSize="@dimen/text_size_13"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

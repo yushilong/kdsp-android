@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/star"
+            android:textColor="@color/purple"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/share_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/share_purple" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_lay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/star_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/purple"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/to_left"
+                android:layout_width="20dp"
+                android:layout_height="16dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/triangle_arrow_purple_left" />
+
+            <TextView
+                android:id="@+id/stellar_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/purple"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/to_right"
+                android:layout_width="20dp"
+                android:layout_height="16dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/triangle_arrow_purple_right" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/body_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginRight="12dp" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginRight="12dp" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginRight="12dp" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginRight="12dp" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

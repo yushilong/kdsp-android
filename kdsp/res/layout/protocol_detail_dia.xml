@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pro_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pro_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="@string/service_policy_title"
+        android:textColor="@color/color_131329"
+        android:textSize="@dimen/text_size_17" />
+
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/content_wv"
+        android:layout_below="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="WebViewLayout" />
+
+
+</RelativeLayout>
+

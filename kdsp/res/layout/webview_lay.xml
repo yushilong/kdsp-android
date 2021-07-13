@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--标题-->
+    <RelativeLayout
+        android:id="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/go_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="15dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:singleLine="true"
+                android:textColor="@color/purple"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/share_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:padding="16dp"
+                android:src="@drawable/share_purple" />
+        </RelativeLayout>
+
+        <!--进度条-->
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentBottom="true"
+            android:indeterminateOnly="false"
+            android:max="100"
+            android:progressDrawable="@drawable/webview_load_progress"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <!--webview-->
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/news_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_lay"
+        android:scrollbars="none" />
+
+</RelativeLayout>

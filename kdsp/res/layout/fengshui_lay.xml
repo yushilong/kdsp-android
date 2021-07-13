@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/tv_fm_000"
+                android:textColor="#9f000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_00"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_00"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_10"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_10"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+
+            <LinearLayout
+                android:id="@+id/tv_fm_20"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_20"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_30"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_30"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_40"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_40"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_50"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_50"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_60"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_60"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/tv_fm_120"
+                android:textColor="#9f000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_130"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_130"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_140"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_140"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_150"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_150"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_160"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_160"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_170"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_170"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/tv_fm_001"
+                android:textColor="#9f000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_180"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_180"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_190"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_190"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_200"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_200"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_210"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_210"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+            <LinearLayout
+                android:id="@+id/tv_fm_220"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/clock_dialog_bt"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tv_fm_220"
+                    android:textColor="@color/black_transparent_62"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/arrow_right_gray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
