@@ -44,6 +44,16 @@ android {
     }
 }
 
+repositories {
+    //flatDir：告诉gradle，编译中依赖的jar包存储在dirs指定的目录
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+//    jcenter()
+    google()
+}
+
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
 //    api(name: 'umeng-crash-armeabi-v0.0.4', ext: 'aar')
