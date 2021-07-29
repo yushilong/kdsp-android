@@ -17,22 +17,13 @@ import com.qizhu.rili.utils.ChinaDateUtil;
 import com.qizhu.rili.utils.DateUtils;
 import com.qizhu.rili.utils.LogUtils;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 /**
  * 生肖大运
  */
-public class AnimalsSubmitActivity extends BaseActivity {
+public class AnimalsSubmitActivity extends BaseActivity implements View.OnClickListener {
 
 
-    @BindView(R.id.feature_content)
     TextView     mFeatureContent;
-    @BindView(R.id.feature_llay)
-    LinearLayout mFeatureLlay;
-    @BindView(R.id.pay_confirm)
-    TextView     mPayConfirm;
     private String mBirthday;
     private TimePickDialogFragment mTimePickDialogFragment;
     private int mYourBirthMode;
@@ -42,13 +33,13 @@ public class AnimalsSubmitActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.animals_submit_activity);
-        ButterKnife.bind(this);
         initUI();
 
     }
 
 
     protected void initUI() {
+        mFeatureContent = findViewById(R.id.feature_content);
         TextView mTitle = (TextView) findViewById(R.id.title_txt);
         mTitle.setText(R.string.animals_luck);
         findViewById(R.id.go_back).setOnClickListener(new OnSingleClickListener() {
@@ -73,7 +64,8 @@ public class AnimalsSubmitActivity extends BaseActivity {
 
             mFeatureContent.setText(type + mYourBirth.toMinString() );
         }
-
+        findViewById(R.id.feature_llay).setOnClickListener(this);
+        findViewById(R.id.pay_confirm).setOnClickListener(this);
     }
 
 
@@ -83,9 +75,9 @@ public class AnimalsSubmitActivity extends BaseActivity {
     }
 
 
-    @OnClick({R.id.feature_llay, R.id.pay_confirm})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
             case R.id.feature_llay:
 
                 if(mTimePickDialogFragment == null){

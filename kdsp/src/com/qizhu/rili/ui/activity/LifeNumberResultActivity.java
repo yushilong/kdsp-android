@@ -18,8 +18,6 @@ import com.qizhu.rili.utils.LogUtils;
 import java.util.ArrayList;
 import java.util.Map;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by zhouyue on 11/15/17.
@@ -27,23 +25,14 @@ import butterknife.ButterKnife;
  */
 public class LifeNumberResultActivity extends BaseActivity {
 
-    @BindView(R.id.title_txt)
     TextView     mTitleTxt;
-    @BindView(R.id.title_tv)
     TextView     mTitleTv;
-    @BindView(R.id.life_number_tv)
     TextView     mLifeNumberTv;
-    @BindView(R.id.symbol_one_tv)
     TextView     mSymbolOneTv;
-    @BindView(R.id.symbol_two_tv)
     TextView     mSymbolTwoTv;
-    @BindView(R.id.symbol_lllayout)
     LinearLayout mSymbolLllayout;
-    @BindView(R.id.content_tv)
     TextView     mContentTv;
-    @BindView(R.id.life_line_ll)
     LinearLayout mLifeLineLl;
-    @BindView(R.id.ba_zi_title_tv)
     TextView     mBaZiTitleTv;
     private int    type;
     private int    lineNumber;
@@ -59,12 +48,21 @@ public class LifeNumberResultActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.life_number_result_activity);
-        ButterKnife.bind(this);
         initUI();
 
     }
 
     private void initUI() {
+        mTitleTxt = findViewById(R.id.title_txt);
+        mTitleTv = findViewById(R.id.title_tv);
+        mLifeNumberTv = findViewById(R.id.life_number_tv);
+        mSymbolOneTv = findViewById(R.id.symbol_one_tv);
+        mSymbolTwoTv = findViewById(R.id.symbol_two_tv);
+        mSymbolLllayout = findViewById(R.id.symbol_lllayout);
+        mContentTv = findViewById(R.id.content_tv);
+        mLifeLineLl = findViewById(R.id.life_line_ll);
+        mBaZiTitleTv = findViewById(R.id.ba_zi_title_tv);
+
         type = getIntent().getIntExtra(IntentExtraConfig.EXTRA_MODE, 0);
         lineNumber = getIntent().getIntExtra(IntentExtraConfig.EXTRA_POSITION, 0);
         mColor = getIntent().getStringExtra(IntentExtraConfig.EXTRA_GROUP_ID);

@@ -3,7 +3,7 @@ package com.qizhu.rili.ui.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.qizhu.rili.IntentExtraConfig;
 import com.qizhu.rili.R;

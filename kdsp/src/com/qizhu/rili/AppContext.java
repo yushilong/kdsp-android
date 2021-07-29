@@ -17,7 +17,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.StrictMode;
-import android.support.multidex.MultiDex;
+import androidx.multidex.MultiDex;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -26,6 +26,8 @@ import android.webkit.CookieSyncManager;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.j256.ormlite.android.apptools.OpenHelperManager;
+import com.pgyer.pgyersdk.PgyerSDKManager;
+import com.pgyer.pgyersdk.pgyerenum.Features;
 import com.qizhu.rili.bean.User;
 import com.qizhu.rili.controller.KDSPApiController;
 import com.qizhu.rili.controller.KDSPHttpCallBack;
@@ -698,7 +700,7 @@ public class AppContext extends Application {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
-
+        new PgyerSDKManager.Init().setContext(this).setApiKey("32c6443dfd25dc2c34e6940fd161eb6a").setFrontJSToken("b6fab34188cb149dc81a1c9326cff8c4").enable(Features.CHECK_UPDATE).start();
     }
 
     /**

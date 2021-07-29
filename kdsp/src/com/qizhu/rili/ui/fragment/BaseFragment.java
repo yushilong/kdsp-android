@@ -3,16 +3,13 @@ package com.qizhu.rili.ui.fragment;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.qizhu.rili.ui.activity.BaseActivity;
 import com.qizhu.rili.utils.LogUtils;
-
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * fragment基类
@@ -25,7 +22,6 @@ public class BaseFragment extends Fragment {
     public View mMainLay;
     protected boolean hasMainlayInit = false; //判断主布局是否已经初始化
     protected boolean mHasBeenDestroyed = false;
-    private Unbinder unbinder;
     public BaseFragment() {
     }
 
@@ -59,7 +55,6 @@ public class BaseFragment extends Fragment {
         return  mMainLay;
     }
     public  void bind(){
-        unbinder = ButterKnife.bind(this,mMainLay);
     }
     /**
      * 初始化主布局
@@ -128,9 +123,6 @@ public class BaseFragment extends Fragment {
         super.onDestroyView();
         if (mMainLay != null && (mMainLay.getParent()) != null) {
             ((ViewGroup) mMainLay.getParent()).removeView(mMainLay);
-        }
-        if(unbinder != null){
-            unbinder.unbind();
         }
         mMainLay = null;
         LogUtils.d("BaseFragment lifeCycle onDestroyView! this = " + this);

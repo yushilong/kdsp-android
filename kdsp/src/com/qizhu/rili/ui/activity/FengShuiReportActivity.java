@@ -15,21 +15,11 @@ import com.qizhu.rili.listener.OnSingleClickListener;
 import com.qizhu.rili.utils.DateUtils;
 import com.qizhu.rili.widget.TimeTextView;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 /**
  * 风水报告
  */
-public class FengShuiReportActivity extends BaseActivity {
-    @BindView(R.id.time_tv)
+public class FengShuiReportActivity extends BaseActivity implements View.OnClickListener {
     TimeTextView   mTimeTv;
-    @BindView(R.id.close_iv)
-    ImageView      mCloseIv;
-    @BindView(R.id.see_tv)
-    TextView       mSeeTv;
-    @BindView(R.id.time_rl)
     RelativeLayout mTimeRl;
     private String         mItemId;                 //问题id
     private String         mUrl;                 //风水结果
@@ -39,7 +29,6 @@ public class FengShuiReportActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fengshui_report_activity);
-        ButterKnife.bind(this);
         mItemId = getIntent().getStringExtra(IntentExtraConfig.EXTRA_ID);
         mUrl = getIntent().getStringExtra(IntentExtraConfig.EXTRA_WEB_URL);
         initUI();
@@ -59,6 +48,8 @@ public class FengShuiReportActivity extends BaseActivity {
     }
 
     protected void initUI() {
+        mTimeTv = findViewById(R.id.time_tv);
+        mTimeRl = findViewById(R.id.time_rl);
         TextView mTitle = (TextView) findViewById(R.id.title_txt);
 
         mTitle.setText(R.string.fengshui);
@@ -69,7 +60,8 @@ public class FengShuiReportActivity extends BaseActivity {
             }
         });
 
-
+        findViewById(R.id.go_back).setOnClickListener(this);
+        findViewById(R.id.see_tv).setOnClickListener(this);
     }
 
     @Override
@@ -102,9 +94,9 @@ public class FengShuiReportActivity extends BaseActivity {
         context.startActivity(intent);
     }
 
-    @OnClick({R.id.close_iv, R.id.see_tv})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
             case R.id.close_iv:
                 finish();
                 break;
@@ -113,4 +105,5 @@ public class FengShuiReportActivity extends BaseActivity {
                 break;
         }
     }
+
 }

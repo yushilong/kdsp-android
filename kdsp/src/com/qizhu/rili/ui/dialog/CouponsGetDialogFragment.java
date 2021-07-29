@@ -17,9 +17,6 @@ import com.qizhu.rili.utils.UIUtils;
 
 import org.json.JSONObject;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * Created by lindow on 11/17/17.
@@ -27,15 +24,10 @@ import butterknife.Unbinder;
  */
 public class
 CouponsGetDialogFragment extends BaseDialogFragment {
-    @BindView(R.id.title_tv)
     TextView mTitleTv;
-    @BindView(R.id.title_type_tv)
     TextView mTitleTypeTv;
-    @BindView(R.id.title_tip_tv)
     TextView mTitleTipTv;
-    @BindView(R.id.price_tv)
     TextView mPriceTv;
-    Unbinder unbinder;
     private String mContent;        //内容
     private String mMcid;
     private int mPrice;
@@ -78,6 +70,10 @@ CouponsGetDialogFragment extends BaseDialogFragment {
     }
 
     public void initView() {
+        mTitleTv = mMainLay.findViewById(R.id.title_tv);
+        mTitleTypeTv = mMainLay.findViewById(R.id.title_type_tv);
+        mTitleTipTv = mMainLay.findViewById(R.id.title_tip_tv);
+        mPriceTv = mMainLay.findViewById(R.id.price_tv);
 
         mTitleTv.setText(getString(R.string.coupons_title,mPrice));
         mTitleTypeTv.setText(mContent);
@@ -129,13 +125,11 @@ CouponsGetDialogFragment extends BaseDialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = super.onCreateView(inflater, container, savedInstanceState);
-        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
     }
 }

@@ -26,12 +26,12 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@id/my_title">
 
-        <android.support.design.widget.CoordinatorLayout
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/main_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <android.support.design.widget.AppBarLayout
+            <com.google.android.material.appbar.AppBarLayout
                 android:id="@+id/appbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
                     android:minHeight="0dp"
                     cube_ptr:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed" />
 
-            </android.support.design.widget.AppBarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
 
             <in.srain.cube.views.ptr.PtrClassicFrameLayout
                 android:id="@+id/ptr_frame"
@@ -71,7 +71,7 @@
                     cube_ptr:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
             </in.srain.cube.views.ptr.PtrClassicFrameLayout>
-        </android.support.design.widget.CoordinatorLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
         <!--下拉刷新的提示布局-->
         <include

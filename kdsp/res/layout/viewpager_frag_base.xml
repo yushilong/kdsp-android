@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +27,7 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@id/my_title">
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </android.support.design.widget.AppBarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <com.qizhu.rili.widget.LoopViewPager
             android:id="@+id/view_pager"
@@ -56,7 +56,7 @@
             android:overScrollMode="never"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <!--与viewPager顶部对齐的布局-->
     <RelativeLayout

@@ -1,9 +1,9 @@
 package com.qizhu.rili.ui.activity;
 
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
@@ -26,7 +26,6 @@ import com.qizhu.rili.utils.SPUtils;
 import com.qizhu.rili.utils.UIUtils;
 import com.qizhu.rili.widget.KDSPRecyclerView;
 
-import butterknife.ButterKnife;
 import in.srain.cube.views.ptr.PtrDefaultHandler;
 import in.srain.cube.views.ptr.PtrFrameLayout;
 import in.srain.cube.views.ptr.PtrHandler;
@@ -124,7 +123,6 @@ public abstract class BaseListActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         LogUtils.d("YSRL LIST ACTIVITY onCreate！this = " + this.getClass().getName());
         setContentView(R.layout.list_base);
-        ButterKnife.bind(this);
         initView();
     }
 

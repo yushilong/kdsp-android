@@ -11,7 +11,7 @@
  */
 package com.zoomable;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

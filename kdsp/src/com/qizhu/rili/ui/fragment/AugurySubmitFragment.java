@@ -2,7 +2,7 @@ package com.qizhu.rili.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -55,39 +55,19 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.ArrayList;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
-
 /**
  * Created by lindow on 08/05/2017.
  * 问题提交的fragment
  */
 
 public class AugurySubmitFragment extends BaseFragment {
-    @BindView(R.id.my_eight_word_tv)
     TextView     mMyEightWordTv;
-    @BindView(R.id.my_gender_tv)
     TextView     mMyGenderTv;
-    @BindView(R.id.it_eight_word_tv)
     TextView     mItEightWordTv;
-    @BindView(R.id.it_gender_tv)
     TextView     mItGenderTv;
-    @BindView(R.id.marriaged_llay)
     LinearLayout mMarriagedLlay;
-    @BindView(R.id.no_marriage_no_lover)
-    RadioButton  mNoMarriageNoLover;
-    @BindView(R.id.no_marriage_have_lover)
-    RadioButton  mNoMarriageHaveLover;
-    @BindView(R.id.marriaged)
-    RadioButton  mMarriaged;
-    @BindView(R.id.relationship_group)
     RadioGroup   mRelationshipGroup;
-    @BindView(R.id.marriage_price)
     TextView     mMarriagePrice;
-    @BindView(R.id.marriage_llay)
-    LinearLayout mMarriageLlay;
-    Unbinder unbinder;
     private View              mNormalLay;                //正常布局
     private View              mBadLay;                   //失败布局
     public  View              mPayLay;                    //支付布局
@@ -254,6 +234,14 @@ public class AugurySubmitFragment extends BaseFragment {
     }
 
     private void initView() {
+        mMyEightWordTv = mMainLay.findViewById(R.id.my_eight_word_tv);
+        mMyGenderTv = mMainLay.findViewById(R.id.my_gender_tv);
+        mItEightWordTv = mMainLay.findViewById(R.id.it_eight_word_tv);
+        mItGenderTv = mMainLay.findViewById(R.id.it_gender_tv);
+        mMarriagedLlay = mMainLay.findViewById(R.id.marriaged_llay);
+        mRelationshipGroup = mMainLay.findViewById(R.id.relationship_group);
+        mMarriagePrice = mMainLay.findViewById(R.id.marriage_price);
+
         mNormalLay = mMainLay.findViewById(R.id.normal_lay);
         mBadLay = mMainLay.findViewById(R.id.bad_lay);
         mPayLay = mMainLay.findViewById(R.id.pay_lay);
@@ -1154,13 +1142,11 @@ public class AugurySubmitFragment extends BaseFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = super.onCreateView(inflater, container, savedInstanceState);
-        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
     }
 }

@@ -11,13 +11,11 @@
  */
 package com.zoomable;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
-import android.view.animation.DecelerateInterpolator;
 
-import com.facebook.common.internal.Preconditions;
 import com.facebook.common.logging.FLog;;
 
 /**

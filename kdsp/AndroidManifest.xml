@@ -551,7 +551,7 @@
             android:value="@string/app_key"/>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.qizhu.rili.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

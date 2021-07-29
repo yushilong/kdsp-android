@@ -2,11 +2,10 @@ package com.qizhu.rili.ui.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 import android.text.SpannableString;
 import android.text.Spanned;
-import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
@@ -14,17 +13,10 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.FrameLayout;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.qizhu.rili.R;
-
-import java.util.HashMap;
 
 
 public class ProtocolDialog extends Dialog {

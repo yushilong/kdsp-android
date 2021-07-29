@@ -6,9 +6,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.PersistableBundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTabHost;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTabHost;
+
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -16,6 +19,10 @@ import android.widget.LinearLayout;
 import android.widget.TabWidget;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.pgyer.pgyersdk.PgyerSDKManager;
+import com.pgyer.pgyersdk.callback.CheckoutVersionCallBack;
+import com.pgyer.pgyersdk.model.CheckSoftModel;
 import com.qizhu.rili.AppConfig;
 import com.qizhu.rili.AppContext;
 import com.qizhu.rili.AppManager;
@@ -32,7 +39,6 @@ import com.qizhu.rili.ui.fragment.BaseFragment;
 import com.qizhu.rili.ui.fragment.BaseViewPagerFragment;
 import com.qizhu.rili.ui.fragment.HomeFragment;
 import com.qizhu.rili.ui.fragment.InferringFragment;
-import com.qizhu.rili.ui.fragment.KnowFortuneFragment;
 import com.qizhu.rili.ui.fragment.MyFragment;
 import com.qizhu.rili.ui.fragment.PocketFragment;
 import com.qizhu.rili.utils.BroadcastUtils;
@@ -144,6 +150,22 @@ public class MainActivity extends BaseActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        new Handler(getMainLooper()).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                PgyerSDKManager.checkSoftwareUpdate(MainActivity.this, new CheckoutVersionCallBack() {
+                    @Override
+                    public void onSuccess(CheckSoftModel checkSoftModel) {
+                        Log.e("PgyerSDKManager",new Gson().toJson(checkSoftModel));
+                    }
+
+                    @Override
+                    public void onFail(String s) {
+                        Log.e("PgyerSDKManager",s);
+                    }
+                });
+            }
+        },1000);
     }
 
     @Override

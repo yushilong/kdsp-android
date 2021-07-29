@@ -10,7 +10,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.FragmentTransaction;
 import android.view.View;
 import android.widget.ImageView;
 

@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.graphics.drawable.Animatable;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -48,8 +48,6 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by lindow on 22/02/2017.
@@ -59,11 +57,8 @@ import butterknife.ButterKnife;
 public class GoodsDetailActivity extends BaseActivity {
     public static LinkedHashMap<String, String> mSkuNameMap = new LinkedHashMap<>();      //保存sku属性名称的查询map,此列表必须保证顺序
     public static HashMap<String, SKU>          mSkuMap     = new HashMap<>();             //保存sku属性的查询map
-    @BindView(R.id.price_tip_tv)
     TextView     mPriceTipTv;
-    @BindView(R.id.old_price)
     TextView     mOldPrice;
-    @BindView(R.id.old_price_ll)
     LinearLayout mOldPriceLl;
 
     private VerticalScrollView  mScrollView;
@@ -88,13 +83,16 @@ public class GoodsDetailActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.goods_detail_lay);
-        ButterKnife.bind(this);
         mGoodsId = getIntent().getStringExtra(IntentExtraConfig.EXTRA_ID);
         initView();
         getData();
     }
 
     private void initView() {
+        mPriceTipTv = findViewById(R.id.price_tip_tv);
+        mOldPrice = findViewById(R.id.old_price);
+        mOldPriceLl = findViewById(R.id.old_price_ll);
+
         TextView mTitle = (TextView) findViewById(R.id.title_txt);
         mTitle.setText(R.string.goods_detail);
 

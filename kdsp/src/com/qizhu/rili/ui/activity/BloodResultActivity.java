@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -23,20 +23,14 @@ import com.qizhu.rili.listener.OnSingleClickListener;
 
 import org.json.JSONObject;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
 /**
  * Created by lindow on 06/01/2017.
  * 血型结果界面
  */
 public class BloodResultActivity extends BaseActivity {
 
-    @BindView(R.id.blood_type)
     TextView  mBloodType;
-    @BindView(R.id.blood_iv)
     ImageView mBloodIv;
-    @BindView(R.id.blood_tatol_word)
     TextView  mBloodTatolWord;
     private TextView     mFatherBlood;      //父亲的血型
     private TextView     mMotherBlood;      //母亲的血型
@@ -63,13 +57,16 @@ public class BloodResultActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.blood_result_lay);
-        ButterKnife.bind(this);
         initView();
         getIntentExtra();
         getData();
     }
 
     private void initView() {
+        mBloodType = findViewById(R.id.blood_type);
+        mBloodIv = findViewById(R.id.blood_iv);
+        mBloodTatolWord = findViewById(R.id.blood_tatol_word);
+
         TextView mTitle = (TextView) findViewById(R.id.title_txt);
         mTitle.setText(R.string.blood_type);
 

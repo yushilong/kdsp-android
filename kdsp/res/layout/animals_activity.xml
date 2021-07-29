@@ -308,6 +308,7 @@
                                 android:layout_height="28dp"
                                 android:background="@drawable/round_white"
                                 android:gravity="center"
+                                android:onClick="onViewClicked"
                                 android:text="@string/login"
                                 android:textColor="@color/black"
                                 android:textSize="12sp"/>

@@ -1,7 +1,10 @@
 package com.qizhu.rili.ui.fragment;
 
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -25,27 +28,16 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
-
 /**
  * Created by zhouyue on 3/5/2018
  * 前世今生的fragment
  */
 public class LoveLineFragment extends BaseFragment {
-    @BindView(R.id.your_text_tv)
     TextView mYourTextTv;
-    @BindView(R.id.her_text_tv)
     TextView mHerTextTv;
-    @BindView(R.id.relationship_tv)
     TextView mRelationshipTv;
-    @BindView(R.id.analysis_result)
     TextView mAnalysisResult;
-    @BindView(R.id.content)
     TextView mContent;
-    Unbinder unbinder;
-    @BindView(R.id.love_line_iv)
     ImageView mLoveLineIv;
     private int mType;                 //0前世 1 今生
     private DateTime mYourBirth = new DateTime();            //你的生日
@@ -108,6 +100,17 @@ public class LoveLineFragment extends BaseFragment {
     @Override
     public View inflateMainView(LayoutInflater inflater, ViewGroup container) {
         return inflater.inflate(R.layout.love_line_fragment, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mYourTextTv = view.findViewById(R.id.your_text_tv);
+        mHerTextTv = view.findViewById(R.id.her_text_tv);
+        mRelationshipTv = view.findViewById(R.id.relationship_tv);
+        mAnalysisResult = view.findViewById(R.id.analysis_result);
+        mContent = view.findViewById(R.id.content);
+        mLoveLineIv = view.findViewById(R.id.love_line_iv);
     }
 
     protected void initView() {
@@ -183,13 +186,11 @@ public class LoveLineFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = super.onCreateView(inflater, container, savedInstanceState);
-        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
     }
 }

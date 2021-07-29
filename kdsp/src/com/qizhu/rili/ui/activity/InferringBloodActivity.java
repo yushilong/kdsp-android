@@ -3,7 +3,7 @@ package com.qizhu.rili.ui.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
@@ -14,14 +14,12 @@ import com.qizhu.rili.ui.dialog.BloodPickDialogFragment;
 import com.qizhu.rili.ui.dialog.ResultDialogFragment;
 import com.qizhu.rili.utils.UIUtils;
 
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 /**
  * Created by lindow on 06/01/2017.
  * 血型的activity
  */
-public class InferringBloodActivity extends BaseActivity {
+public class InferringBloodActivity extends BaseActivity implements View.OnClickListener {
     private TextView mYourBlood;        //你的血型
     private TextView mFatherBlood;      //父亲的血型
     private TextView mMotherBlood;      //母亲的血型
@@ -37,11 +35,13 @@ public class InferringBloodActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inferring_blood_lay);
-        ButterKnife.bind(this);
         initView();
     }
 
     private void initView() {
+        findViewById(R.id.your_blood_ll).setOnClickListener(this);
+        findViewById(R.id.father_blood_ll).setOnClickListener(this);
+        findViewById(R.id.mother_blood_ll).setOnClickListener(this);
         TextView mTitle = (TextView) findViewById(R.id.title_txt);
         mTitle.setText(R.string.blood_type);
         findViewById(R.id.go_back).setOnClickListener(new OnSingleClickListener() {
@@ -168,9 +168,9 @@ public class InferringBloodActivity extends BaseActivity {
         context.startActivity(intent);
     }
 
-    @OnClick({R.id.your_blood_ll, R.id.father_blood_ll, R.id.mother_blood_ll})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
             case R.id.your_blood_ll:
                 mBlood = 1;
                 showDialogFragment(BloodPickDialogFragment.newInstance(mYourType), "选择你的血型");

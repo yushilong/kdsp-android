@@ -26,6 +26,7 @@
         android:id="@+id/reload"
         android:layout_width="107dp"
         android:layout_height="27dp"
+        android:onClick="R.id.reload"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"

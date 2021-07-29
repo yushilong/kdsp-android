@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Align;
 import android.graphics.PorterDuff;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.util.SparseArray;
 import android.view.MotionEvent;
 import android.view.View;

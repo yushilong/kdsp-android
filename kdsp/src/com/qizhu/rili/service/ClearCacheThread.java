@@ -1,7 +1,7 @@
 package com.qizhu.rili.service;
 
 import android.os.Handler;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 import com.qizhu.rili.AppContext;
 import com.qizhu.rili.utils.FileUtils;

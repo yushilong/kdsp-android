@@ -23,40 +23,24 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 /**
  * Created by zhouyue on 11/15/17.
  * 生命灵线的activity
  */
-public class LifeNumberActivity extends BaseActivity {
-    @BindView(R.id.go_back)
+public class LifeNumberActivity extends BaseActivity implements View.OnClickListener {
     ImageView      mGoBack;
-    @BindView(R.id.title_txt)
     TextView       mTitleTxt;
-    @BindView(R.id.life_number_tv)
     TextView       mLifeNumberTv;
-    @BindView(R.id.click_see_tv)
     TextView       mClickSeeTv;
-    @BindView(R.id.line_one_tv)
     TextView       mLineOneTv;
-    @BindView(R.id.line_two_tv)
     TextView       mLineTwoTv;
-    @BindView(R.id.line_three_tv)
     TextView       mLineThreeTv;
-    @BindView(R.id.see_line_tv)
     TextView       mSeeLineTv;
-    @BindView(R.id.life_number_view)
     LineNumView    mlifeNumberImage;
-    @BindView(R.id.line_empty_rl)
     RelativeLayout mLineEmptyRl;
-    @BindView(R.id.line_normal_ll)
     LinearLayout   mLineNormalLl;
-    @BindView(R.id.line_four_tv)
     TextView       mLineFourTv;
-    @BindView(R.id.normal_sl)
     ScrollView     mNormalSl;
     private ArrayList<Line> mLines = new ArrayList<>();
     private int    lineNumber;
@@ -70,12 +54,27 @@ public class LifeNumberActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.life_number_activity);
-        ButterKnife.bind(this);
         initUI();
         getData();
     }
 
     private void initUI() {
+        mGoBack = findViewById(R.id.go_back);
+        mTitleTxt = findViewById(R.id.title_txt);
+        mLifeNumberTv = findViewById(R.id.life_number_tv);
+        mClickSeeTv = findViewById(R.id.click_see_tv);
+        mLineOneTv = findViewById(R.id.line_one_tv);
+        mLineTwoTv = findViewById(R.id.line_two_tv);
+        mLineThreeTv = findViewById(R.id.line_three_tv);
+        mSeeLineTv = findViewById(R.id.see_line_tv);
+        mlifeNumberImage = findViewById(R.id.life_number_view);
+        mLineEmptyRl = findViewById(R.id.line_empty_rl);
+        mLineNormalLl = findViewById(R.id.line_normal_ll);
+        mLineFourTv = findViewById(R.id.line_four_tv);
+        mNormalSl = findViewById(R.id.normal_sl);
+        mGoBack.setOnClickListener(this);
+        mClickSeeTv.setOnClickListener(this);
+        mSeeLineTv.setOnClickListener(this);
         mTitleTxt.setText(R.string.life_line);
         findViewById(R.id.reload).setOnClickListener(new OnSingleClickListener() {
             @Override
@@ -171,10 +170,9 @@ public class LifeNumberActivity extends BaseActivity {
         context.startActivity(intent);
     }
 
-
-    @OnClick({R.id.go_back, R.id.click_see_tv, R.id.see_line_tv})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
             case R.id.go_back:
                 goBack();
                 break;

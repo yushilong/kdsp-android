@@ -3,7 +3,7 @@ package com.qizhu.rili.ui.fragment;
 import android.graphics.drawable.Animatable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -48,10 +48,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-import butterknife.Unbinder;
 import in.srain.cube.views.ptr.PtrClassicFrameLayout;
 import in.srain.cube.views.ptr.PtrDefaultHandler;
 import in.srain.cube.views.ptr.PtrFrameLayout;
@@ -65,26 +61,14 @@ import in.srain.cube.views.ptr.indicator.PtrIndicator;
  */
 public class InferringFragment extends BaseFragment {
     public static boolean mNeedRefresh = false;             //是否需要刷新会员卡价格
-    @BindView(R.id.hands_llay)
     LinearLayout mHandsLlay;
-    Unbinder unbinder;
-    @BindView(R.id.face_llay)
     LinearLayout          mFaceLlay;
-    @BindView(R.id.ten_years_fortune_llay)
     LinearLayout          mTenYearsFortuneLlay;
-    @BindView(R.id.master_augur_llay)
     LinearLayout          mMasterAugurLlay;
-    @BindView(R.id.master_ask_llay)
-    LinearLayout          mMasterAskLlay;
-    @BindView(R.id.test_name_llay)
     LinearLayout          mTestNameLlay;
-    @BindView(R.id.bag_llay)
     LinearLayout          mBagLlay;
-    @BindView(R.id.good_items_llay)
     LinearLayout          mGoodItemsLlay;
-    @BindView(R.id.line)
     View                  mLine;
-    @BindView(R.id.ptr_frame)
     PtrClassicFrameLayout mPtrFrame;
     private ScrollView        mContent;
     private YSRLDraweeView    mMemberCard;             //会员卡
@@ -148,6 +132,22 @@ public class InferringFragment extends BaseFragment {
     }
 
     private void initView() {
+        mHandsLlay = mMainLay.findViewById(R.id.hands_llay);
+        mFaceLlay = mMainLay.findViewById(R.id.face_llay);
+        mTenYearsFortuneLlay = mMainLay.findViewById(R.id.ten_years_fortune_llay);
+        mMasterAugurLlay = mMainLay.findViewById(R.id.master_augur_llay);
+        mTestNameLlay = mMainLay.findViewById(R.id.test_name_llay);
+        mBagLlay = mMainLay.findViewById(R.id.bag_llay);
+        mGoodItemsLlay = mMainLay.findViewById(R.id.good_items_llay);
+        mLine = mMainLay.findViewById(R.id.line);
+        PtrClassicFrameLayout mPtrFrame = mMainLay.findViewById(R.id.ptr_frame);
+        mMainLay.findViewById(R.id.hands_llay).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MasterAskActivity.goToPage(mActivity,-1);
+            }
+        });
+
         mContent = (ScrollView) mMainLay.findViewById(R.id.content_lay);
         mContentLlayout = (LinearLayout) mMainLay.findViewById(R.id.content_llayout);
         mMasterAugurThemeImage = (FitWidthImageView) mMainLay.findViewById(R.id.master_item_image);
@@ -164,6 +164,7 @@ public class InferringFragment extends BaseFragment {
         mBagThemeDes = (TextView) mMainLay.findViewById(R.id.bag_item_des);
         mBadView = mMainLay.findViewById(R.id.bad_lay);
         mloadingView = mMainLay.findViewById(R.id.progress_lay);
+
 
         mMemberCard = (YSRLDraweeView) mMainLay.findViewById(R.id.membership_card);
         mBalanceText = (TextView) mMainLay.findViewById(R.id.price);
@@ -631,25 +632,11 @@ public class InferringFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = super.onCreateView(inflater, container, savedInstanceState);
-        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
-    }
-
-    @OnClick({R.id.master_ask_llay})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-
-
-            case R.id.master_ask_llay:
-                MasterAskActivity.goToPage(mActivity,-1);
-                break;
-
-        }
     }
 }

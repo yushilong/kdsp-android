@@ -1,13 +1,11 @@
 package com.qizhu.rili.ui.activity;
 
-import com.qizhu.rili.AppContext;
 import com.qizhu.rili.IntentExtraConfig;
 import com.qizhu.rili.R;
 import com.qizhu.rili.RequestCodeConfig;
 import com.qizhu.rili.YSRLConstants;
 import com.qizhu.rili.listener.OnAuthCallbackListener;
 import com.qizhu.rili.listener.OnSingleClickListener;
-import com.qizhu.rili.ui.dialog.ProtocolDialog;
 import com.qizhu.rili.utils.AuthUtils;
 import com.qizhu.rili.utils.BroadcastUtils;
 import com.qizhu.rili.utils.SPUtils;
@@ -16,19 +14,16 @@ import com.qizhu.rili.utils.SSOTencentUtils;
 import com.qizhu.rili.utils.UIUtils;
 
 import android.app.Activity;
-import android.app.Application;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import static com.qizhu.rili.YSRLConstants.SERVICE_POLICY_AGREE;
 
 public class LoginActivity extends BaseActivity {
     private boolean redirectToMain;         //是否跳转到主界面,跳转到主页面则表示更新了用户，此时需要重新调用init接口

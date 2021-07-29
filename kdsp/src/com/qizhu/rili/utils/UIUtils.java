@@ -17,7 +17,7 @@ import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextPaint;

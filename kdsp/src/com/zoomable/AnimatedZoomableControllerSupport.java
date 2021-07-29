@@ -14,10 +14,9 @@ package com.zoomable;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import android.graphics.Matrix;
-import android.graphics.PointF;
 import android.view.animation.DecelerateInterpolator;
 
 import com.facebook.common.internal.Preconditions;
