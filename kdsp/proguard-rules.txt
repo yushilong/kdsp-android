@@ -444,4 +444,7 @@
 }
 
 -keep class **JNI* {*;}
+#pgyer
+-keep class com.pgyer.pgyersdk.** { *; }
+-keep class com.pgyer.pgyersdk.**$* { *; }
 

@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabWidget;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.pgyer.pgyersdk.PgyerSDKManager;
@@ -156,12 +157,12 @@ public class MainActivity extends BaseActivity {
                 PgyerSDKManager.checkSoftwareUpdate(MainActivity.this, new CheckoutVersionCallBack() {
                     @Override
                     public void onSuccess(CheckSoftModel checkSoftModel) {
-                        Log.e("PgyerSDKManager",new Gson().toJson(checkSoftModel));
+                        Toast.makeText(MainActivity.this,"检测到新版本，已自动在后台下载，可以通知栏查看...",Toast.LENGTH_LONG).show();
                     }
 
                     @Override
                     public void onFail(String s) {
-                        Log.e("PgyerSDKManager",s);
+
                     }
                 });
             }
