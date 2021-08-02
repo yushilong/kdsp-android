@@ -140,7 +140,7 @@ public class InferringFragment extends BaseFragment {
         mBagLlay = mMainLay.findViewById(R.id.bag_llay);
         mGoodItemsLlay = mMainLay.findViewById(R.id.good_items_llay);
         mLine = mMainLay.findViewById(R.id.line);
-        PtrClassicFrameLayout mPtrFrame = mMainLay.findViewById(R.id.ptr_frame);
+        mPtrFrame = mMainLay.findViewById(R.id.ptr_frame);
         mMainLay.findViewById(R.id.hands_llay).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
