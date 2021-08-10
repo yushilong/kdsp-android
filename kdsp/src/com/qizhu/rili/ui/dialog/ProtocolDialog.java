@@ -47,7 +47,7 @@ public class ProtocolDialog extends Dialog {
             @Override
             public void onClick(@NonNull View view) {
                 ProtocolDetailDialog protocolDetailDialog = new ProtocolDetailDialog(context);
-                String url = "http://jp.ixiangxue.cn/yc-mgt-web/www/yonghu_kdsp.html";
+                String url = "http://h5.ishenpo.com/yhxy.html";
                 protocolDetailDialog.setTitleContent(R.string.user_service_title,url);
                 protocolDetailDialog.show();
             }
@@ -55,7 +55,7 @@ public class ProtocolDialog extends Dialog {
             @Override
             public void onClick(@NonNull View view) {
                 ProtocolDetailDialog protocolDetailDialog = new ProtocolDetailDialog(context);
-                String url = "http://jp.ixiangxue.cn/yc-mgt-web/www/yinsi_kdsp.html";
+                String url = "http://h5.ishenpo.com/privacy.html";
                 protocolDetailDialog.setTitleContent(R.string.user_policy_title,url);
                 protocolDetailDialog.show();
             }
