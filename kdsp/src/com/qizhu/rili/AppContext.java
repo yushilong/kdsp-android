@@ -700,7 +700,7 @@ public class AppContext extends Application {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
-        new PgyerSDKManager.Init().setContext(this).setApiKey("32c6443dfd25dc2c34e6940fd161eb6a").setFrontJSToken("b6fab34188cb149dc81a1c9326cff8c4").enable(Features.CHECK_UPDATE).start();
+        new PgyerSDKManager.Init().setContext(this).setApiKey("a2d2e90d5345ab203a3debbd7c398ae6").setFrontJSToken("6951ceeb07147dd379c2de6b354f9c12").enable(Features.CHECK_UPDATE).start();
     }
 
     /**
