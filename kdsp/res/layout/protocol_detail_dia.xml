@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="54dp"
         android:gravity="center"
+        android:visibility="gone"
         android:text="@string/service_policy_title"
         android:textColor="@color/color_131329"
         android:textSize="@dimen/text_size_17" />
@@ -20,9 +21,9 @@
         android:id="@+id/content_wv"
         android:layout_below="@+id/title_tv"
         android:layout_width="match_parent"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_height="match_parent"
         android:scrollbars="none"
         tools:ignore="WebViewLayout" />

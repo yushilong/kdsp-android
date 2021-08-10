@@ -126,13 +126,13 @@ public class MyFragment extends BaseFragment {
         mMainLay.findViewById(R.id.service_tv).setOnClickListener(new OnSingleClickListener() {
             @Override
             public void onSingleClick(View v) {
-                showProtocolDia("kdsp_service.html", R.string.user_service_title);
+                showProtocolDia("http://h5.ishenpo.com/yhxy.html", R.string.user_service_title);
             }
         });
         mMainLay.findViewById(R.id.policy_tv).setOnClickListener(new OnSingleClickListener() {
             @Override
             public void onSingleClick(View v) {
-                showProtocolDia("kdsp_policy.html", R.string.user_policy_title);
+                showProtocolDia("http://h5.ishenpo.com/privacy.html", R.string.user_policy_title);
             }
         });
 
@@ -263,9 +263,9 @@ public class MyFragment extends BaseFragment {
         });
     }
 
-    private void showProtocolDia(String s, int p) {
+    private void showProtocolDia(String url, int p) {
         ProtocolDetailDialog protocolDetailDialog = new ProtocolDetailDialog(getContext());
-        String url = "file:///android_asset/" + s;
+//        String url = "file:///android_asset/" + s;
         protocolDetailDialog.setTitleContent(p, url);
         protocolDetailDialog.show();
     }

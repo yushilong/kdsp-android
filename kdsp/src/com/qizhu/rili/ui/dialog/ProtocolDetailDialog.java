@@ -55,22 +55,22 @@ public class ProtocolDetailDialog extends Dialog {
         mWebSettings.setSupportZoom(true); // 支持缩放，默认为 true
         mWebSettings.setBuiltInZoomControls(true); // 设置内置的缩放控件，若为 false，则该 WebView 不可缩放
         mWebSettings.setDisplayZoomControls(false); // 隐藏原生的缩放控件
-        int screenDensity = context.getResources().getDisplayMetrics().densityDpi;
-        WebSettings.ZoomDensity zoomDensity = WebSettings.ZoomDensity.MEDIUM;
-        switch (screenDensity) {
-            case DisplayMetrics.DENSITY_LOW:
-                zoomDensity = WebSettings.ZoomDensity.CLOSE;
-                break;
-            case DisplayMetrics.DENSITY_MEDIUM:
-                zoomDensity = WebSettings.ZoomDensity.MEDIUM;
-                break;
-            case DisplayMetrics.DENSITY_HIGH:
-                zoomDensity = WebSettings.ZoomDensity.FAR;
-                break;
-        }
-        mWebSettings.setDefaultZoom(zoomDensity);
+//        int screenDensity = context.getResources().getDisplayMetrics().densityDpi;
+//        WebSettings.ZoomDensity zoomDensity = WebSettings.ZoomDensity.MEDIUM;
+//        switch (screenDensity) {
+//            case DisplayMetrics.DENSITY_LOW:
+//                zoomDensity = WebSettings.ZoomDensity.CLOSE;
+//                break;
+//            case DisplayMetrics.DENSITY_MEDIUM:
+//                zoomDensity = WebSettings.ZoomDensity.MEDIUM;
+//                break;
+//            case DisplayMetrics.DENSITY_HIGH:
+//                zoomDensity = WebSettings.ZoomDensity.FAR;
+//                break;
+//        }
+//        mWebSettings.setDefaultZoom(zoomDensity);
 
-        mWebSettings.setTextZoom(350);
+//        mWebSettings.setTextZoom(350);
 
     }
 
